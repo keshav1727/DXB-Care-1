@@ -1,0 +1,55 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    }
+    
+   .navbar .left{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 75px;
+   }
+    
+   .navbar .left .navbar-menu{
+        display: flex;
+        list-style: none;
+        gap: 35px;
+        font-size: 18px;
+    }
+    
+   .navbar .contacts{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .contacts .wp{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        width: 50%;
+       
+    }
+    .navbar .contacts  .wp .contact-wp-img{
+        width: 8%;
+        cursor: pointer;
+      
+    }
+
+
+
+    .navbar .contacts  .contact-tg-img{
+        width: 4.5%;
+        cursor: pointer;
+    }
+
+
+   .navbar .left .navbar-menu li{
+        cursor: pointer;
+    }
+    
+   .navbar .left .navbar-menu .active{
+        padding-bottom: 2px;
+        border-bottom: 2px solid #ECECEC;
+    }
