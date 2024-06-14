@@ -5,9 +5,12 @@
 align-items:  center;
 }
 
-.middle-content .heading{
+.middle-content .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: silk-serif;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .middle-content .content{

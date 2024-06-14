@@ -1,3 +1,47 @@
 .membership{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.membership .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1400px;
+}
+
+.membership .content .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.membership .membership-content{
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+}
+
+.membership .membership-content .item{
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding: 5px;
+}
+
+
+
+.membership .membership-content .item .item-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
 }

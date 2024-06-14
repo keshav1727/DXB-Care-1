@@ -4,22 +4,22 @@
     justify-content: flex-end;
     }
     
-    .left{
+   .navbar .left{
         margin: auto 70px;
     }   
     
-    .navbar-menu{
+   .navbar .left .navbar-menu{
         display: flex;
         list-style: none;
         gap: 35px;
         font-size: 18px;
     }
     
-    li{
+   .navbar .left .navbar-menu li{
         cursor: pointer;
     }
     
-    .active{
+   .navbar .left .navbar-menu .active{
         padding-bottom: 2px;
         border-bottom: 2px solid #ECECEC;
     }

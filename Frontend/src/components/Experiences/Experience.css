@@ -7,9 +7,12 @@
 
 
 
-.experience .heading{
+.experience .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: silk-serif;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .experience .grid-section{
