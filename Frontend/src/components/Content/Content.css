@@ -1,0 +1,17 @@
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+align-items:  center;
+}
+
+.middle-content .heading{
+    font-family: silk-serif;
+    font-size: 50px;
+}
+
+.middle-content .content{
+    height: 100px;
+    width: 1420px;
+    border: 2px solid white;
+}

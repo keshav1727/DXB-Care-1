@@ -1,0 +1,42 @@
+.experience{
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    align-items: center;
+}
+
+
+
+.experience .heading{
+    font-family: silk-serif;
+    font-size: 50px;
+}
+
+.experience .grid-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 72px;
+    column-gap: 72px;
+    margin: 72px;
+}
+
+.experience .grid-section .items{
+    border: 2px solid white;
+}
+
+.experience .button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.experience .button-container button{
+    padding: 12px;
+    background-color: #ECECEC;
+    color: black;
+    font-size: 18px;
+    font-family: work sans-light;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
