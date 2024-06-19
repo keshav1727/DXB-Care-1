@@ -6,6 +6,10 @@ import Navbar from './components/Navbar/Navbar'
 import Content from './components/Content/Content'
 import Experience from './components/Experiences/Experience'
 import Membership from './components/Membership/Membership'
+import Enquiry from './components/Navbar/Enquiry Form/Enquiry'
+import Discover from './components/Dicover_More/Dicover'
+
+
 function App() {
   
   return (
@@ -15,6 +19,8 @@ function App() {
   <Experience/>
   <Content type="Why DXB.care"/>
   <Membership/>
+  <Enquiry/>
+  <Discover/>
     </>
   )
 }

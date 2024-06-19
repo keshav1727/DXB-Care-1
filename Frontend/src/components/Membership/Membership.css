@@ -5,6 +5,8 @@
     margin-top: 72px;
 }
 
+
+
 .membership .content{
     display: flex;
     flex-direction: column;
@@ -20,10 +22,12 @@
 }
 
 
+
+
 .membership .membership-content{
     margin-top: 72px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
 }
 
@@ -34,7 +38,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;  
-    padding: 5px;
+    padding: 15px;
+    background-color: #ececec;
+    color: #1C1C1C;
+}
+
+.membership .button{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.membership .button button{
+    border: none;
+    padding: 5px 10px;
+    font-size:20px;
+    /* font-weight: bolder; */
+    border-radius: 10px;
+    color: #ececec;
+    background-color: #1C1C1C;
 }
 
 
@@ -44,4 +67,18 @@
     justify-content: center;
     align-items: center;
     padding: 8px;
+}
+
+.membership .crypto-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: silk-serif;
+    font-size: 30px;
+    margin: 70px;
+    background-color: #ececec;
+    color: #1C1C1C;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60rem;
 }

@@ -1,7 +1,7 @@
 .experience{
     display: flex;
     flex-direction: column;
-    margin-top: 72px;
+    margin: 55px;
     align-items: center;
 }
 
@@ -18,14 +18,70 @@
 .experience .grid-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 72px;
-    column-gap: 72px;
-    margin: 72px;
+    row-gap: 30px;
+    column-gap: 30px;
+    align-items: center;
+    max-width: 70rem;
+    
+    margin: 50px;
 }
 
-.experience .grid-section .items{
-    border: 2px solid white;
+.experience .grid-section .items {
+   position: relative;
+   overflow: hidden;
+   height: auto;
+   cursor:pointer;
 }
+
+.experience .grid-section .items .layer {
+    color: #ECECEC;
+    width: 100%;
+    font-family: silk-serif;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 60px;
+    text-align: center;
+    font-size: 30px;
+    transition: opacity 0.5s; /* Transition for opacity */
+    opacity: 0; /* Hidden by default */
+}
+
+.experience .grid-section .items:hover .layer {
+    opacity: 1; /* Show text on hover */
+}
+
+.experience .grid-section .items img {
+    width: 100%; 
+    border-radius: 30px;
+    padding: 5px;
+    display: block;
+    opacity: 1; /* Fully visible by default */
+    transition: all 0.5s ease-in-out; /* Transition for all properties */
+    cursor: pointer;
+}
+
+.experience .grid-section .items:hover img {
+    opacity: 0.2; /* Decrease opacity on hover */
+}
+
+.experience .grid-section .items:hover .layer {
+    opacity: 1; /* Show text on hover */
+}
+
+
+
+
+
+
+
 
 .experience .button-container{
     display: flex;
