@@ -14,6 +14,7 @@ import Corporate from './components/Membership-pages/Corporate'
 import Personal from './components/Membership-pages/Personal'
 import Visitors from './components/Membership-pages/Visitors'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Relocation from './components/Membership-pages/Relocation'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
     <Route path='/personal' element={<Personal/>}></Route>
     <Route path='/visitors' element={<Visitors/>}></Route>
     <Route path='/corporate' element={<Corporate/>}></Route>
+    <Route path='/relocate' element={<Relocation/>}></Route>
   </Routes>
 </Router>
 

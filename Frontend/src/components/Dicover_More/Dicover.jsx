@@ -4,6 +4,7 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from '../Membership-pages/Member_navbar';
+import Footer from '../Footer/Footer'
 
 export default function Discover() {
     const settings = {
@@ -17,9 +18,16 @@ export default function Discover() {
   return (
     <>
     <Member_navbar></Member_navbar>
+
     <div className='experience-container'>
+    
         <div className="luxe">
+            <div className="head">
+            <h1>Experiences</h1>
+            </div>
+        
          <div className="header">
+         
             <h1>Luxe Experience</h1>
          </div>
          <Slider {...settings}>
@@ -131,7 +139,9 @@ export default function Discover() {
 
 
         </div>
+        
     </div>
+    <Footer></Footer>
     </>
   )
 }

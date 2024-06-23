@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .img-corporate .header{
@@ -30,3 +31,37 @@
     border: none;
     font-weight:600;
 }
+
+.img-corporate {
+    position: relative;
+    width: 90%;
+    padding-top: 50%;
+  }
+  
+  .img-corporate .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .img-corporate .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .coporate-content{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 35px;
+    align-content: center;
+  }
+  
+  .header{
+    margin-top: 1%;
+    font-size: 40px;
+
+  }
+  

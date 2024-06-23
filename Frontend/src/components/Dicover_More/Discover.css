@@ -8,6 +8,7 @@
 .luxe{
     width: 80rem;
     padding: 20px;
+
 }
 
 .luxe .header{
@@ -16,7 +17,7 @@
     align-items: center;
     font-family: silk-serif;
     font-size: 30px;
-    padding: 15px;
+    padding: 35px;
 }
 
 .slider-back{
@@ -37,4 +38,10 @@
     color: #1C1C1C;
     margin: 0 10px;
 
+}
+
+.head{
+    font-size: 35px;
+    text-align-last: center;
+    padding-bottom: 20px;
 }
