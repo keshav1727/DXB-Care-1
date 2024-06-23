@@ -1,0 +1,46 @@
+.personal{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-member{
+    display: flex;
+    justify-content: space-between;
+}
+
+.member-left{
+    display: flex;
+    width: 30%;
+    padding: 36px;
+    /* margin-left: 16px; */
+}
+.logo-image{
+    width: 100%;
+}
+.member-left img{
+    width: 150%;
+}
+
+.member-right{
+    /* width: 40%; */
+    display: flex;
+    margin-right: 82px;
+}
+
+.navbar-menulist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    font-size: 1.5rem;
+}
+
+.member-right li{
+    cursor: pointer;
+}
+
+.member-right .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ececec;
+}
