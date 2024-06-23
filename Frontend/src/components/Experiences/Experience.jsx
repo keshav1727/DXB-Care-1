@@ -4,9 +4,17 @@ import aa from './princehonasa_Helicopter_tour_in_dubai_it_should_be_real_image_
 import bb from './princehonasa_Luxury_car_in_dubai_in_day_light_with_dubai_skylin_0a5ed554-7ee1-4ae3-8c95-19be9f034f29.png'
 import cc from './princehonasa_luxury_yatch_image_in_dubai_in_night_light_with_re_e7463b31-2f51-453f-8e2e-2dc282bfc5bb.png'
 import dd from './princehonasa_skyhub_paramotors_dubai_pictures_real_images_01462ca7-5a2c-46b2-b69c-e6994f9b1598.png'
+import {Link, useNavigate} from 'react-router-dom'
 import Discover from '../Dicover_More/Dicover'
 
 export default function Experience() {
+
+  const navigate = useNavigate()
+  function handleclick()
+  {
+    navigate('/discover')
+  }
+
   return (
     <div className='experience'>
         <div className="header">
@@ -14,7 +22,7 @@ export default function Experience() {
         </div>
       <div className='grid-section'>
         <div className="items">
-          <img src={bb} alt="" />
+          <img src={bb} alt="" onClick={handleclick}/>
           <div className="layer">
             Luxury Cars
           </div>
@@ -40,7 +48,7 @@ export default function Experience() {
       </div>
 
         <div className="button-container">
-            <button>Discover More</button>
+            <button onClick={handleclick}>Discover More</button>
         </div>
 
     </div>

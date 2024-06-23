@@ -13,23 +13,32 @@ import Footer from './components/Footer/Footer'
 import Corporate from './components/Membership-pages/Corporate'
 import Personal from './components/Membership-pages/Personal'
 import Visitors from './components/Membership-pages/Visitors'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
 function App() {
   
   return (
     <>
-  <Navbar/>    
+  {/* <Navbar/>    
   <Content type="Some Quote"/>
   <Experience/>
   <Content type="Why DXB.care"/>
   <Membership/>
   <Enquiry/>
-  {/* <Discover/> */}
+  <Discover/> 
   <Footer/>
-{/* <Personal></Personal> */}
+  <Personal/>
  <Corporate/>
  <Visitors/>
+    */}
+<Router>
+  <Routes>
+    <Route path='' element={<><Navbar/> <Experience/> <Membership/> <Enquiry/> <Footer/> </>}></Route>
+    <Route path='/discover' element={<Discover/>}></Route>
+  </Routes>
+</Router>
+
     </>
   )
 }

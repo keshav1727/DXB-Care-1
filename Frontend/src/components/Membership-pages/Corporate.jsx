@@ -4,8 +4,11 @@ import Footer from '../Footer/Footer'
 
 export default function Corporate() {
   return (
-    <div>
+    <div className='corporate-page'>
       <Member_navbar type="Corporate"/>
+      <div className="grid-display">
+            
+        </div>
       <div className="contact-us">
 <button>Contact Us</button>
         </div>
