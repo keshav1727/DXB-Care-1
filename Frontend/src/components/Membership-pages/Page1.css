@@ -1,0 +1,32 @@
+.page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-corporate .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: silk-serif;
+    font-size: 40px;
+}
+
+.contact-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.contact-us button{
+    padding: 20px;
+    background-color: #ECECEC;
+    color: black;
+    font-size: 2rem;
+    font-family: work sans-light;
+    border-radius: 28px;
+    cursor: pointer;
+    border: none;
+    font-weight:600;
+}
