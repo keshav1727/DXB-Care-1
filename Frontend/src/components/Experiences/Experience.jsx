@@ -3,7 +3,8 @@ import './Experience.css'
 import aa from './princehonasa_Helicopter_tour_in_dubai_it_should_be_real_image_w_f4e690eb-89f7-42e8-a7ee-13e34758f7fe.png'
 import bb from './princehonasa_Luxury_car_in_dubai_in_day_light_with_dubai_skylin_0a5ed554-7ee1-4ae3-8c95-19be9f034f29.png'
 import cc from './princehonasa_luxury_yatch_image_in_dubai_in_night_light_with_re_e7463b31-2f51-453f-8e2e-2dc282bfc5bb.png'
-import dd from './princehonasa_Underwater_Aquarium_hotel_dubai_with_real_elements_9a8ccc3e-634c-460b-a5c3-65d9c1360d72.png'
+import dd from './princehonasa_skyhub_paramotors_dubai_pictures_real_images_01462ca7-5a2c-46b2-b69c-e6994f9b1598.png'
+import Discover from '../Dicover_More/Dicover'
 
 export default function Experience() {
   return (
@@ -21,19 +22,19 @@ export default function Experience() {
         <div className="items">
           <img src={aa} alt="" />
           <div className="layer">
-            Luxury Cars
+            Private Jet
           </div>
         </div>
         <div className="items">
           <img src={cc} alt="" />
           <div className="layer">
-            Luxury Cars
+            Yatch
           </div>
         </div>
         <div className="items">
           <img src={dd} alt="" />
           <div className="layer">
-            Luxury Cars
+            Sky Dive
           </div>
         </div>
       </div>
