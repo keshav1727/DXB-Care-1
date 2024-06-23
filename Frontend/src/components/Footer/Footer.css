@@ -1,0 +1,111 @@
+.footer{
+    display: flex;
+    margin-top: 40px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .left{
+    width: 40%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright{
+    margin: 20px;
+    font-size: 32px;
+}
+
+.left .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .left .icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 36px;
+    width: 60%;
+}
+
+.left .icons svg{
+height: 60%;
+width: 80%;
+}
+
+.footer .left img{
+    width: 100%;
+}
+
+.footer .right{
+    width: 60%;
+}
+
+.footer .right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 16px;
+    margin: 20px;
+    margin-right: 52px;
+}
+
+.icons-svg{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    border-radius:50%;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.account h1{
+    font-size: 44px;
+}
+
+.account p{
+    font-size: 24px;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactus p{
+    font-size: 24px;
+}
+
+.contactus h1{
+    font-size: 44px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.information h1{
+    font-size: 44px;
+}
+
+.information p{
+    font-size: 24px;
+}

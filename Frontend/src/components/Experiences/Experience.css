@@ -1,7 +1,7 @@
 .experience{
     display: flex;
     flex-direction: column;
-    margin: 55px;
+    margin: 40px;
     align-items: center;
 }
 
@@ -12,18 +12,18 @@
     justify-content: center;
     align-items: center;
     font-family: silk-serif;
-    font-size: 30px;
+    font-size: 52px;
 }
 
 .experience .grid-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 30px;
-    column-gap: 30px;
+    row-gap: 28px;
+    column-gap: 28px;
     align-items: center;
-    max-width: 70rem;
-    
-    margin: 50px;
+    max-width: 80rem;
+    /* padding: 16px; */
+    margin: 36px;
 }
 
 .experience .grid-section .items {
@@ -31,6 +31,7 @@
    overflow: hidden;
    height: auto;
    cursor:pointer;
+   
 }
 
 .experience .grid-section .items .layer {
@@ -49,7 +50,7 @@
     flex-direction: column;
     padding: 0 60px;
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
     transition: opacity 0.5s; /* Transition for opacity */
     opacity: 0; /* Hidden by default */
 }
@@ -78,24 +79,19 @@
 
 
 
-
-
-
-
-
 .experience .button-container{
     display: flex;
     justify-content: center;
 }
 
 .experience .button-container button{
-    padding: 12px;
+    padding: 20px;
     background-color: #ECECEC;
     color: black;
-    font-size: 18px;
+    font-size: 2rem;
     font-family: work sans-light;
-    border-radius: 20px;
+    border-radius: 28px;
     cursor: pointer;
     border: none;
-    font-weight: bold;
+    font-weight:600;
 }

@@ -20,19 +20,19 @@ export default function Membership() {
             <div className="item">
             <div className='item-name'> <h1 className='item-heading'>Exclusive Visitors</h1> </div>
             <div className='item-content'><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quasi impedit perferendis eveniet maiores saepe esse repellat aliquid enim voluptas. Natus eos nesciunt quam dolor ducimus eaque sint repellat velit quisquam ea, labore blanditiis cum voluptates distinctio voluptas asperiores molestiae quae vero officiis? Est libero rerum maiores quisquam iusto eius deleniti animi, placeat quaerat quam recusandae provident exercitationem omnis blanditiis.</p></div>
-            <div className="button"><button>Contact Planner</button></div>
+            <div className="button"><button>Explore More</button></div>
             </div>
             <div className="item">
             <div className='item-name'>  <h1 className='item-heading'>Relocation Services</h1> </div>
             <div className='item-content'><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quasi impedit perferendis eveniet maiores saepe esse repellat aliquid enim voluptas. Natus eos nesciunt quam dolor ducimus eaque sint repellat velit quisquam ea, labore blanditiis cum voluptates distinctio voluptas asperiores molestiae quae vero officiis? Est libero rerum maiores quisquam iusto eius deleniti animi, placeat quaerat quam recusandae provident exercitationem omnis blanditiis.</p></div>
-            <div className="button"><button>Contact Planner</button></div>
+            <div className="button"><button>Explore More</button></div>
             </div>
             
           </div>
         </div>
         <div className="crypto-tag">
           <div className="heading">
-            <h1>We Also Accept Crypto Pay</h1>
+            <p>We also accept <span>Crypto</span> payments</p>
           </div>
         </div>
         </div>
