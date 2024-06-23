@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from '../Membership-pages/Member_navbar';
 import Footer from '../Footer/Footer'
+import carImage from './car.png'
+import heli from './princehonasa_Helicopter_tour_in_dubai_it_should_be_real_image_w_f4e690eb-89f7-42e8-a7ee-13e34758f7fe.png'
 
 export default function Discover() {
     const settings = {
@@ -34,6 +36,9 @@ export default function Discover() {
             {data.map((d) => (
                 <div key={d.name} className='slider-back'>
                     <div className="container-slider">
+                        <div className="image">
+                            <img src={d.image} alt="aa" />
+                        </div>
             <div className="heading">
                 <h1>{d.name}</h1>
             </div>
@@ -149,11 +154,13 @@ export default function Discover() {
 const data = [
     {
         name: 'Luxary Car',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores beatae dolore voluptatem!'
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores beatae dolore voluptatem!',
+        image: carImage
     },
     {
         name: 'Private Jet',
-        text: 'opd'
+        text: 'opd',
+        image: heli
     },
     
     {
