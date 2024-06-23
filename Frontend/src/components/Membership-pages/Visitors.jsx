@@ -1,10 +1,19 @@
 import React from 'react'
-
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
 import Experience from '../Experiences/Experience'
 
 export default function Visitors() {
+  const settings = {
+    // dots:true,
+    infinite:true,
+    speed:500,
+    slidesToShow: 4,
+    slidesToScroll: 1
+};
   return (
     <div className='visitors-page'>
         <Member_navbar type="Visiotrs">
@@ -23,7 +32,20 @@ export default function Visitors() {
         </div>
 
       <div className="grid-display">
-            
+      <Slider {...settings}>
+            {data.map((d) => (
+                <div key={d.name} className='slider-back'>
+                    <div className="container-slider">
+            <div className="heading">
+                <h1>{d.name}</h1>
+            </div>
+            <div className="inside-container">
+                    <p>{d.text}</p>
+            </div>
+                </div>
+                </div>
+            ))}
+            </Slider>
         </div>
        
         <Experience></Experience>
@@ -34,3 +56,25 @@ export default function Visitors() {
     </div>
   )
 }
+
+const data = [
+  {
+      name: 'Luxary Car',
+      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores beatae dolore voluptatem!',
+      image: `car.png`
+  },
+  {
+      name: 'Private Jet',
+      text: 'opd'
+  },
+  
+  {
+      name: 'Luxe Shopping',
+      text: 'opd'
+  },
+  {
+      name: 'Yatch',
+      text: 'opd'
+  },
+  
+]

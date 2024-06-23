@@ -2,6 +2,7 @@ import React from 'react'
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
 import cc from './Untitled design (1).jpg'
+import './Corporate.css'
 
 export default function Corporate() {
   return (
