@@ -17,7 +17,7 @@ export default function Discover() {
     <div className='experience-container'>
         <div className="luxe">
          <div className="header">
-            <h1>Luxury Cars</h1>
+            <h1>Luxe Experience</h1>
          </div>
          <Slider {...settings}>
             {data.map((d) => (
@@ -40,7 +40,7 @@ export default function Discover() {
 
 const data = [
     {
-        name: 'cars',
+        name: 'Luxary Car',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores beatae dolore voluptatem!'
     },
     {
