@@ -2,10 +2,11 @@ import React from 'react'
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
 import cc from './princehonasa_flats_in_dubai_images_a5ab997b-4966-4d67-a260-39aef93db2d9.png'
+import './Relocation.css'
 
 export default function Relocation() {
   return (
-    <div>
+    <div className='relocation'>
        <Member_navbar type="Personal"></Member_navbar>
        <div className='img-corporate'>
   <div className="image">
