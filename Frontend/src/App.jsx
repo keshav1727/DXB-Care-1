@@ -21,7 +21,7 @@ function App() {
   <Content type="Why DXB.care"/>
   <Membership/>
   <Enquiry/>
-  { <Discover/>}
+  {/* <Discover/> */}
   <Footer/>
     </>
   )
