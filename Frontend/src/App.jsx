@@ -9,9 +9,10 @@ import Membership from './components/Membership/Membership'
 import Enquiry from './components/Enquiry Form/Enquiry'
 import Discover from './components/Dicover_More/Dicover'
 import Footer from './components/Footer/Footer'
-import Personal from './components/Membership-pages/Member_navbar'
+// import Personal from './components/Membership-pages/Member_navbar'
 import Corporate from './components/Membership-pages/Corporate'
-import Page1 from './components/Membership-pages/Page1'
+import Personal from './components/Membership-pages/Personal'
+import Visitors from './components/Membership-pages/Visitors'
 
 
 function App() {
@@ -26,8 +27,9 @@ function App() {
   <Enquiry/>
   {/* <Discover/> */}
   <Footer/>
-<Page1></Page1>
+{/* <Personal></Personal> */}
  <Corporate/>
+ <Visitors/>
     </>
   )
 }

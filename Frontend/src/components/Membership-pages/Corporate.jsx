@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer'
 export default function Corporate() {
   return (
     <div>
-      <Member_navbar type="Relocating"/>
+      <Member_navbar type="Corporate"/>
       <div className="contact-us">
 <button>Contact Us</button>
         </div>

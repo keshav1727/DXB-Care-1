@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import './Member_navbar.css'
-import './Page1.css'
+import './Personal.css'
 import logo from './png-logo-white-1@2x.png'
 
 export default function Member_navbar(props) {

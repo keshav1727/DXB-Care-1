@@ -1,12 +1,12 @@
 import React from 'react'
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
-import './Page1.css'
+import './Personal.css'
 
-export default function Page1(props) {
+export default function Personal(props) {
   return (
     <div className='page1'>
-      <Member_navbar type="Corporate"></Member_navbar>
+      <Member_navbar type="Personal"></Member_navbar>
       <div className="grid-display">
             
         </div>
