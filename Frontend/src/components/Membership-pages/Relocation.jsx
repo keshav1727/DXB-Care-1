@@ -12,6 +12,7 @@ import health from './princehonasa_yoga_pictures_of_a_real_individual_81e68c37-6
 import realestate from './princehonasa_luxury_real_house_in_dubai_a9d25b54-fec1-478d-879b-496ec204c6a6.png'
 import travel from './princehonasa_A_photo_of_a_dubai_travel_outdoors_vibrant_bright__fb205463-c4ed-4481-8869-1b419da06366.png'
 import Render from '../Dicover_More/Render';
+import moving from './logi and moving.jpg'
 
 export default function Relocation() {
   const settings = {
@@ -78,7 +79,8 @@ const data = [
   
   {
       name: 'Moving and Logistics/Effortless Logistic Solutions',
-      text: ''
+      text: '',
+      image: moving
   },
   {
       name: 'Settling-In Services/Seamless Settling Solutions',
