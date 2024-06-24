@@ -15,6 +15,7 @@ import dubai from './princehonasa_Dubai_residency_real_high_resolution_image_813
 import legal from './princehonasa_Finacial_and_legal_advisory_services_image_for_web_5994f41f-eb2b-4f5d-8ab6-30b1987520f4 (1).png'
 import office from './princehonasa_business_setup__legal_advisory_image_a9663ddf-bbde-4e1c-b0c9-15a231fedd63.png'
 import Render from '../Dicover_More/Render';
+import corp from './photo_2024-06-21 20.10.10.jpeg'
 
 
 export default function Corporate() {
@@ -64,11 +65,17 @@ return (
 
           
             <div className="middle-left">
-                <img src=''/>
+                <img src={corp}/>
 
             </div>
             <div className="middle-right">
-                <p></p>
+                <h1>Corporate Membership</h1>
+               <p>Experience the ultimate in corporate concierge services with DXB Care. Our extensive
+network caters to all your business needs, including office support, Dubai residency,
+business setup, legal advisory, event management, and tailored travel solutions. Our
+commitment to excellence ensures seamless operations for your business. With just a
+single text, we handle it all, ensuring you stay focused on what matters most. Simplify
+your business journey with us and thrive effortlessly.</p>
 
             </div>
             </div>
@@ -77,6 +84,7 @@ return (
 
           
 <div className="middle-left">
+<h1>Founder Membership</h1>
 <p>Introducing DXB Care's Founder's Membership: your ultimate blend of personal
 assistance and corporate support. We manage calendars, set reminders, and handle
 every detail—from travel bookings to event coordination—with just a text. Focus on
@@ -91,10 +99,11 @@ as dynamic as your ambitions.</p>
 <div className="middle-content">
 
           
-<div className="middle-left">
+<div className="middle-right">
 <img src={employ}/>
 </div>
-<div className="middle-right">
+<div className="middle-left">
+<h1>Employee Membership</h1>
 <p>Introducing DXB Care's Employee Membership: where we optimize your team's
 productivity and efficiency! Our service is tailored to streamline tasks and enhance
 work-life balance. From simplifying daily operations to providing essential perks, we're

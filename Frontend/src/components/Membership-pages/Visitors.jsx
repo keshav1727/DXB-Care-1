@@ -6,6 +6,10 @@ import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
 import Experience from '../Experiences/Experience'
 import Render from '../Dicover_More/Render';
+import photographer from './princehonasa_A_photo_of_an_aerial_photographer_in_Dubai_golden__13e65ef2-d505-4b55-be93-77172a170e70.png'
+import car from './princehonasa_Luxury_car_in_dubai_in_day_light_with_dubai_skylin_07ebc79e-9871-4925-b1ca-15a1bdc7d6b8.png'
+import airport from './princehonasa_Airport_pickup_image_dubai_b443e350-5e9d-47be-840b-3beeee2d5201.png'
+import leisure from './princehonasa_Fine_dining_in_dubai_in_day_light_it_should_be_rea_a9cbd7d6-8725-432b-81f0-e171d71f7ea1.png'
 
 export default function Visitors() {
   const settings = {
@@ -63,6 +67,7 @@ export default function Visitors() {
 const data = [
   {
       name: ' Airport Transport Services',
+      image: airport
   },
   {
       name: 'Dubai Exploration ',
@@ -76,15 +81,18 @@ const data = [
   },
   {
     name: 'Luxury cars for rental (chauffeur driven/ self driven)',
+    image: car
   },
   {
     name: ' Leisure Experiences',
+    image: leisure
   },
   {
     name: 'VIP Access to Attractions',
   },
   {
     name: 'Aerial & Personal Photography Services',
+    image: photographer
 
   },
   
