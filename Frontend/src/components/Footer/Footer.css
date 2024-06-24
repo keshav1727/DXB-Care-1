@@ -65,6 +65,9 @@ width: 80%;
     border-radius:50%;
 }
 
+svg{
+    cursor: pointer;
+}
 .account{
     display: flex;
     flex-direction: column;

@@ -4,11 +4,6 @@
     align-items: center;
     justify-content: center;
 }
-.grid-display {
-    width: 100%;
-    max-width: 1200px;
-    margin: 20px 0;
-}
 
 .slider-back {
     padding: 10px;

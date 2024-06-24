@@ -11,13 +11,13 @@ import settle from './princehonasa_luxury_real_flat_apartment_in_dubai_c5875950-
 import health from './princehonasa_yoga_pictures_of_a_real_individual_81e68c37-673c-4fe8-87e0-0fefa3b09d4f.png'
 import realestate from './princehonasa_luxury_real_house_in_dubai_a9d25b54-fec1-478d-879b-496ec204c6a6.png'
 import travel from './princehonasa_A_photo_of_a_dubai_travel_outdoors_vibrant_bright__fb205463-c4ed-4481-8869-1b419da06366.png'
+import Render from '../Dicover_More/Render';
 
 export default function Relocation() {
   const settings = {
-    // dots:true,
-    infinite:true,
-    speed:500,
-    slidesToShow: 5,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
     slidesToScroll: 1
 };
   return (
@@ -37,24 +37,25 @@ export default function Relocation() {
             <p>From helping you with real estate advice, handling all your moving and logistics, travel-leisure activities to ensuring your health and wellness needs are met and even finding the perfect car for you – DXB Care provides a seamless, stress-free relocation experience. With our comprehensive support, moving to Dubai becomes an exciting journey. Access all our services conveniently through a single text, ensuring efficiency at every step.</p>
         </div>
 
-      <div className="grid-display">
-      <Slider {...settings}>
-    {data.map((d) => (
-        <div key={d.name} className="slider-back">
-            <div className="container-slider">
-                <div className="image-container">
-                    <div className="heading-cont">
-                        <h1>{d.name}</h1>
+        <div className='luxe-render'>
+            <Slider {...settings}>
+                {data.map((d) => (
+                    <div key={d.name} className="slider-back">
+                        <div className="container-slider">
+                            <div className="image-container">
+                                <div className="heading-cont">
+                                    <h1>{d.name}</h1>
+                                </div>
+                                {/* Assuming you have images in your data */}
+                                <img src={d.image} alt={d.name} />
+                                <div className="hover-text">
+                                    <p>{d.text}</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    ))}
-</Slider>
+                ))}
+            </Slider>
         </div>
 
         <div className="contact-us">

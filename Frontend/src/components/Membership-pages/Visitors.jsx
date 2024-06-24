@@ -5,13 +5,13 @@ import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
 import Experience from '../Experiences/Experience'
+import Render from '../Dicover_More/Render';
 
 export default function Visitors() {
   const settings = {
-    // dots:true,
-    infinite:true,
-    speed:500,
-    slidesToShow: 5,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
     slidesToScroll: 1
 };
   return (
@@ -31,24 +31,25 @@ export default function Visitors() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laborum quae est animi officiis numquam nisi molestiae facere? Cupiditate animi dicta soluta, deserunt aspernatur doloremque tempore numquam fuga repudiandae non officia aperiam ea officiis? Vel neque quaerat nam, optio ut nulla earum quod enim libero voluptate soluta iure excepturi, culpa itaque quas eaque quibusdam. Deleniti, fugiat accusantium repudiandae, suscipit minus enim ex similique eaque possimus omnis quia velit expedita assumenda. Rem deleniti minima atque esse debitis! Facilis veniam quam hic dolor? Eum dolores saepe corporis possimus, tenetur accusamus vitae voluptatem sunt quae atque inventore minus asperiores modi iusto autem quidem quod. Temporibus, mollitia sed. Labore dolorem maiores ipsum, quas distinctio quos veritatis aperiam alias mollitia earum, voluptatem placeat sequi quaerat. Quas recusandae veniam molestiae hic corrupti non, accusamus, soluta amet eum dolorum necessitatibus eaque nesciunt ipsam! Quia sequi id expedita odit. Reprehenderit autem dolorum magnam doloribus vero maxime, doloremque est.</p>
         </div>
 
-      <div className="grid-display">
-      <Slider {...settings}>
-    {data.map((d) => (
-        <div key={d.name} className="slider-back">
-            <div className="container-slider">
-                <div className="image-container">
-                    <div className="heading-cont">
-                        <h1>{d.name}</h1>
+        <div className='luxe-render'>
+            <Slider {...settings}>
+                {data.map((d) => (
+                    <div key={d.name} className="slider-back">
+                        <div className="container-slider">
+                            <div className="image-container">
+                                <div className="heading-cont">
+                                    <h1>{d.name}</h1>
+                                </div>
+                                {/* Assuming you have images in your data */}
+                                <img src={d.image} alt={d.name} />
+                                <div className="hover-text">
+                                    <p>{d.text}</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    ))}
-</Slider>
+                ))}
+            </Slider>
         </div>
         <Experience></Experience>
         <div className="contact-us">

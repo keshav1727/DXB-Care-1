@@ -14,13 +14,14 @@ import chef from './princehonasa_luxury_Private_chef_real_image_image_in_dubai_7
 import health from './princehonasa_health__wellness_realted_image_a503efc9-64e9-4765-a173-d661456c04a9.png'
 import event from './special event 4.jpg'
 import exclusive from './princehonasa_Real_images_with_real_people_for_VIP_parties_in_du_cd312aa1-af08-47dd-9e38-e80450e76e9b.png'
+import '../Dicover_More/Discover.css'
+import Render from '../Dicover_More/Render';
 
 export default function Personal(props) {
   const settings = {
-    // dots:true,
-    infinite:true,
-    speed:500,
-    slidesToShow: 5,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
     slidesToScroll: 1
 };
   return (
@@ -44,25 +45,25 @@ makes your priorities our priority."></img>
             <p>At DXB Care, whether you're planning a luxurious vacation, need everyday assistance, or want help with event planning, health and wellness, financial and legal services, luxury gifting, hassle-free travel, or even a private chef – we’ve got you covered. We handle everything from simple requests to intricate plans with a single text.</p>
         </div>
 
-      <div className="grid-display">
-      <Slider {...settings}>
-    {data.map((d) => (
-        <div key={d.name} className="slider-back">
-            <div className="container-slider">
-                <div className="image-container">
-                    <div className="heading-cont">
-                        <h1>{d.name}</h1>
+        <div className='luxe-render'>
+            <Slider {...settings}>
+                {data.map((d) => (
+                    <div key={d.name} className="slider-back">
+                        <div className="container-slider">
+                            <div className="image-container">
+                                <div className="heading-cont">
+                                    <h1>{d.name}</h1>
+                                </div>
+                                {/* Assuming you have images in your data */}
+                                <img src={d.image} alt={d.name} />
+                                <div className="hover-text">
+                                    <p>{d.text}</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    ))}
-</Slider>
-            
+                ))}
+            </Slider>
         </div>
 
         <div className="contact-us">
