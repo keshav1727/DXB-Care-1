@@ -22,13 +22,19 @@
 
 .luxe-render{
     width: 100%;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 7rem;
+    margin-bottom: 10px;
+    height: 80%;
 }
 
 .slider-back {
     padding: 10px;
     border: none;
     position: relative;
+    margin-top: 16px;
+    margin-bottom: 40px;
 }
 
 .container-slider {
@@ -102,6 +108,8 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    margin-bottom: 28px;
+    margin-bottom: 36px;
 }
 
 /* Media Queries */

@@ -18,12 +18,8 @@ export default function Enquiry() {
             </div>
             <div className="info">
             <label htmlFor="Country-Code">Country Code
-                <select name="" id="">
-                    <option value="select"></option>
-                    <option value="india">91</option>
-                    <option value="pakistan">92</option>
-                </select>
             </label>
+            <input type="text"/>
             <label htmlFor="Mobile">Mobile Number</label>
             <input type="tel" />
             </div>
