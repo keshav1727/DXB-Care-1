@@ -11,7 +11,7 @@ export default function Visitors() {
     // dots:true,
     infinite:true,
     speed:500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1
 };
   return (
@@ -47,7 +47,6 @@ export default function Visitors() {
             ))}
             </Slider>
         </div>
-       
         <Experience></Experience>
         <div className="contact-us">
 <button>Contact Us</button>
@@ -59,22 +58,37 @@ export default function Visitors() {
 
 const data = [
   {
-      name: 'Luxary Car',
-      text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores beatae dolore voluptatem!',
-      image: `car.png`
+      name: ' Airport Transport Services',
+      text: ''
   },
   {
-      name: 'Private Jet',
-      text: 'opd'
+      name: 'Dubai Exploration ',
+      text: ''
   },
   
   {
-      name: 'Luxe Shopping',
-      text: 'opd'
+      name: 'Tailored itinerary planning and booking',
+      text: ''
   },
   {
-      name: 'Yatch',
-      text: 'opd'
+      name: 'Currency exchange and arrangement',
+      text: ''
+  },
+  {
+    name: 'Luxury cars for rental (chauffeur driven/ self driven)',
+    text: ''
+  },
+  {
+    name: ' Leisure Experiences',
+    text: ''
+  },
+  {
+    name: 'VIP Access to Attractions',
+    text: ''
+  },
+  {
+    name: 'Aerial & Personal Photography Services',
+    text: ''
   },
   
 ]

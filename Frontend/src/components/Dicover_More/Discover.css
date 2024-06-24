@@ -1,51 +1,155 @@
-.experience-container{
+.experience-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 0px;
+    padding: 20px; /* Add some padding for smaller screens */
 }
 
-.luxe{
-    width: 80rem;
+.luxe {
+    width: 100%;
     padding: 20px;
 }
 
-
-
-.luxe .header{
+.luxe .header-cont {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: silk-serif;
-    font-size: 30px;
-    padding: 35px;
-}
-
-.slider-back{
-    background-color: gray;
+    font-size: 2rem; /* Adjust font size for responsiveness */
     padding: 20px;
-    border: none;
 }
 
-.container-slider{
-    border: 2px solid white;
+.slider-back {
+    padding: 10px;
+    border: none;
+    position: relative;
+}
+
+.container-slider {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
-    padding: 15px;
+    align-items: center;
     background-color: #ececec;
     color: #1C1C1C;
     margin: 0 10px;
 }
 
-.container-slider .image img{
+.image-container {
+    position: relative;
     width: 100%;
+    overflow: hidden; /* Ensure text stays within bounds */
+    border-radius: 20px; /* Match container's border radius */
 }
 
-.head{
-    font-size: 35px;
-    text-align-last: center;
+.image-container img {
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.heading-cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 2rem; /* Adjust font size for responsiveness */
+    text-align: center;
+    pointer-events: none; /* Ensure it doesn't interfere with hover */
+    z-index: 1; /* Ensure it's on top of the image */
+    transition: opacity 0.5s ease-in-out; /* Add transition for smooth hide effect */
+}
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff; /* More readable on image */
+    font-size: 1rem; /* Adjust font size for responsiveness */
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    border-radius: 10px; /* Rounded corners */
+    z-index: 2; /* Ensure it's on top of everything else */
+}
+
+.image-container:hover .hover-text {
+    opacity: 1;
+}
+
+.image-container:hover .heading-cont {
+    opacity: 0; /* Hide the heading on hover */
+}
+
+.image-container:hover img {
+    opacity: 0.5;
+}
+
+.head {
+    font-size: 3rem; /* Adjust font size for responsiveness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .luxe .header-cont {
+        font-size: 2.5rem;
+    }
+    .heading-cont {
+        font-size: 1.5rem;
+    }
+    .hover-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .luxe .header-cont {
+        font-size: 2rem;
+    }
+    .heading-cont {
+        font-size: 1.25rem;
+    }
+    .hover-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-container {
+        flex-direction: column;
+    }
+    .luxe {
+        width: 90%;
+    }
+    .luxe .header-cont {
+        font-size: 1.75rem;
+    }
+    .heading-cont {
+        font-size: 1rem;
+    }
+    .hover-text {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .luxe .header-cont {
+        font-size: 1.5rem;
+    }
+    .heading-cont {
+        font-size: 0.75rem;
+    }
+    .hover-text {
+        font-size: 0.6rem;
+    }
 }
