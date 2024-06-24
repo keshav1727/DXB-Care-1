@@ -59,6 +59,50 @@ return (
                 ))}
             </Slider>
         </div>
+        <div className="middle">
+            <div className="middle-content">
+
+          
+            <div className="middle-left">
+                <img src=''/>
+
+            </div>
+            <div className="middle-right">
+                <p></p>
+
+            </div>
+            </div>
+
+            <div className="middle-content">
+
+          
+<div className="middle-left">
+<p>Introducing DXB Care's Founder's Membership: your ultimate blend of personal
+assistance and corporate support. We manage calendars, set reminders, and handle
+every detail—from travel bookings to event coordination—with just a text. Focus on
+your vision and success while we streamline your day-to-day. Join today for support
+as dynamic as your ambitions.</p>
+</div>
+<div className="middle-right">
+<img src={founder}/>
+</div>
+</div>
+
+<div className="middle-content">
+
+          
+<div className="middle-left">
+<img src={employ}/>
+</div>
+<div className="middle-right">
+<p>Introducing DXB Care's Employee Membership: where we optimize your team's
+productivity and efficiency! Our service is tailored to streamline tasks and enhance
+work-life balance. From simplifying daily operations to providing essential perks, we're
+dedicated to helping you attract and retain top talent. Join us and elevate your team's
+performance!</p>
+</div>
+</div>
+        </div>
       <div className="contact-us">
 <button>Contact Us</button>
         </div>
