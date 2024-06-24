@@ -33,19 +33,22 @@ export default function Visitors() {
 
       <div className="grid-display">
       <Slider {...settings}>
-            {data.map((d) => (
-                <div key={d.name} className='slider-back'>
-                    <div className="container-slider">
-            <div className="heading">
-                <h1>{d.name}</h1>
-            </div>
-            <div className="inside-container">
-                    <p>{d.text}</p>
-            </div>
+    {data.map((d) => (
+        <div key={d.name} className="slider-back">
+            <div className="container-slider">
+                <div className="image-container">
+                    <div className="heading-cont">
+                        <h1>{d.name}</h1>
+                    </div>
+                    <img src={d.image} alt={d.name} />
+                    <div className="hover-text">
+                        <p>{d.text}</p>
+                    </div>
                 </div>
-                </div>
-            ))}
-            </Slider>
+            </div>
+        </div>
+    ))}
+</Slider>
         </div>
         <Experience></Experience>
         <div className="contact-us">
@@ -59,36 +62,29 @@ export default function Visitors() {
 const data = [
   {
       name: ' Airport Transport Services',
-      text: ''
   },
   {
       name: 'Dubai Exploration ',
-      text: ''
   },
   
   {
       name: 'Tailored itinerary planning and booking',
-      text: ''
   },
   {
       name: 'Currency exchange and arrangement',
-      text: ''
   },
   {
     name: 'Luxury cars for rental (chauffeur driven/ self driven)',
-    text: ''
   },
   {
     name: ' Leisure Experiences',
-    text: ''
   },
   {
     name: 'VIP Access to Attractions',
-    text: ''
   },
   {
     name: 'Aerial & Personal Photography Services',
-    text: ''
+
   },
   
 ]

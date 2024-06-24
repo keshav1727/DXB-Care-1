@@ -4,21 +4,28 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
-import cc from './Untitled design (1).jpg'
+import cc from './Screenshot 2024-06-24 at 12.23.56 AM.png'
 import './Corporate.css'
+import employ from './Emp.jpg'
+import founder from './Founder.jpg'
+import assistance from './Personal Assistant.jpg'
+import event from './special event 4.jpg'
+import travel from './Travel.jpg'
+import dubai from './princehonasa_Dubai_residency_real_high_resolution_image_813f0b7b-9b32-4435-81df-7b7e87b4b76a (1).png'
+import legal from './princehonasa_Finacial_and_legal_advisory_services_image_for_web_5994f41f-eb2b-4f5d-8ab6-30b1987520f4 (1).png'
+import office from './princehonasa_business_setup__legal_advisory_image_a9663ddf-bbde-4e1c-b0c9-15a231fedd63.png'
 
 
 export default function Corporate() {
-  const settings = {
+    const settings = {
     // dots:true,
     infinite:true,
     speed:500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1
 };
 
-
-  return (
+return (
     <div className='corporate-page'>
       <Member_navbar type="Corporate"/>
       <div className='img-corporate'>
@@ -34,20 +41,23 @@ export default function Corporate() {
         </div>
 
         <div className="grid-display">
-      <Slider {...settings}>
-            {data.map((d) => (
-                <div key={d.name} className='slider-back'>
-                    <div className="container-slider">
-            <div className="heading">
-                <h1>{d.name}</h1>
-            </div>
-            <div className="inside-container">
-                    <p>{d.text}</p>
-            </div>
+        <Slider {...settings}>
+    {data.map((d) => (
+        <div key={d.name} className="slider-back">
+            <div className="container-slider">
+                <div className="image-container">
+                    <div className="heading-cont">
+                        <h1>{d.name}</h1>
+                    </div>
+                    <img src={d.image} alt={d.name} />
+                    <div className="hover-text">
+                        <p>{d.text}</p>
+                    </div>
                 </div>
-                </div>
-            ))}
-            </Slider>
+            </div>
+        </div>
+    ))}
+</Slider>
         </div>
       <div className="contact-us">
 <button>Contact Us</button>
@@ -59,37 +69,29 @@ export default function Corporate() {
 
 const data = [
   {
-      name: ' Airport Transport Services',
-      text: ''
+      name: ' Dubai Residency',
+      image: dubai
   },
   {
-      name: 'Dubai Exploration ',
-      text: ''
+      name: 'Business Setup and legal advisory ',
+      image: legal
   },
   
   {
-      name: 'Tailored itinerary planning and booking',
-      text: ''
+      name: 'Personal Assistance ',
+      image: assistance
   },
   {
-      name: 'Currency exchange and arrangement',
-      text: ''
+      name: 'Event and Hospitality Management',
+      image: event
   },
   {
-    name: 'Luxury cars for rental (chauffeur driven/ self driven)',
-    text: ''
+    name: ' Travel Solutions',
+    image: travel
   },
   {
-    name: ' Leisure Experiences',
-    text: ''
-  },
-  {
-    name: 'VIP Access to Attractions',
-    text: ''
-  },
-  {
-    name: 'Aerial & Personal Photography Services',
-    text: ''
+    name: 'Office and Administrative Support',
+    image: office
   },
   
 ]
