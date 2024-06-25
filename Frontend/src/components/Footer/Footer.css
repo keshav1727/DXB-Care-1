@@ -35,10 +35,8 @@
 
 .footer .left .icons{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 36px;
-    width: 60%;
+    justify-content: center;
+    width: 90%;
 }
 
 .left .icons svg{

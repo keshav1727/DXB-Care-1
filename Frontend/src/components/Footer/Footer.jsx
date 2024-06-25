@@ -60,9 +60,9 @@ export default function Footer() {
 </div>
 <div className="contactus">
 <h1>Contact Us</h1>
-<p>Mail Us</p>
-<p>Whatsapp</p>
-<p>Telegram</p>
+<p className='contacts-footer'>Mail Us</p>
+<p className='contacts-footer'>Whatsapp</p>
+<p className='contacts-footer'>Telegram</p>
 <p>Schedule Call</p>
 </div>
 <div className="information">
