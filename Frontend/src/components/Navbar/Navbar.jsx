@@ -29,7 +29,7 @@ export default function Navbar() {
       <Navbartop></Navbartop>
        <div className="contacts">
         <dv className="contact-text">
-          <h2>Contact Us</h2>
+          <p>Contact Us</p>
         </dv>
        <div className="wp">
        <svg className="svg" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">

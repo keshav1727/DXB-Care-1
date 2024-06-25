@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .footer{
     display: flex;
     margin-top: 40px;
+  
 }
 .last{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
+    background-color: #e2e0e0;
+    margin-top: 60px;
 }
 .footer .left{
     width: 40%;
@@ -76,11 +82,14 @@ svg{
 }
 
 .account h1{
-    font-size: 44px;
+    font-family: "Silk Serif Light";
+    font-size: 32px; 
 }
 
 .account p{
-    font-size: 24px;
+    font-family: "Work Sans Light", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .contactus{
@@ -91,11 +100,14 @@ svg{
 }
 
 .contactus p{
-    font-size: 24px;
+    font-family: "Work Sans Light", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .contactus h1{
-    font-size: 44px;
+    font-family: "Silk Serif Light";
+    font-size: 32px; 
 }
 
 .information{
@@ -106,9 +118,17 @@ svg{
 }
 
 .information h1{
-    font-size: 44px;
+    font-family: "Silk Serif Light";
+    font-size: 32px; 
 }
 
 .information p{
-    font-size: 24px;
+    font-family: "Work Sans Light", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.copyright{
+    font-family: "Silk Serif Light";
+    font-size: 8px;
 }

@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .main {
     position: relative;
-  }
+    font-family: "Work Sans Light", sans-serif;
+}
   
+.contacts .contact-text{
+ font-size: 24px;
+}
 
 .navbar{
     /* padding: 20px 0px; */
@@ -19,7 +25,14 @@
         padding: 20px;
 
     }
-
+   
+      .svg {
+        display: none; /* Initially hide icons */
+        width: 2rem;
+        height: 2rem;
+        margin-left: 8px; /* Adjust margin as needed */
+      }
+            
 
  .right {
     display: flex;
@@ -80,6 +93,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.contact-text:hover svg{
+    display: inline;
+} 
     .navbar .contacts .wp{
         display: flex;
         justify-content:center;

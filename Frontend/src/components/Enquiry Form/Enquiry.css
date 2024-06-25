@@ -1,59 +1,77 @@
-.enquiry-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.enquiry-form .container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 60rem;
-    padding: 12px;
-    background-color: #ececec;
+.form-container {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
     color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.enquiry-form .container .header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.form-container h1{
+    margin: 20px;
+    margin-bottom: 40px;
+    font-family: "Silk Serif Light";
+}
+.form-groud input ::placeholder{
+  font-family: sans-serif;
+}
+
+  form{
+    width: 600px;
+  }
+
+
+  .form-group {
+    margin-bottom: 40px;
+  }
+  
+  input[type='text'],
+  input[type='tel'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 8px 4px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Only one underline */
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  input[type='text']:focus,
+  input[type='tel']:focus,
+  input[type='email']:focus,
+  textarea:focus {
+    border-bottom: 1px solid #1c1c1c; /* Change underline color on focus */
+  }
+  
+  .form-container button {
+    background-color: #1c1c1c;
+    color: #ececec;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
     font-size: 20px;
-    padding: 8px;
-    margin-bottom: 18px;
-}
-
-.content-container{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+  }
+  
+  button:hover {
+    background-color: #1c1c1c;
+  }
+  
+  .form-group-button{
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    font-size: 25px;
-    font-weight: 300;
-}
-
-form{
-    width: 50rem;
-}
-
-form .info{
-    display: flex;
-    gap: 15px;
-    padding: 15px;
-}
-
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select
-{
-  padding: 8px;
-  margin-bottom: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-
-
+    margin-bottom: 20px;
+  }

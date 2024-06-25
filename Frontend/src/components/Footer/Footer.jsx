@@ -54,9 +54,9 @@ export default function Footer() {
         </div>
         <div className="right">
 <div className="account">
-    <h1>Account</h1>
-    <p>Our Story</p>
-    <p>Brouchers</p>
+    <h1>Company</h1>
+    <p>About Us</p>
+    {/* <p>Brouchers</p> */}
     <p>Disclaimers</p>
 </div>
 <div className="contactus">
@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
     </div>
     <div className="copyright">
-      All copyrights reserve to DXB.Care
+      <h1>All copyrights reserve to DXB.Care</h1>
     </div>
     </div>
   )
