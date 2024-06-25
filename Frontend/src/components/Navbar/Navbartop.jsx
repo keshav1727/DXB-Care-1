@@ -20,10 +20,10 @@ export default function Navbartop() {
             <a href="#about">
            </a> About Us</li>
           <li onClick={() => setMenu("Services")} className={menu==="Services"?"active":""}>
-            <a href="#expperience">
+            <a href="#experience">
             Experiences</a></li>
           <li onClick={() => setMenu("Membership")} className={menu==="Membership"?"active":""}>
-            <a href="#mebership">
+            <a href="#membership">
             Membership</a></li>
        </ul>
        </div>
