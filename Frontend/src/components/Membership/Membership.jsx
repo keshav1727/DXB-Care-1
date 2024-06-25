@@ -78,7 +78,7 @@ export default function Membership() {
         </div>
         <div className="crypto-tag">
           <div className="heading">
-            <h1> We also accept <span className='crypto'>Crypto</span> payments</h1>
+            <h2> *We also accept <span className='crypto'>Crypto</span> payments</h2>
           </div>
         </div>
       </div>

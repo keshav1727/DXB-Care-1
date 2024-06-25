@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .form-container {
-    max-width: 800px;
+    
     background-color: #ffffff;
     padding: 20px;
     border-radius: 12px;
@@ -18,7 +18,7 @@
 }
 
 form{
-    width: 600px;
+    width: 1400px;
 }
 
 .form-container h1 {

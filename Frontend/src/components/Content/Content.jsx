@@ -3,6 +3,7 @@ import './Content.css'
 
 export default function Content() {
   return (
+    <div className="content-middle">
     <div className='middle-content-company'>
         <div className="header">
         <h2 className='heading'>
@@ -34,6 +35,7 @@ export default function Content() {
 </span>
   </div>
       </div>
+    </div>
     </div>
   )
 }
