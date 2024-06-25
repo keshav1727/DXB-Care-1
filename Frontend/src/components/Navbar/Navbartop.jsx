@@ -13,10 +13,18 @@ export default function Navbartop() {
       </div>
       <div className="left">
         <ul className='navbar-menu'>
-          <li onClick={() => setMenu("Home")} className={menu==="Home"?"active":""}>Home</li>
-          <li onClick={() => setMenu("About Us")} className={menu==="About Us"?"active":""}>About Us</li>
-          <li onClick={() => setMenu("Services")} className={menu==="Services"?"active":""}>Experiences</li>
-          <li onClick={() => setMenu("Membership")} className={menu==="Membership"?"active":""}>Membership</li>
+          <li onClick={() => setMenu("Home")} className={menu==="Home"?"active":""}>
+            <a href="#home">
+            Home</a></li>
+          <li onClick={() => setMenu("About Us")} className={menu==="About Us"?"active":""}>
+            <a href="#about">
+           </a> About Us</li>
+          <li onClick={() => setMenu("Services")} className={menu==="Services"?"active":""}>
+            <a href="#expperience">
+            Experiences</a></li>
+          <li onClick={() => setMenu("Membership")} className={menu==="Membership"?"active":""}>
+            <a href="#mebership">
+            Membership</a></li>
        </ul>
        </div>
        </div>

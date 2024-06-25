@@ -23,7 +23,7 @@ export default function Membership() {
   }
 
   return (
-    <div className='membership'>
+    <div className='membership' id='membership'>
       <div className="content">
         <div className='header'><h1 className='heading'>Membership</h1></div>
         <div className="membership-content">
