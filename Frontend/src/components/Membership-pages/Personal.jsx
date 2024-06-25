@@ -6,16 +6,17 @@ import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
 import './Personal.css'
 import aa from './personal.jpeg'
-import assist from './assisting everday task 2.jpg'
+import pers from './7 (1).jpg'
 import finance from './princehonasa_Finacial_and_legal_advisory_services_image_for_web_5994f41f-eb2b-4f5d-8ab6-30b1987520f4 (1).png'
-import travel from './Hustle free travel 2.jpg'
-import gift from './luxury gifting 3.jpg'
+import travel from './1 (1).jpg'
+import gift from './2 (1).jpg'
 import chef from './princehonasa_luxury_Private_chef_real_image_image_in_dubai_7eb14deb-5710-4624-86b8-2da03a4ce8dd.png'
 import health from './princehonasa_health__wellness_realted_image_a503efc9-64e9-4765-a173-d661456c04a9.png'
-import event from './special event 4.jpg'
+import event from './event.jpg'
 import exclusive from './princehonasa_Real_images_with_real_people_for_VIP_parties_in_du_cd312aa1-af08-47dd-9e38-e80450e76e9b.png'
 import '../Dicover_More/Discover.css'
 import Render from '../Dicover_More/Render';
+import access from './6 (1).jpg'
 
 export default function Personal(props) {
   const settings = {
@@ -76,12 +77,11 @@ makes your priorities our priority."></img>
 
 const data = [
   {
-      name: 'Assisting with everyday requests',
-      image: assist
+      name: 'Assisting with everyday requests'
   },
   {
       name: 'Exclusive Access & Experiences',
-      text: ''
+      image: access
   },
   
   {
@@ -113,7 +113,8 @@ const data = [
     image: chef
   },
   {
-    name: '24*7 Personalized Concierge Assistance in Emergencies'
+    name: '24*7 Personalized Concierge Assistance in Emergencies',
+    image: pers
   },
   
 ]

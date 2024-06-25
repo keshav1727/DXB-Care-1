@@ -10,6 +10,7 @@
     padding: 10px;
     border: none;
     position: relative;
+   
 }
 
 .container-slider {
@@ -21,6 +22,7 @@
     background-color: #ececec;
     color: #1C1C1C;
     margin:  10px;
+    
 }
 .middle{
     display: flex;
@@ -33,6 +35,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: 30px
 }
 .middle-left{
     width: 60%;

@@ -10,6 +10,11 @@ import photographer from './princehonasa_A_photo_of_an_aerial_photographer_in_Du
 import car from './princehonasa_Luxury_car_in_dubai_in_day_light_with_dubai_skylin_07ebc79e-9871-4925-b1ca-15a1bdc7d6b8.png'
 import airport from './princehonasa_Airport_pickup_image_dubai_b443e350-5e9d-47be-840b-3beeee2d5201.png'
 import leisure from './princehonasa_Fine_dining_in_dubai_in_day_light_it_should_be_rea_a9cbd7d6-8725-432b-81f0-e171d71f7ea1.png'
+import plan from './8.jpg'
+import vip from './4 (1).jpg'
+import dubai from './6 (1).jpg'
+
+
 
 export default function Visitors() {
   const settings = {
@@ -71,10 +76,12 @@ const data = [
   },
   {
       name: 'Dubai Exploration ',
+      image: dubai
   },
   
   {
       name: 'Tailored itinerary planning and booking',
+      image: plan
   },
   {
       name: 'Currency exchange and arrangement',
@@ -89,6 +96,7 @@ const data = [
   },
   {
     name: 'VIP Access to Attractions',
+    image: vip
   },
   {
     name: 'Aerial & Personal Photography Services',

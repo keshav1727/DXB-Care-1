@@ -14,7 +14,7 @@ import bbq from './princehonasa_Luxury_desert_dining_in_dubai_it_should_look_rea
 import quad from './princehonasa_buggy_tour_in_dubai_real_image_shot_by_a_photograp_768a4910-c63d-45fc-98f4-0c0a6b2cbb68.png'
 import camel from './princehonasa_camel_tour_in_dubai_deserts_a_real_image_which_is__6c9c27db-c326-4ae7-ae1c-f2617becbba4.png'
 import spa from './princehonasa_real_images_of_spa_massage_in_dubai_51ae1b1b-5843-49fa-83a7-4006ad70ba28.png'
-import shopping from './luxury gifting 3.jpg'
+import shopping from './2 (1).jpg'
 import pvtjet from './princehonasa_A_real_image_shot_by_a_photographer_of_a_private_j_c954b67a-ce8b-44da-b50c-39e497098a67.png'
 import prsnl from './princehonasa_a_realpicture_for_personal_assistance_service_rela_a7be0137-b257-4041-bb5e-5dfd579dbaa5.png'
 import pet from './princehonasa_pet_care_real_image_conceirge_service_related_imag_4e9ba288-09f8-4880-8aef-295e93a47048.png'
@@ -22,7 +22,8 @@ import web3 from './pexels-fauxels-3184190.jpg'
 import proposal from './princehonasa_A_proposal_image_of_a_real_face_couple_in_dubai_a__6e713de2-3a9f-4a4f-ae60-c40f1d6301bf.png'
 import zumba from './princehonasa_a_real_person_doing_aerobics_or_zumba_in_closed_ar_3c0db109-a48c-4c2b-8ffb-40fe9439920e.png'
 import yoga from './princehonasa_yoga_pictures_of_a_real_individual_81e68c37-673c-4fe8-87e0-0fefa3b09d4f (1).png'
-import event from './Special event.jpg'
+import event from './6.jpg'
+import party from './5 (1).jpg'
 
 
 export default function Discover() {
@@ -316,7 +317,8 @@ const dataaaaa = [
     
     {
         name: 'Parties Access',
-        text: 'opd'
+        text: 'opd',
+        image: party
     },
     {
         name: 'Special Events',
