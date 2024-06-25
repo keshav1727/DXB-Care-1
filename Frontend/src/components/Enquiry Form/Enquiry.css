@@ -1,3 +1,5 @@
+/* Enquiry.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .form-container {
@@ -12,30 +14,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
-.form-container h1{
+.form-container h1 {
     margin: 20px;
     margin-bottom: 40px;
-    font-family: "Silk Serif Light";
-}
-.form-groud input ::placeholder{
-  font-family: sans-serif;
+    font-family: "Silk Serif Light", sans-serif; /* Added sans-serif as a fallback */
 }
 
-  form{
-    width: 600px;
-  }
-
-
-  .form-group {
+.form-group {
     margin-bottom: 40px;
-  }
-  
-  input[type='text'],
-  input[type='tel'],
-  input[type='email'],
-  textarea {
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea,
+select {
     width: 100%;
     padding: 8px 4px;
     font-size: 16px;
@@ -43,35 +39,59 @@
     border-bottom: 1px solid #ccc; /* Only one underline */
     outline: none;
     transition: border-color 0.2s ease-in-out;
-  }
-  
-  input[type='text']:focus,
-  input[type='tel']:focus,
-  input[type='email']:focus,
-  textarea:focus {
+    font-family: "Work Sans", sans-serif;
+}
+
+input[type='text']:focus,
+input[type='tel']:focus,
+input[type='email']:focus,
+textarea:focus,
+select:focus {
     border-bottom: 1px solid #1c1c1c; /* Change underline color on focus */
-  }
-  
-  .form-container button {
+}
+
+.select-type {
+    -webkit-appearance: none; /* Remove default appearance */
+    -moz-appearance: none;
+    appearance: none; /* Standard appearance */
+    padding-right: 30px; /* Space for custom arrow */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%231c1c1c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"/></svg>'); /* Custom arrow SVG */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust arrow position */
+    background-size: 18px;
+}
+
+.select-type:hover,
+.select-type:focus {
+    border-bottom: 1px solid #1c1c1c;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%231c1c1c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"/></svg>');
+}
+
+.form-container button {
     background-color: #1c1c1c;
     color: #ececec;
-    padding: 8px 12px;
+    padding: 12px 20px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
-  }
-  
-  button:hover {
-    background-color: #1c1c1c;
-  }
-  
-  .form-group-button{
+    transition: background-color 0.2s ease-in-out;
+}
+
+::placeholder{
+    color: black;
+}
+
+.form-container button:hover {
+    background-color: #333333;
+}
+
+.form-group-button {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-  }
+}
