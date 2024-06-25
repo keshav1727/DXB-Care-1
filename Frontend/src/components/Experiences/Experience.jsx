@@ -23,28 +23,28 @@ export default function Experience() {
                     <img src={bb} alt="Luxury Cars" />
                     <div className="layer">
                         <div className="heading">Luxury Cars</div>
-                        <div className="description">Discover the finest luxury cars available for your adventures in Dubai.</div>
+                        <div className="description">When we say cars, we mean pure performance and style on wheels.</div>
                     </div>
                 </div>
                 <div className="items">
                     <img src={aa} alt="Private Jet" />
                     <div className="layer">
                         <div className="heading">Private Jet</div>
-                        <div className="description">Experience the ultimate in luxury travel with our private jet tours.</div>
+                        <div className="description">And now I'm suddenly obsessed with jets: soaring to new heights of luxury and speed.</div>
                     </div>
                 </div>
                 <div className="items">
                     <img src={cc} alt="Yacht" />
                     <div className="layer">
                         <div className="heading">Yacht</div>
-                        <div className="description">Sail in style on a luxury yacht and enjoy breathtaking views of Dubai.</div>
+                        <div className="description">Best decision ever: embarking on a yacht adventure</div>
                     </div>
                 </div>
                 <div className="items">
                     <img src={dd} alt="Sky Dive" />
                     <div className="layer">
                         <div className="heading">Sky Dive</div>
-                        <div className="description">Get your adrenaline pumping with an unforgettable skydiving experience.</div>
+                        <div className="description">WAKE UP people, it's skydiving o'clock 🔥</div>
                     </div>
                 </div>
             </div>
