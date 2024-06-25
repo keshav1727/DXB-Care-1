@@ -1,4 +1,4 @@
-.membership{
+.membership {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,35 +6,29 @@
     margin-bottom: 20px;
 }
 
-
-
-.membership .content{
+.membership .content {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 1400px;
 }
 
-.membership .content .header{
+.membership .content .header {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Silk Serif Light";
     font-size: 32px; 
-
 }
 
-
-
-
-.membership .membership-content{
+.membership .membership-content {
     margin-top: 36px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
 }
 
-.membership .membership-content .item{
+.membership .membership-content .item {
     border: 2px solid white;
     border-radius: 20px;
     display: flex;
@@ -46,33 +40,39 @@
     color: #1C1C1C;
 }
 
-.membership .button{
+.membership .membership-content .item .item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.membership .button {
     padding: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
- .membership .button button{
+.membership .button button {
     border: none;
-    font-size:20px;
+    font-size: 20px;
     background: #ececec;
-} 
+}
 
-.item-heading{
+.item-heading {
     font-size: 32px;
     font-family: "Silk Serif Light";
 }
 
-.membership .membership-content .item .item-content{
+.membership .membership-content .item .item-content {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px;
 }
 
-.membership .crypto-tag{
+.membership .crypto-tag {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@
     margin-top: 120px;
 }
 
-.crypto-tag span{
-    font-weight:bolder;
-    font-style:italic;
+.crypto-tag span {
+    font-weight: bolder;
+    font-style: italic;
 }

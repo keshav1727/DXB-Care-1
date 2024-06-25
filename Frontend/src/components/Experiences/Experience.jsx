@@ -22,25 +22,29 @@ export default function Experience() {
                 <div className="items" onClick={handleClick}>
                     <img src={bb} alt="Luxury Cars" />
                     <div className="layer">
-                        Luxury Cars
+                        <div className="heading">Luxury Cars</div>
+                        <div className="description">Discover the finest luxury cars available for your adventures in Dubai.</div>
                     </div>
                 </div>
                 <div className="items">
                     <img src={aa} alt="Private Jet" />
                     <div className="layer">
-                        Private Jet
+                        <div className="heading">Private Jet</div>
+                        <div className="description">Experience the ultimate in luxury travel with our private jet tours.</div>
                     </div>
                 </div>
                 <div className="items">
                     <img src={cc} alt="Yacht" />
                     <div className="layer">
-                        Yacht
+                        <div className="heading">Yacht</div>
+                        <div className="description">Sail in style on a luxury yacht and enjoy breathtaking views of Dubai.</div>
                     </div>
                 </div>
                 <div className="items">
                     <img src={dd} alt="Sky Dive" />
                     <div className="layer">
-                        Sky Dive
+                        <div className="heading">Sky Dive</div>
+                        <div className="description">Get your adrenaline pumping with an unforgettable skydiving experience.</div>
                     </div>
                 </div>
             </div>

@@ -15,8 +15,6 @@
     font-size: 32px;   
 }
 
-
-
 .experience .grid-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -24,16 +22,14 @@
     column-gap: 28px;
     align-items: center;
     max-width: 60rem;
-    /* padding: 16px; */
     margin: 36px;
 }
 
 .experience .grid-section .items {
-   position: relative;
-   overflow: hidden;
-   height: auto;
-   cursor:pointer;
-   
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    cursor: pointer;
 }
 
 .experience .grid-section .items .layer {
@@ -43,50 +39,53 @@
     border-radius: 10px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 0;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 60px;
+    padding: 0 20px;
     text-align: center;
     font-family: "Work Sans";
     font-size: 24px;
-    transition: opacity 0.5s; /* Transition for opacity */
-    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s;
+    background: rgba(0, 0, 0, 0.6); /* Dark background for readability */
 }
 
-.experience .grid-section .items:hover .layer {
-    opacity: 1; /* Show text on hover */
+.experience .grid-section .items .layer .heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.experience .grid-section .items .layer .description {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.5s;
+}
+
+.experience .grid-section .items:hover .layer .description {
+    opacity: 1; /* Show description on hover */
 }
 
 .experience .grid-section .items img {
     width: 100%; 
-    border-radius: 30px;
-    padding: 5px;
+    border-radius: 10px;
     display: block;
-    opacity: 1; /* Fully visible by default */
-    transition: all 0.5s ease-in-out; /* Transition for all properties */
-    cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
 .experience .grid-section .items:hover img {
-    opacity: 0.2; /* Decrease opacity on hover */
+    opacity: 0.5;
 }
 
-.experience .grid-section .items:hover .layer {
-    opacity: 1; /* Show text on hover */
-}
-
-
-
-.experience .button-container{
+.experience .button-container {
     display: flex;
     justify-content: center;
 }
 
-.experience .button-container button{
+.experience .button-container button {
     padding: 10px 16px;
     background-color: #ECECEC;
     color: black;
@@ -96,5 +95,5 @@
     border-radius: 28px;
     cursor: pointer;
     border: none;
-    font-weight:350;
+    font-weight: 350;
 }
