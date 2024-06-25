@@ -19,6 +19,7 @@
     align-items: center;
     font-family: "Silk Serif Light";
     font-size: 32px; 
+    margin-bottom: 20px;
 }
 
 .membership .membership-content {
@@ -33,7 +34,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;  
     padding: 20px;
     background-color: #ececec;
@@ -47,12 +48,20 @@
     margin-bottom: 15px;
 }
 
+.item-content p{
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 .membership .button {
     padding: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .membership .button button {
     border: none;
@@ -86,7 +95,7 @@
     margin-top: 120px;
 }
 
-.crypto-tag span {
+.crypto-tag .crypto {
     font-weight: bolder;
     font-style: italic;
 }

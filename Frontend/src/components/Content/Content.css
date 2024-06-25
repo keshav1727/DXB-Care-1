@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .middle-content-company{
     display: flex;
     flex-direction: column;
@@ -15,13 +17,25 @@
 }
 
 .middle-content-company .content-company{
-    /* height: 100px;
-    width: 1420px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 28px;
+    row-gap: 28px;
+    margin-top: 60px;
     width: 60rem;
-    text-align: center;
-    font-family: "Work Sans Light", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    padding: 24px;
 }
 
+.content-company .quote-grid{
+    padding: 8px;
+}
+.span-head{
+    font-family: "Work Sans Medium", sans-serif;
+    font-size: 20px;
+    margin-right: px;
+}
+
+.quote-grid .span-tag{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300; 
+    font-size: 18px;
+}

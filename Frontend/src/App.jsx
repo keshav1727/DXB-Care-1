@@ -9,7 +9,7 @@ import Membership from './components/Membership/Membership'
 import Enquiry from './components/Enquiry Form/Enquiry'
 import Discover from './components/Dicover_More/Dicover'
 import Footer from './components/Footer/Footer'
-// import Personal from './components/Membership-pages/Member_navbar'
+import Quote from './components/Content/Quote'
 import Corporate from './components/Membership-pages/Corporate'
 import Personal from './components/Membership-pages/Personal'
 import Visitors from './components/Membership-pages/Visitors'
@@ -35,7 +35,8 @@ function App() {
     */}
 <Router>
   <Routes>
-    <Route path='' element={<><Navbar/> <Experience/> <Membership/> <Enquiry/> <Footer/> </>}></Route>
+    <Route path='' element={<><Navbar/> <Quote/><Experience/>
+    <Membership/><Content/> <Enquiry/> <Footer/> </>}></Route>
     <Route path='/discover' element={<Discover/>}></Route>
     <Route path='/personal' element={<Personal/>}></Route>
     <Route path='/visitors' element={<Visitors/>}></Route>

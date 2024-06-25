@@ -9,6 +9,27 @@
  font-size: 24px;
 }
 
+/* Set initial display for icons */
+.contacts .wp img,
+.contacts .tg img {
+  display: none;
+}
+
+/* Show icons and hide text when hovering over .contact-text */
+.contact-text span {
+  display: block;
+}
+
+.contact-text:hover span {
+  display: none;
+}
+
+.contact-text:hover + .wp img,
+.contact-text:hover + .tg img {
+  display: inline;
+  cursor: pointer;
+}
+
 .navbar{
     /* padding: 20px 0px; */
     display: flex;
