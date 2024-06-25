@@ -5,6 +5,11 @@
     /* margin-top: 40px; */
   
 }
+
+.contacts-footer{
+    cursor: pointer;
+}
+
 .last{
     display: flex;
     flex-direction: column;
