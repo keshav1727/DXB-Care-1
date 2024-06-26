@@ -6,8 +6,8 @@ import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
 import cc from './Screenshot 2024-06-24 at 12.23.56 AM.png'
 import './Corporate.css'
-import employ from './Emp.jpg'
-import founder from './Founder.jpg'
+import employ from './14.jpg'
+import founder from './16.jpg'
 import assistance from './4.jpg'
 import event from './event.jpg'
 import travel from './Travel.jpg'
@@ -15,7 +15,7 @@ import dubai from './princehonasa_Dubai_residency_real_high_resolution_image_813
 import legal from './princehonasa_Finacial_and_legal_advisory_services_image_for_web_5994f41f-eb2b-4f5d-8ab6-30b1987520f4 (1).png'
 import office from './princehonasa_business_setup__legal_advisory_image_a9663ddf-bbde-4e1c-b0c9-15a231fedd63.png'
 import Render from '../Dicover_More/Render';
-import corp from './photo_2024-06-21 20.10.10.jpeg'
+import corp from './16.jpg'
 
 
 export default function Corporate() {

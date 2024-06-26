@@ -21,9 +21,13 @@ import pet from './princehonasa_pet_care_real_image_conceirge_service_related_im
 import web3 from './pexels-fauxels-3184190.jpg'
 import proposal from './princehonasa_A_proposal_image_of_a_real_face_couple_in_dubai_a__6e713de2-3a9f-4a4f-ae60-c40f1d6301bf.png'
 import zumba from './princehonasa_a_real_person_doing_aerobics_or_zumba_in_closed_ar_3c0db109-a48c-4c2b-8ffb-40fe9439920e.png'
-import yoga from './princehonasa_yoga_pictures_of_a_real_individual_81e68c37-673c-4fe8-87e0-0fefa3b09d4f (1).png'
+import yoga from './medi 2.jpg'
 import event from './6.jpg'
 import party from './5 (1).jpg'
+import child from './13.jpg'
+import health from './12.jpg'
+import shoot from './Shooting 1.jpg'
+import medi from './princehonasa_yoga_pictures_of_a_real_individual_81e68c37-673c-4fe8-87e0-0fefa3b09d4f (1).png'
 
 
 export default function Discover() {
@@ -57,9 +61,8 @@ export default function Discover() {
                     <div className="heading-cont">
                         <h1>{d.name}</h1>
                     </div>
+                    <div className="image-bg">
                     <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
                     </div>
                 </div>
             </div>
@@ -78,9 +81,8 @@ export default function Discover() {
                     <div className="heading-cont">
                         <h1>{d.name}</h1>
                     </div>
+                    <div className="image-bg">
                     <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
                     </div>
                 </div>
             </div>
@@ -99,9 +101,8 @@ export default function Discover() {
                     <div className="heading-cont">
                         <h1>{d.name}</h1>
                     </div>
+                    <div className="image-bg">
                     <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
                     </div>
                 </div>
             </div>
@@ -120,9 +121,8 @@ export default function Discover() {
                     <div className="heading-cont">
                         <h1>{d.name}</h1>
                     </div>
+                    <div className="image-bg">
                     <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
                     </div>
                 </div>
             </div>
@@ -141,9 +141,8 @@ export default function Discover() {
                     <div className="heading-cont">
                         <h1>{d.name}</h1>
                     </div>
+                    <div className="image-bg">
                     <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
                     </div>
                 </div>
             </div>
@@ -162,9 +161,8 @@ export default function Discover() {
                     <div className="heading-cont">
                         <h1>{d.name}</h1>
                     </div>
+                    <div className="image-bg">
                     <img src={d.image} alt={d.name} />
-                    <div className="hover-text">
-                        <p>{d.text}</p>
                     </div>
                 </div>
             </div>
@@ -185,23 +183,19 @@ export default function Discover() {
 const data = [
     {
         name: 'Luxary Car',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores beatae dolore voluptatem!',
         image: carImage
     },
     {
         name: 'Private Jet',
-        text: 'opd',
         image: pvtjet
     },
     
     {
         name: 'Luxe Shopping',
-        text: 'opd',
         image: shopping
     },
     {
         name: 'Yatch',
-        text: 'opd',
         image: yatch
     },
     
@@ -210,22 +204,19 @@ const data = [
 const dat = [
     {
         name: 'Shooting',
-        text: ''
+        image: shoot
     },
     {
         name: 'Jet Ski',
-        text: 'opd',
         image: jetski
     },
     
     {
         name: 'Scuba Diving',
-        text: 'opd',
         image: scuba
     },
     {
         name: 'Gyrocopter Flight',
-        text: 'opd',
         image: heli
     },
     
@@ -234,23 +225,19 @@ const dat = [
 const dataa  = [
     {
         name: 'BBQ Dinner',
-        text: '',
         image: bbq
     },
     {
         name: 'Quad Biking',
-        text: 'opd',
         image: quad
     },
     
     {
         name: 'Camel Riding',
-        text: 'opd',
         image: camel
     },
     {
         name: 'Sunset Picture',
-        text: 'opd'
     },
     
 ]
@@ -258,22 +245,20 @@ const dataa  = [
 const dataaa = [
     {
         name: 'Child Care',
-        text: ''
+        image: child
     },
     {
         name: 'Personal Assistance',
-        text: 'opd',
         image: prsnl
     },
     
     {
         name: 'Play School Pet Care',
-        text: 'opd',
         image: pet
     },
     {
         name: 'Health Care',
-        text: 'opd'
+        image: health
     },
     
 ]
@@ -281,24 +266,20 @@ const dataaa = [
 const dataaaa = [
     {
         name: 'Yoga',
-        text: '',
         image: yoga
     },
     {
         name: 'Spa',
-        text: 'opd',
         image: spa
     },
     
     {
         name: 'Aerobics/Jumba',
-        text: 'opd',
         image: zumba
     },
     {
         name: 'Meditation',
-        text: 'opd',
-        image: yoga
+        image: medi
     },
     
 ]
@@ -306,23 +287,19 @@ const dataaaa = [
 const dataaaaa = [
     {
         name: 'Web3 Events',
-        text: '',
         image: web3
     },
     {
         name: 'Proposals',
-        text: 'opd',
         image: proposal
     },
     
     {
         name: 'Parties Access',
-        text: 'opd',
         image: party
     },
     {
         name: 'Special Events',
-        text: 'opd',
         image: event
     },
     

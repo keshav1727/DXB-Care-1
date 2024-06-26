@@ -80,7 +80,6 @@ const data = [
   
   {
       name: 'Moving and Logistics/Effortless Logistic Solutions',
-      text: '',
       image: moving
   },
   {

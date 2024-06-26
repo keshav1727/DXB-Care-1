@@ -17,6 +17,7 @@ import exclusive from './princehonasa_Real_images_with_real_people_for_VIP_parti
 import '../Dicover_More/Discover.css'
 import Render from '../Dicover_More/Render';
 import access from './6 (1).jpg'
+import request from './19.jpg'
 
 export default function Personal(props) {
   const settings = {
@@ -78,7 +79,8 @@ makes your priorities our priority."></img>
 
 const data = [
   {
-      name: 'Assisting with everyday requests'
+      name: 'Assisting with everyday requests',
+      image: request
   },
   {
       name: 'Exclusive Access & Experiences',

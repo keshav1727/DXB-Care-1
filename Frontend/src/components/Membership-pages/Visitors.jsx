@@ -13,6 +13,7 @@ import leisure from './princehonasa_Fine_dining_in_dubai_in_day_light_it_should_
 import plan from './8.jpg'
 import vip from './4 (1).jpg'
 import dubai from './6 (1).jpg'
+import money from './18.jpg'
 
 
 
@@ -86,6 +87,7 @@ const data = [
   },
   {
       name: 'Currency exchange and arrangement',
+      image: money
   },
   {
     name: 'Luxury cars for rental (chauffeur driven/ self driven)',

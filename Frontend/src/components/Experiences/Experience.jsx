@@ -23,7 +23,8 @@ export default function Experience() {
                     <img src={bb} alt="Luxury Cars" />
                     <div className="layer">
                         <div className="heading">Luxury Cars</div>
-                        <div className="description">When we say cars, we mean pure performance and style on wheels.</div>
+                        <div className="description">Name your dream car - Mustang, Ferrari, McLaren, Lamborghini, or Porsche - and we'll deliver it promptly.
+                        </div>
                     </div>
                 </div>
                 <div className="items">
@@ -37,14 +38,15 @@ export default function Experience() {
                     <img src={cc} alt="Yacht" />
                     <div className="layer">
                         <div className="heading">Yacht</div>
-                        <div className="description">Best decision ever: embarking on a yacht adventure</div>
+                        <div className="description">Chasing sunsets, watching fireworks in the middle of water, hosting parties, or exploring coves... Our customized yacht service makes every sail adventure a reality!
+                        </div>
                     </div>
                 </div>
                 <div className="items">
                     <img src={dd} alt="Sky Dive" />
                     <div className="layer">
                         <div className="heading">Sky Dive</div>
-                        <div className="description">WAKE UP people, it's skydiving o'clock 🔥</div>
+                        <div className="description">Feel the rush as you leap from the plane and experience the thrill with every detail arranged by our concierge for an unforgettable experience.</div>
                     </div>
                 </div>
             </div>
