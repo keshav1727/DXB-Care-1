@@ -29,12 +29,13 @@ return (
     <div className='corporate-page'>
       <Member_navbar type="Corporate"/>
       <div className='img-corporate'>
-<div className="image">
+{/* <div className="image">
   <img src={cc} className="adjusted-image" alt="Elevating the corporate experience through exceptional service and unparalleled attention to detail, we transform everyday tasks into extraordinary moments of efficiency and sophistication."></img>
-</div>
-        <div className="header">
-            <h1>Corporate Membership</h1>
+</div> */}
+<div className="header">
+            <h1>Corporate Concerge</h1>
         </div>
+
         </div>
         <div className="coporate-content">
             <p>Welcome to DXB Care's Corporate Concierge Services, where trust and security are at the heart of everything we do. We specialize in building strong client relationships,enhancing your company's reputation and influence, and managing personal tasks with customized solutions. Whether it's office support, Dubai residency, business setup, legal advice, event planning, or personalized travel arrangements – just text us and consider it done. Simplify your business journey with DXB Care and succeed effortlessly.</p>
@@ -46,11 +47,12 @@ return (
                     <div key={d.name} className="slider-back">
                         <div className="container-slider">
                             <div className="image-container">
-                                <div className="heading-cont">
-                                    <h1>{d.name}</h1>
+                                <div className="head-cont-cor">
+                                    <p>{d.name}</p>
                                 </div>
-                                {/* Assuming you have images in your data */}
+                                <div className='image-container-image'>
                                 <img src={d.image} alt={d.name} />
+                                </div>
                                 <div className="hover-text">
                                     <p>{d.text}</p>
                                 </div>
@@ -60,16 +62,16 @@ return (
                 ))}
             </Slider>
         </div>
-        <div className="middle">
+        <div className="middle-cor">
             <div className="middle-content">
 
           
-            <div className="middle-left">
+            <div className="middle-left-cor">
                 <img src={corp}/>
 
             </div>
-            <div className="middle-right">
-                <h1>Corporate Membership</h1>
+            <div className="middle-right-cor">
+                <h2>Corporate Membership</h2>
                <p>Experience the ultimate in corporate concierge services with DXB Care. Our extensive
 network caters to all your business needs, including office support, Dubai residency,
 business setup, legal advisory, event management, and tailored travel solutions. Our
@@ -83,15 +85,15 @@ your business journey with us and thrive effortlessly.</p>
             <div className="middle-content">
 
           
-<div className="middle-left">
-<h1>Founder Membership</h1>
+<div className="middle-right-cor">
+<h2>Founder Membership</h2>
 <p>Introducing DXB Care's Founder's Membership: your ultimate blend of personal
 assistance and corporate support. We manage calendars, set reminders, and handle
 every detail—from travel bookings to event coordination—with just a text. Focus on
 your vision and success while we streamline your day-to-day. Join today for support
 as dynamic as your ambitions.</p>
 </div>
-<div className="middle-right">
+<div className="middle-left-cor">
 <img src={founder}/>
 </div>
 </div>
@@ -99,11 +101,11 @@ as dynamic as your ambitions.</p>
 <div className="middle-content">
 
           
-<div className="middle-right">
+<div className="middle-left-cor">
 <img src={employ}/>
 </div>
-<div className="middle-left">
-<h1>Employee Membership</h1>
+<div className="middle-right-cor">
+<h2>Employee Membership</h2>
 <p>Introducing DXB Care's Employee Membership: where we optimize your team's
 productivity and efficiency! Our service is tailored to streamline tasks and enhance
 work-life balance. From simplifying daily operations to providing essential perks, we're
@@ -112,6 +114,21 @@ performance!</p>
 </div>
 </div>
         </div>
+
+
+<div className="content-corporate">
+At DXB Care, we deliver substantial value by saving our clients an average of 20 hours
+per week, totaling over 1,000 hours annually. This not only frees up valuable time but
+also significantly reduces operational efforts. Imagine the impact of redirecting these
+saved hours towards strategic initiatives, client engagements, or personal pursuits, all
+while maintaining peak productivity. Without our comprehensive concierge services,
+businesses risk inefficiencies and burnout from managing mundane tasks internally.
+Choose DXB Care to unlock unparalleled efficiency, empower your team, and elevate
+your focus on what truly matters.
+</div>
+
+
+
       <div className="contact-us">
 <button>Contact Us</button>
         </div>

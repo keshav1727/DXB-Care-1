@@ -41,16 +41,17 @@ export default function Visitors() {
         </div>
 
         <div className='luxe-render'>
-            <Slider {...settings}>
+        <Slider {...settings}>
                 {data.map((d) => (
                     <div key={d.name} className="slider-back">
                         <div className="container-slider">
                             <div className="image-container">
-                                <div className="heading-cont">
-                                    <h1>{d.name}</h1>
+                                <div className="head-cont-cor">
+                                    <p>{d.name}</p>
                                 </div>
-                                {/* Assuming you have images in your data */}
+                                <div className='image-container-image'>
                                 <img src={d.image} alt={d.name} />
+                                </div>
                                 <div className="hover-text">
                                     <p>{d.text}</p>
                                 </div>
