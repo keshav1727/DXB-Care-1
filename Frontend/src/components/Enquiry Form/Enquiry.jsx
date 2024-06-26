@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Enquiry.css'; // Import your CSS file
 
 function Enquiry() {
@@ -7,9 +7,23 @@ function Enquiry() {
     contactNumber: '',
     enquiry: '',
     email: '',
-    country: '', // Add country to formData state
-    telCode: '+000' // Set a default telephone code
+    country: '',
+    telCode: '+000'
   });
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://smtpjs.com/v3/smtp.js';
+    script.async = true;
+    script.onload = () => {
+      console.log('SMTPJS loaded');
+    };
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -19,32 +33,39 @@ function Enquiry() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Check if all required fields are filled
-    if (formData.name && formData.email && formData.telCode !== 'Country Code' && formData.contactNumber && formData.enquiry) {
-      // Handle form submission logic here, e.g., send data to backend
-      console.log(formData);
-
-      // Show submission message
-      alertSubmit();
-      
-      // Reset form after submission if needed
-      setFormData({
-        name: '',
-        contactNumber: '',
-        enquiry: '',
-        email: '',
-        country: '',
-        telCode: '+000' // Reset telephone code to default after submission
-      });
+    if (formData.name && formData.email && formData.telCode !== '+000' && formData.contactNumber && formData.enquiry) {
+      // Ensure SMTPJS script is loaded before using Email.send()
+      if (window.Email) {
+        window.Email.send({
+          Host: "smtp.gmail.com",
+          Username: "sharadgumber0702@gmail.com",
+          Password: "your-password",
+          To: 'sharadgumber0702@gmail.com',
+          From: formData.email,
+          Subject: "Enquiry from " + formData.name,
+          Body: formData.enquiry + "<br>Contact Number: " + formData.telCode + formData.contactNumber
+        }).then(
+          message => {
+            alert('Your enquiry was successfully sent.');
+            setFormData({
+              name: '',
+              contactNumber: '',
+              enquiry: '',
+              email: '',
+              country: '',
+              telCode: '+000'
+            });
+          }
+        );
+      } else {
+        console.error('SMTPJS is not loaded yet.');
+        // Optionally handle the case where SMTPJS is not loaded yet
+        alert('SMTPJS is not loaded yet. Please try again later.');
+      }
     } else {
       alert('Please fill in all required fields.');
     }
   };
-
-  const alertSubmit = () => {
-    alert('Your details were successfully received.');
-  };
-  
   return (
     <div className="form-container">
       <h1>How We Can Help You</h1>
@@ -71,9 +92,8 @@ function Enquiry() {
             required
           />
         </div>
-       
         <div className="form-group">
-        <select
+          <select
             className='select-type'
             name="telCode"
             value={formData.telCode}
