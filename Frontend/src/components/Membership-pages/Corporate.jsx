@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
-import cc from './Screenshot 2024-06-24 at 12.23.56 AM.png'
+import cc from './Corporate main image bg.jpg'
 import './Corporate.css'
 import employ from './14.jpg'
 import founder from './16.jpg'
@@ -15,7 +15,7 @@ import dubai from './princehonasa_Dubai_residency_real_high_resolution_image_813
 import legal from './princehonasa_Finacial_and_legal_advisory_services_image_for_web_5994f41f-eb2b-4f5d-8ab6-30b1987520f4 (1).png'
 import office from './princehonasa_business_setup__legal_advisory_image_a9663ddf-bbde-4e1c-b0c9-15a231fedd63.png'
 import Render from '../Dicover_More/Render';
-import corp from './16.jpg'
+import corp from './Corporate image.jpg'
 
 
 export default function Corporate() {
@@ -29,16 +29,16 @@ return (
     <div className='corporate-page'>
       <Member_navbar type="Corporate"/>
       <div className='img-corporate'>
-{/* <div className="image">
+ <div className="image">
   <img src={cc} className="adjusted-image" alt="Elevating the corporate experience through exceptional service and unparalleled attention to detail, we transform everyday tasks into extraordinary moments of efficiency and sophistication."></img>
-</div> */}
+</div> 
 <div className="header">
             <h1>Corporate Concerge</h1>
         </div>
 
         </div>
         <div className="coporate-content">
-            <p>Welcome to DXB Care's Corporate Concierge Services, where trust and security are at the heart of everything we do. We specialize in building strong client relationships,enhancing your company's reputation and influence, and managing personal tasks with customized solutions. Whether it's office support, Dubai residency, business setup, legal advice, event planning, or personalized travel arrangements – just text us and consider it done. Simplify your business journey with DXB Care and succeed effortlessly.</p>
+            <p>Welcome to DXB Care's Corporate Concierge Services! Trust and security are at the heart of everything we do. We build strong client relationships, enhance your company's reputation, and manage personal tasks with customized solutions. Imagine having a dedicated team to handle all the details, so you can focus on what you do best. Whether it's office support, Dubai residency, business setup, legal advice, event planning, or personalized travel arrangements – just text us and consider it done. We also offer executive assistance, employee wellness programs, client hospitality, and team-building activities tailored to your corporate needs. At DXB Care, we simplify your corporate life, allowing you to succeed effortlessly. We're not just a service; we're your partner in success. Let's make your business thrive, one task at a time.</p>
         </div>
 
         <div className='luxe-render'>
