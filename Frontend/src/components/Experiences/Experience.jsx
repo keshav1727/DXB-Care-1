@@ -22,7 +22,7 @@ export default function Experience() {
                 <div className="items" onClick={handleClick}>
                     <img src={bb} alt="Luxury Cars" />
                     <div className="layer">
-                        <div className="heading">Luxury Cars</div>
+                        <div className="heading">Sports Car</div>
                         <div className="description">Name your dream car - Mustang, Ferrari, McLaren, Lamborghini, or Porsche - and we'll deliver it promptly.
                         </div>
                     </div>

@@ -14,6 +14,8 @@
     margin-top: 20px;
     padding-left: 62px;
     padding-right: 62px;
+    text-align: center;
+    justify-content: center;
   }
   .relocation .img-corporate h1{
     font-family: "Silk Serif";
@@ -22,7 +24,7 @@
 
 .relocation .coporate-content p{
  font-family: "Work Sans Light", sans-serif;
- font-size: 20px;
+ font-size: 22px;
 }
   
 .container-slider {
@@ -35,4 +37,7 @@
     color: #1C1C1C;
     margin: 0 10px;
     
+}
+.relocation .header{
+    margin-top: 30px;
 }
