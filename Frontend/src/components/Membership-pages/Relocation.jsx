@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
-import cc from './princehonasa_flats_in_dubai_images_a5ab997b-4966-4d67-a260-39aef93db2d9.png'
+import cc from './Relocation main image.jpg'
 import './Relocation.css'
 import car from './princehonasa_Luxury_chauffeur_drive_in_dubai__real_image_1492c86c-9ed9-48f4-9ece-0292c4cc4509 (1).png'
 import settle from './princehonasa_luxury_real_flat_apartment_in_dubai_c5875950-096c-4b5b-8ef6-36ffd2075da8.png'

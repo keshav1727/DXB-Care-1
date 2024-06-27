@@ -71,6 +71,9 @@
 .experience .grid-section .items:hover .layer .description {
     opacity: 1; /* Show description on hover */
 }
+.experience .grid-section .items:hover .layer .heading {
+    opacity: 0; /* Show description on hover */
+}
 
 .experience .grid-section .items img {
     width: 100%; 
