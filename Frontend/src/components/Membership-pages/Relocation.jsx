@@ -28,10 +28,10 @@ export default function Relocation() {
   <div className="image">
     <img src={cc} className="adjusted-image" alt="Relocating can be exciting yet challenging, but with DXB Care, it doesn’t have to be.We handle everything with a single text to ensure a smooth transition to your new life in Dubai."></img>
         </div>
-         </div>
+        </div>
          
         <div className="header">
-            <h1>Relocation Services</h1>
+            <p>Relocation Services</p>
         </div>
 
         <div className="coporate-content">
@@ -59,12 +59,15 @@ export default function Relocation() {
                 ))}
             </Slider>
         </div>
-
+<div className="relocation-contactus-content">
+<p>LET'S TURN YOUR MOVE TO DUBAI INTO AN EXCITING ADVENTURE! LET'S START PLANNING YOUR JOURNEY TODAY.</p>
+</div>
         <div className="contact-us">
 <button>Contact Us</button>
         </div>
       <Footer></Footer>
     </div>
+  
   )
 }
 

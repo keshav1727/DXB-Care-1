@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .visitors-page{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+.visitors-page .img-corporate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visitors-page  .header-vis{
+    font-family: "Silk Serif";
+    font-size: 62px;
+}
+
+.visitors-page  .coporate-content p{
+    font-family: "Work Sans Light", sans-serif;
+    font-size: 24px;
+}
+
 .slider-back {
     padding: 10px;
     border: none;
@@ -16,7 +35,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ececec;
+    /* background-color: #ececec; */
     color: #1C1C1C;
     margin:  10px;
+}
+
+.visitors-page .contact-us{
+    margin-top: 30px;
+}
+
+.visitor-contactus-content{
+    display: flex;
+    font-family: "Work Sans Light", sans-serif;
+    font-size: 24px;
+}
+
+.visitor-contactus-content p{
+    text-align: center;
+    width: 76rem;
+    margin-bottom: 18px;
 }

@@ -10,6 +10,11 @@
     position: relative;
     
 }
+
+.luxe-render {
+    margin-top: 60px;
+}
+
 .coporate-content{
     margin-top: 20px;
     padding-left: 62px;
@@ -17,27 +22,33 @@
     text-align: center;
     justify-content: center;
   }
-  .relocation .img-corporate h1{
-    font-family: "Silk Serif";
-    font-size: 40px;
+  .relocation .header{
+    font-family: "Silk Serif Light";
+    font-size: 62px;
 }
 
-.relocation .coporate-content p{
+.relocation .coporate-content {
  font-family: "Work Sans Light", sans-serif;
- font-size: 22px;
+ font-size: 24px;
 }
   
 .container-slider {
-    border-radius: 20px;
+    /* border-radius: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ececec;
+    /* background-color: #ececec; */
     color: #1C1C1C;
     margin: 0 10px;
     
 }
 .relocation .header{
     margin-top: 30px;
+}
+
+.relocation-contactus-content{
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    margin-bottom: 48px;
 }

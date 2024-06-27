@@ -14,6 +14,7 @@ import plan from './8.jpg'
 import vip from './4 (1).jpg'
 import dubai from './6 (1).jpg'
 import money from './18.jpg'
+import './Visitors.css'
 
 
 
@@ -33,12 +34,13 @@ export default function Visitors() {
   <img src='' alt='Embark on a journey where every moment is imbued with the essence of luxury, transforming travel into an opulent experience.'/>
 
 </div>
-        <div className="header">
-            <h1>Exclusive Visitors</h1>
-        </div>
+</div>
+        <div className="header-vis">
+            <p>Elite Explorer</p>
         </div>
         <div className="coporate-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laborum quae est animi officiis numquam nisi molestiae facere? Cupiditate animi dicta soluta, deserunt aspernatur doloremque tempore numquam fuga repudiandae non officia aperiam ea officiis? Vel neque quaerat nam, optio ut nulla earum quod enim libero voluptate soluta iure excepturi, culpa itaque quas eaque quibusdam. Deleniti, fugiat accusantium repudiandae, suscipit minus enim ex similique eaque possimus omnis quia velit expedita assumenda. Rem deleniti minima atque esse debitis! Facilis veniam quam hic dolor? Eum dolores saepe corporis possimus, tenetur accusamus vitae voluptatem sunt quae atque inventore minus asperiores modi iusto autem quidem quod. Temporibus, mollitia sed. Labore dolorem maiores ipsum, quas distinctio quos veritatis aperiam alias mollitia earum, voluptatem placeat sequi quaerat. Quas recusandae veniam molestiae hic corrupti non, accusamus, soluta amet eum dolorum necessitatibus eaque nesciunt ipsam! Quia sequi id expedita odit. Reprehenderit autem dolorum magnam doloribus vero maxime, doloremque est.</p>
+            <p>Let us handle every detail of your journey, from currency exchange to arranging personalized experiences and capturing your special moments with expert photography services. At DXB Care, we're not just about convenience; we're here to ensure your time in Dubai is filled with joy, relaxation, and unforgettable memories.
+              Imagine arriving in Dubai to a warm personal greeting at the airport, followed by seamless transfers and a meticulously planned itinerary just for you. Whether you're exploring Dubai's vibrant culture, indulging in luxury car rentals for self-driven adventures, or gaining VIP access to top attractions, every moment is designed to exceed your expectations.</p>
         </div>
 
         <div className='luxe-render'>
@@ -63,6 +65,11 @@ export default function Visitors() {
             </Slider>
         </div>
         <Experience></Experience>
+
+<div className="visitor-contactus-content">
+  <p></p>
+</div>
+
         <div className="contact-us">
 <button>Contact Us</button>
         </div>

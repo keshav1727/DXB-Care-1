@@ -43,10 +43,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ececec;
+    /* background-color: #ececec; */
     color: #1C1C1C;
     margin: 0 10px;
 }
+
+
 
 .image-container {
     position: relative;
@@ -84,21 +86,24 @@
     text-align: center;
     pointer-events: none; /* Ensure it doesn't interfere with hover */
     z-index: 2; /* Ensure it's on top of the overlay */
-    font-family: "Worksans light";
+    font-family: "Work Sans light", sans-serif;
+}
+.luxe .header-cont{
+    font-family: "Silk Serif";
+    font-size: 28px;
 }
 
 
 
-
-
 .head {
-    font-size: 3rem; /* Adjust font size for responsiveness */
+    font-size: 40px;
+    font-family: "Silk Serif";
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
     margin-bottom: 28px;
-    margin-bottom: 36px;
+    /* margin-bottom: 36px; */
 }
 
 /* Media Queries */

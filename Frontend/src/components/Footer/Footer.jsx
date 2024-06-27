@@ -67,8 +67,7 @@ export default function Footer() {
 </div>
 <div className="information">
 <h1>Information</h1>
-<p>FAQ</p>
-<p>Term & Conditions</p>
+<p>Terms & Conditions</p>
 <p>Privacy Policies</p>
 </div>
         </div>

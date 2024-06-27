@@ -23,7 +23,7 @@ export default function Experience() {
                     <img src={bb} alt="Luxury Cars" />
                     <div className="layer">
                         <div className="heading">Sports Car</div>
-                        <div className="description">Name your dream car - Mustang, Ferrari, McLaren, Lamborghini, or Porsche - and we'll deliver it promptly.
+                        <div className="description">Name your dream car—Mustang, Ferrari, McLaren, Lamborghini, or Porsche—and it will be delivered promptly, offering high-performance concierge services that save you valuable time by eliminating long waits in the booking process.
                         </div>
                     </div>
                 </div>
@@ -31,14 +31,14 @@ export default function Experience() {
                     <img src={aa} alt="Private Jet" />
                     <div className="layer">
                         <div className="heading">Private Jet</div>
-                        <div className="description">And now I'm suddenly obsessed with jets: soaring to new heights of luxury and speed.</div>
+                        <div className="description">Unlock the freedom to fly on your terms. With the private jets, you’re not just traveling; you’re making a statement of refined taste and discerning choice, all while saving valuable time.</div>
                     </div>
                 </div>
                 <div className="items">
                     <img src={cc} alt="Yacht" />
                     <div className="layer">
                         <div className="heading">Yacht</div>
-                        <div className="description">Chasing sunsets, watching fireworks in the middle of water, hosting parties, or exploring coves... Our customized yacht service makes every sail adventure a reality!
+                        <div className="description">Sail with elegance, power, and strength. Enjoy smooth voyages while chasing sunsets, hosting parties, or exploring peaceful coves. Our rental yacht service is tailored to meet your unique preferences, offering customizable experiences for every occasion, ensuring your maritime adventures are exactly as you envision.
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ export default function Experience() {
                     <img src={dd} alt="Sky Dive" />
                     <div className="layer">
                         <div className="heading">Sky Dive</div>
-                        <div className="description">Feel the rush as you leap from the plane and experience the thrill with every detail arranged by our concierge for an unforgettable experience.</div>
+                        <div className="description">Take the leap from the plane, embrace the weightlessness, feel the adrenaline rush through your veins, and dance in the air with breathtaking views. Life's too short to handle mundane tasks - we've got you covered.</div>
                     </div>
                 </div>
             </div>
