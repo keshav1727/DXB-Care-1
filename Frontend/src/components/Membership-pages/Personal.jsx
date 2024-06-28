@@ -39,12 +39,12 @@ makes your priorities our priority."></img>
          </div>
 
         <div className="header">
-            <h1>Personal Concerge</h1>
+            <p>Personal Concierge</p>
         </div>
 
         
         <div className="coporate-content">
-            <p>At DXB Care, whether you're planning a luxurious vacation, need everyday assistance, or want help with event planning, health and wellness, financial and legal services, luxury gifting, hassle-free travel, or even a private chef – we’ve got you covered. We handle everything from simple requests to intricate plans with a single text.</p>
+            <p>At DXB Care, whether you're planning a luxurious vacation, need everyday assistance, or want help with event planning, health and wellness, financial and legal services, luxury gifting, hassle-free travel, or even a private chef – we’ve got you covered. We handle everything from simple requests to intricate plans with a single text. Our dedicated team ensures every need is met with precision and care. Experience the best in personal concierge services. No matter the detail, DXB Care makes your priorities our priority, allowing you to focus on what truly matters. With us, exceptional service is just a text away.</p>
         </div>
 
         <div className='luxe-render'>

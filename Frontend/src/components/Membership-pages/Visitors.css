@@ -16,6 +16,7 @@
 .visitors-page  .header-vis{
     font-family: "Silk Serif";
     font-size: 62px;
+    margin-top: 28px;
 }
 
 .visitors-page  .coporate-content p{
@@ -42,6 +43,7 @@
 
 .visitors-page .contact-us{
     margin-top: 30px;
+    margin-bottom: 18px;
 }
 
 .visitor-contactus-content{

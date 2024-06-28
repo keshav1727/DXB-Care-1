@@ -32,11 +32,11 @@ return (
  <div className="image">
   <img src={cc} className="adjusted-image" alt="Elevating the corporate experience through exceptional service and unparalleled attention to detail, we transform everyday tasks into extraordinary moments of efficiency and sophistication."></img>
 </div> 
+</div>
 <div className="header">
-            <h1>Corporate Concerge</h1>
+            <p>Corporate Concierge</p>
         </div>
 
-        </div>
         <div className="coporate-content">
             <p>Welcome to DXB Care's Corporate Concierge Services! Trust and security are at the heart of everything we do. We build strong client relationships, enhance your company's reputation, and manage personal tasks with customized solutions. Imagine having a dedicated team to handle all the details, so you can focus on what you do best. Whether it's office support, Dubai residency, business setup, legal advice, event planning, or personalized travel arrangements – just text us and consider it done. We also offer executive assistance, employee wellness programs, client hospitality, and team-building activities tailored to your corporate needs. At DXB Care, we simplify your corporate life, allowing you to succeed effortlessly. We're not just a service; we're your partner in success. Let's make your business thrive, one task at a time.</p>
         </div>
@@ -116,7 +116,7 @@ performance!</p>
         </div>
 
 
-<div className="content-corporate">
+<div className="content-corporate-below">
 At DXB Care, we deliver substantial value by saving our clients an average of 20 hours
 per week, totaling over 1,000 hours annually. This not only frees up valuable time but
 also significantly reduces operational efforts. Imagine the impact of redirecting these

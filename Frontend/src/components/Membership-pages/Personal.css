@@ -10,7 +10,7 @@
 .contact-us{
     display: flex;
     justify-content: center;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 .contact-us button{
@@ -55,14 +55,14 @@
  .page1 .img-corporate{
   margin-bottom: 20px;
  }
-  .page1 .img-corporate .h1{
-    font-size: 32px;
-    font-family: "Silk Serif";
+  .page1 .header{
+    font-size: 62px;
+    font-family: "Silk Serif Light";
   }
 
-  .page1 .coporate-content p{
+  .page1 .coporate-content{
     font-family: "Work Sans Light", sans-serif;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .slider-back {
@@ -71,6 +71,7 @@
     position: relative;
     
 }
+
 
 .container-slider {
     border-radius: 20px;

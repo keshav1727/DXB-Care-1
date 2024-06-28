@@ -13,11 +13,26 @@
    
 }
 
-.content-corporate{
-   padding: 120px;
-   font-family: "Work Sans Light", sans-serif;
-   font-size: 22px;
+.corporate-page .coporate-content{
+    font-family: "Work Sans light", sans-serif;
+   font-size: 24px;
   text-align: center;
+}
+
+.corporate-page .content-corporate-below{
+    width: 80%;
+    font-family: "Work Sans light", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 20px;
+
+}
+
+.corporate-page .header{
+ font-family: "Silk Serif";
+ font-size: 62px;
+ margin-top: 28px;
 }
 
 .container-slider {
@@ -51,15 +66,15 @@
     align-items: center;
 }
 
-.corporate-page .img-corporate h1{
+/* .corporate-page .img-corporate h1{
     font-family: "Silk Serif";
     font-size: 32px;
-}
+} */
 
-.corporate-page .coporate-content p{
+/* .corporate-page .coporate-content p{
  font-family: "Work Sans Light", sans-serif;
  font-size: 22px;
-}
+} */
 
 .middle-cor .middle-content{
     display: flex;

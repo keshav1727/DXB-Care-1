@@ -6,8 +6,8 @@
     margin-top: 40px;
     align-items:  center;
     margin-bottom: 88px;
-    background-color: rgb(221, 219, 219);
-    color: black;
+    /* background-color: rgb(221, 219, 219); */
+    /* color: black; */
     width: 80rem;
     margin-right: auto;
     margin-left: auto;
@@ -34,11 +34,16 @@
 
 .content-company .quote-grid{
     padding: 8px;
+    background-color: white;
+    color: black;
+    padding:20px;
+    border-left:8px solid gray;
+    /* border-right:8px solid gray; */
+    border-radius: 12px;
 }
 .span-head{
     font-family: "Work Sans Medium", sans-serif;
     font-size: 20px;
-    margin-right: px;
 }
 
 .quote-grid .span-tag{
