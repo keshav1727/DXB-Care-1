@@ -15,6 +15,7 @@ import vip from './4 (1).jpg'
 import dubai from './6 (1).jpg'
 import money from './18.jpg'
 import './Visitors.css'
+import elite from './elite.jpg'
 
 
 
@@ -31,7 +32,7 @@ export default function Visitors() {
         </Member_navbar>   
         <div className='img-corporate'>
 <div className="image">
-  <img src='' alt='Embark on a journey where every moment is imbued with the essence of luxury, transforming travel into an opulent experience.'/>
+  <img src={elite} alt='Embark on a journey where every moment is imbued with the essence of luxury, transforming travel into an opulent experience.'/>
 
 </div>
 </div>
