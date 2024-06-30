@@ -45,6 +45,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
     padding: 0 20px;
     text-align: center;
     font-family: "Work Sans";
@@ -57,7 +58,7 @@
     font-size: 32px;
     font-weight: 300;
     font-family: "Work Sans Light",sans-serif;
-    
+    margin-top: 80px;
 
 }
 

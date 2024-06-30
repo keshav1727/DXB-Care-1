@@ -28,15 +28,7 @@ export default function Navbar() {
     <div className='navbar'>
       <Navbartop></Navbartop>
       <div className="contacts">
-  <div className="contact-text">
-    <span>Contact Us</span>
-  </div>
-  <div className="wp">
-    <img src={wp} alt="WhatsApp" className="contact-wp-img" onClick={handleWhatsApp} />
-  </div>
-  <div className="tg">
-    <img src={tg} alt="Telegram" className="contact-tg-img" onClick={handleTelegramApp} />
-  </div>
+    <button>Contact Us</button>
 </div>     
     </div>
   </div>
