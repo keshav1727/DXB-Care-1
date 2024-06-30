@@ -42,7 +42,7 @@ input[type='text'],
 input[type='tel'],
 input[type='email'],
 textarea,
-select {
+Select {
     width: 100%; /* Full width of the form container */
     padding: 8px 4px;
     font-size: 16px;
@@ -59,11 +59,11 @@ input[type='text']:focus,
 input[type='tel']:focus,
 input[type='email']:focus,
 textarea:focus,
-select:focus {
+Select:focus {
     border-bottom: 1px solid #ffffff; /* Change underline color to white on focus */
 }
 
-.select-type {
+.Select-type {
     -webkit-appearance: none; /* Remove default appearance */
     -moz-appearance: none;
     appearance: none; /* Standard appearance */
@@ -75,8 +75,8 @@ select:focus {
     color: #ffffff; /* Set select text color to white */
 }
 
-.select-type:hover,
-.select-type:focus {
+.Select-type:hover,
+.Select-type:focus {
     border-bottom: 1px solid #ffffff;
     background-image: url('data:image/svg+xml;utf8,<svg fill="%231c1c1c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"/></svg>');
 }

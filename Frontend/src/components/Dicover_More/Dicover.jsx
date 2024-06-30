@@ -59,7 +59,7 @@ export default function Discover() {
             <div className="container-slider">
                 <div className="image-container">
                     <div className="heading-cont">
-                        <h1>{d.name}</h1>
+                        <p>{d.name}</p>
                     </div>
                     <div className="image-bg">
                     <img src={d.image} alt={d.name} />
@@ -79,7 +79,7 @@ export default function Discover() {
             <div className="container-slider">
                 <div className="image-container">
                     <div className="heading-cont">
-                        <h1>{d.name}</h1>
+                        <p>{d.name}</p>
                     </div>
                     <div className="image-bg">
                     <img src={d.image} alt={d.name} />
@@ -99,7 +99,7 @@ export default function Discover() {
             <div className="container-slider">
                 <div className="image-container">
                     <div className="heading-cont">
-                        <h1>{d.name}</h1>
+                        <p>{d.name}</p>
                     </div>
                     <div className="image-bg">
                     <img src={d.image} alt={d.name} />
@@ -119,7 +119,7 @@ export default function Discover() {
             <div className="container-slider">
                 <div className="image-container">
                     <div className="heading-cont">
-                        <h1>{d.name}</h1>
+                        <p>{d.name}</p>
                     </div>
                     <div className="image-bg">
                     <img src={d.image} alt={d.name} />
@@ -139,7 +139,7 @@ export default function Discover() {
             <div className="container-slider">
                 <div className="image-container">
                     <div className="heading-cont">
-                        <h1>{d.name}</h1>
+                        <p>{d.name}</p>
                     </div>
                     <div className="image-bg">
                     <img src={d.image} alt={d.name} />
@@ -159,7 +159,7 @@ export default function Discover() {
             <div className="container-slider">
                 <div className="image-container">
                     <div className="heading-cont">
-                        <h1>{d.name}</h1>
+                        <p>{d.name}</p>
                     </div>
                     <div className="image-bg">
                     <img src={d.image} alt={d.name} />

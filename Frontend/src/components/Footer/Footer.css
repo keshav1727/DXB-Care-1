@@ -15,12 +15,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
-    background-color: #222222;
+    color: white;
+    background-color: #212121;
     margin-top: 60px;
     color: white;
-    border-top: 1px solid #828081;
 }
+
 .footer .left{
     width: 40%;
     margin: 20px;

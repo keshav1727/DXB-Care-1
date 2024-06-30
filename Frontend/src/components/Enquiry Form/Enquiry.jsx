@@ -11,7 +11,7 @@ function Enquiry() {
     enquiry: '',
     email: '',
     country: '',
-    telCode: '+000'
+    telCode: 'Country Code'
   });
 
   const handleInputChange = (e) => {

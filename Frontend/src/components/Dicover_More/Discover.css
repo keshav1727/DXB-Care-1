@@ -83,7 +83,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 1rem; /* Adjust font size for responsiveness */
+    font-size: 24px; /* Adjust font size for responsiveness */
     text-align: center;
     pointer-events: none; /* Ensure it doesn't interfere with hover */
     z-index: 2; /* Ensure it's on top of the overlay */

@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom'
 import './Navbar.css';
 import logo from './png-logo-white-1@2x.png';
 
 export default function Navbartop() {
     const [menu, setMenu] = useState("Home");
     const [isScrolled, setIsScrolled] = useState(false);
+
+    
 
     useEffect(() => {
         const handleScroll = () => {
@@ -30,7 +33,7 @@ export default function Navbartop() {
                         <a href="#home">Home</a>
                     </li>
                     <li onClick={() => setMenu("About Us")} className={menu === "About Us" ? "active" : ""}>
-                        <a href="#about">About Us</a>
+                    <Link to="/about-us">About Us</Link>
                     </li>
                     <li onClick={() => setMenu("Services")} className={menu === "Services" ? "active" : ""}>
                         <a href="#experience">Experiences</a>
