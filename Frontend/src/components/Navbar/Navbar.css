@@ -3,167 +3,146 @@
 .main {
     position: relative;
     font-family: "Work Sans Light", sans-serif;
+    padding-top: 60px; /* Adjust this to the height of your fixed navbar */
 }
-  
-.contacts .contact-text{
- font-size: 24px;
+
+.contacts .contact-text {
+    font-size: 24px;
 }
 
 /* Set initial display for icons */
 .contacts .wp img,
 .contacts .tg img {
-  display: none;
+    display: none;
 }
 
 /* Show icons and hide text when hovering over .contact-text */
 .contact-text span {
-  display: block;
+    display: block;
 }
 
-
-a{
+a {
     text-decoration: none;
     color: #ececec;
 }
 
-
-.contact-text:hover span {
-  display: none;
+.navbar .contacts button:hover {
+    transform: scale(1.5);
 }
 
-.contact-text:hover + .wp img,
-.contact-text:hover + .tg img {
-  display: inline;
-  cursor: pointer;
+.navbar .contacts button {
+    transition: all ease-in 0.5s;
 }
 
-.navbar{
-    /* padding: 20px 0px; */
+.navbar {
     display: flex;
     flex-direction: column;
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
-    }
+}
 
-    .navbar-top{
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-
-    }
-   
-      .svg {
-        display: none; /* Initially hide icons */
-        width: 2rem;
-        height: 2rem;
-        margin-left: 8px; /* Adjust margin as needed */
-      }
-            
-
- .right {
+.navbar-top {
     display: flex;
-    width: 20rem;
-    padding: 8px;
-    margin-left: 16px;
- }
-
- .right img{
-    width: 150%;
- }
-    
-    .video-section{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        opacity: 0.5;
-        width: 100%;
-    }
-    
-   .navbar .left{
-    padding: 36px;
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* margin-top: 12px; */
-    margin-right: 40px;
-    color: #ececec;
-   }
-    
-   .navbar .left .navbar-menu{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        list-style: none;
-        gap: 35px;
-        font-size: 1.5rem;
-    }
-    
-   .navbar .contacts{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        margin-bottom: 40px;
-    }
-.svg{width: 2rem;
-    height: 2rem;
-
+    justify-content: space-between;
+    padding: 10px 20px; /* Reduce the padding to decrease height */
+    position: relative; /* Default position to be on top of the video */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: transparent; /* Initial transparent background */
+    z-index: 10; /* Ensure it stays on top */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
 
 }
-.contact-text{
+
+.navbar-top.fixed {
+    position: fixed; /* Fix the navbar to the top when scrolling */
+    background-color: #1C1C1C; /* Black background when fixed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
+    height: 80px;
+}
+
+.right {
+    display: flex;
+    margin-left: 16px;
+    width: 20rem;
+    padding: 4px;
+}
+
+.right img {
+    width: 100%; /* Adjust if needed */
+}
+
+.video-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.navbar .left {
+    padding: 16px; /* Adjust padding to fit the new height */
+    margin-right: 40px;
+    color: #ececec;
+}
+
+.navbar .left .navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px; /* Adjust gap if needed */
+    font-size: 1.25rem; /* Reduce font size if needed */
+}
+
+.navbar .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.contact-text {
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact-text:hover svg{
+.contact-text:hover svg {
     display: inline;
-} 
-    .navbar .contacts .wp{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        width: 50%;
-       
-    }
-    .navbar .contacts  .wp .contact-wp-img{
-        width: 8%;
-        cursor: pointer;
-    }
+}
 
+.navbar .contacts .contact-tg-img {
+    width: 4.5%;
+    cursor: pointer;
+}
 
+.navbar .left .navbar-menu li {
+    cursor: pointer;
+}
 
-    .navbar .contacts  .contact-tg-img{
-        width: 4.5%;
-        cursor: pointer;
-    }
+.navbar .left .navbar-menu .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #ececec;
+}
 
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #1C1C1C;
+}
 
-   .navbar .left .navbar-menu li{
-        cursor: pointer;
-    }
-    
-   .navbar .left .navbar-menu .active{
-        padding-bottom: 2px;
-        border-bottom: 2px solid #ececec;
-    }
-
-    .main{
-        width: 100%;
-        height: 100vh;
-        background-color: #1C1C1C;
-    }
-
-    video{
-        width: 100%;
-        height: 100%;
-        object-fit:fill;
-    }
-
-   
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}

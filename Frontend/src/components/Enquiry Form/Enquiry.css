@@ -1,35 +1,41 @@
-/* Enquiry.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .form-container {
-    
-    background-color: #ffffff;
+    background-image: url('./Desktop5.jpg'); /* Set your background image here */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: auto;
-    color: #1c1c1c;
+    color: #ffffff; /* Set text color to white */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
-    width: 80%;
+    width: 70%;
+    position: relative; /* Ensure relative positioning for content alignment */
 }
 
-form{
-    width: 80%;
+form {
+    width: 80%; /* Full width of the container */
+    background: transparent; /* Make the form background transparent */
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
+    border-radius: 0; /* Remove border radius */
 }
 
 .form-container h1 {
     margin: 20px;
     margin-bottom: 40px;
     font-family: "Silk Serif Light", sans-serif; /* Added sans-serif as a fallback */
+    color: #ffffff; /* Set header text color to white */
 }
 
 .form-group {
-    margin-bottom: 40px;
+    margin-bottom: 20px; /* Reduced margin to fit better */
 }
 
 input[type='text'],
@@ -37,7 +43,7 @@ input[type='tel'],
 input[type='email'],
 textarea,
 select {
-    width: 80%;
+    width: 100%; /* Full width of the form container */
     padding: 8px 4px;
     font-size: 16px;
     border: none;
@@ -45,6 +51,8 @@ select {
     outline: none;
     transition: border-color 0.2s ease-in-out;
     font-family: "Work Sans", sans-serif;
+    background: transparent; /* Make input background transparent */
+    color: #ffffff; /* Set input text color to white */
 }
 
 input[type='text']:focus,
@@ -52,7 +60,7 @@ input[type='tel']:focus,
 input[type='email']:focus,
 textarea:focus,
 select:focus {
-    border-bottom: 1px solid #1c1c1c; /* Change underline color on focus */
+    border-bottom: 1px solid #ffffff; /* Change underline color to white on focus */
 }
 
 .select-type {
@@ -64,17 +72,18 @@ select:focus {
     background-repeat: no-repeat;
     background-position: right 10px center; /* Adjust arrow position */
     background-size: 18px;
+    color: #ffffff; /* Set select text color to white */
 }
 
 .select-type:hover,
 .select-type:focus {
-    border-bottom: 1px solid #1c1c1c;
+    border-bottom: 1px solid #ffffff;
     background-image: url('data:image/svg+xml;utf8,<svg fill="%231c1c1c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"/></svg>');
 }
 
 .form-container button {
     background-color: #1c1c1c;
-    color: #ececec;
+    color: #ffffff; /* Set button text color to white */
     padding: 12px 20px;
     border: none;
     border-radius: 20px;
@@ -85,12 +94,12 @@ select:focus {
     transition: background-color 0.2s ease-in-out;
 }
 
-::placeholder{
-    color: black;
+::placeholder {
+    color: #ffffff; /* Set placeholder text color to white */
 }
 
 .form-container button:hover {
-    background-color: #1c1c1c;
+    background-color: #333333; /* Slightly lighter color on hover */
 }
 
 .form-group-button {

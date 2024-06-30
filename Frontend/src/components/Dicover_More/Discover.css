@@ -107,6 +107,8 @@
     /* margin-bottom: 36px; */
 }
 
+
+
 /* Media Queries */
 @media (max-width: 1200px) {
     .luxe .header-cont {
@@ -153,3 +155,4 @@
     }
    
 }
+

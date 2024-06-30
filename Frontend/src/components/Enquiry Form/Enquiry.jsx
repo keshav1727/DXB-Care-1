@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Enquiry.css';
+import image from './Desktop5.jpg'
 
 function Enquiry() {
   const [formData, setFormData] = useState({
