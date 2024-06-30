@@ -1,160 +1,153 @@
-.aboutus{
+.aboutus {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.about-below{
+  }
+  
+  .about-below {
     width: 80rem;
-}
-
-
-
-.about-below .header{
+  }
+  
+  .about-below .header {
     display: flex;
-justify-content: center;
-/* align-items: center; */
-font-family: "Silk Serif Light";
-font-size: 32px; 
-} 
-
- .about-below .reclaim-time .header{
+    justify-content: center;
+    font-family: "Silk Serif Light";
+    font-size: 32px;
+  }
+  
+  .about-below .reclaim-time .header {
     display: flex;
-justify-content: center;
-align-items: center;
-font-family: "Silk Serif Light";
-font-size: 32px; 
-}
-
-.about-below .reclaim-time .text{
+    justify-content: center;
+    align-items: center;
+    font-family: "Silk Serif Light";
+    font-size: 32px;
+  }
+  
+  .about-below .reclaim-time .text {
     display: flex;
     text-align: center;
-    /* width: 90rem; */
     font-family: "Work Sans Light", sans-serif;
     font-size: 20px;
     margin-top: 16px;
-}
-
-.about-middle{
+  }
+  
+  .about-middle {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
-
-.about-middle .middle-left{
+  }
+  
+  .about-middle .middle-left {
     width: 50%;
     padding: 12px;
-}
-
-.about-middle .middle-right
-{
+  }
+  
+  .about-middle .middle-right {
     width: 50%;
-}
-
-.bottom-top .header{
+  }
+  
+  .bottom-top .header {
     margin-bottom: 20px;
-}
-
-.bottom-top-inside{
+  }
+  
+  .bottom-top-inside {
     margin-top: 20px;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   row-gap: 40px;
-   column-gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
     margin: auto;
     width: 62rem;
-}
-
-.bottom-top-inside .left{
-    width: 50%;
-    background-color: #ececec;
-    color: black;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .flex .icon {
+    width: 60px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .flex .text-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.bottom-top-inside .right{
-    width: 50%;
-    background-color: #ececec;
-    color: black; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    border-radius: 20px;
-    margin-left: 40px;
-}
-
-.bottom-about{
+  }
+  
+  .flex .heading {
+    font-size: 24px;
+    font-family: "Silk Serif Light";
+    margin-bottom: 8px;
+  }
+  
+  .bottom-about {
     display: flex;
     margin-top: 32px;
-}
-
-.bottom-about .left{
+  }
+  
+  .bottom-about .left {
     width: 50%;
-}
-
-.bottom-about .right{
+  }
+  
+  .bottom-about .right {
     width: 50%;
     display: flex;
     flex-direction: column;
     margin-left: 40px;
-}
-
-.bottom-about .heading{
+  }
+  
+  .bottom-about .heading {
     font-size: 32px;
     font-family: "Silk Serif Light";
     margin-bottom: 16px;
-}
-.grid-right{
+  }
+  
+  .grid-right {
     display: flex;
     flex-direction: column;
-}
-
-
-.grid-right .heading{
+  }
+  
+  .grid-right .heading {
     font-size: 24px;
     font-family: "Silk Serif Light";
     margin-bottom: 16px;
-}
-
-.bottom-about .text{
+  }
+  
+  .bottom-about .text {
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
-}
-
-.middle-left-top .heading{
+  }
+  
+  .middle-left-top .heading {
     font-size: 28px;
     font-family: "Silk Serif Light";
-   
-}
-
-.middle-left-top .text{
+  }
+  
+  .middle-left-top .text {
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
     font-size: 16px;
-    text-align:justify;
+    text-align: justify;
     margin-top: 8px;
-}
-
-.middle-left-bottom .heading{
+  }
+  
+  .middle-left-bottom .heading {
     font-size: 28px;
     font-family: "Silk Serif Light";
     margin-top: 20px;
-}
-
-.middle-left-bottom .text{
+  }
+  
+  .middle-left-bottom .text {
     font-family: "Work Sans", sans-serif;
     font-weight: 300;
     font-size: 16px;
     margin-top: 8px;
-    text-align:justify;
+    text-align: justify;
     margin-bottom: 20px;
-}
+  }
+  

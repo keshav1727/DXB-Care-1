@@ -73,7 +73,7 @@
     opacity: 1; /* Show description on hover */
 }
 .experience .grid-section .items:hover .layer .heading {
-    opacity: 0; /* Show description on hover */
+    opacity: 0.5; /* Show description on hover */
 }
 
 .experience .grid-section .items img {
