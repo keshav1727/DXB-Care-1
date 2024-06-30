@@ -3,7 +3,7 @@ import './Membership.css';
 import { useNavigate } from 'react-router-dom';
 import personal from './7.jpg'
 import relocation from './2.jpg'
-import visitor from './5.jpg'
+import visitor from './exclu.jpg'
 import corp from './photo_2024-06-21 20.10.10.jpg'
 
 export default function Membership() {
