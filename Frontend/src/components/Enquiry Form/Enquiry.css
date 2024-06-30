@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .form-container {
-    
     background-color: #ffffff;
     padding: 20px;
     border-radius: 12px;
@@ -18,7 +17,7 @@
     width: 70%;
 }
 
-form{
+form {
     width: 80%;
 }
 
@@ -36,8 +35,8 @@ input[type='text'],
 input[type='tel'],
 input[type='email'],
 textarea,
-select {
-    width: 80%;
+.Select-input {
+    width: 100%;
     padding: 8px 4px;
     font-size: 16px;
     border: none;
@@ -51,25 +50,49 @@ input[type='text']:focus,
 input[type='tel']:focus,
 input[type='email']:focus,
 textarea:focus,
-select:focus {
+.Select-input:focus {
     border-bottom: 1px solid #1c1c1c; /* Change underline color on focus */
 }
 
-.select-type {
-    -webkit-appearance: none; /* Remove default appearance */
-    -moz-appearance: none;
-    appearance: none; /* Standard appearance */
-    padding-right: 30px; /* Space for custom arrow */
-    background-image: url('data:image/svg+xml;utf8,<svg fill="%231c1c1c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"/></svg>'); /* Custom arrow SVG */
-    background-repeat: no-repeat;
-    background-position: right 10px center; /* Adjust arrow position */
-    background-size: 18px;
+.Select-type__control {
+    background-color: transparent;
+    border: none; /* Remove border */
+    border-bottom: 1px solid #ccc; /* Only one underline */
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
 }
 
-.select-type:hover,
-.select-type:focus {
-    border-bottom: 1px solid #1c1c1c;
-    background-image: url('data:image/svg+xml;utf8,<svg fill="%231c1c1c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M7 10l5 5 5-5z"/></svg>');
+.Select-type__control:hover,
+.Select-type__control:focus {
+    border-bottom: 1px solid #1c1c1c; /* Change underline color on hover/focus */
+    box-shadow: none; /* Remove box-shadow on focus */
+}
+
+.Select-type__dropdown-indicator {
+    color: #1c1c1c; /* Dropdown arrow color */
+}
+
+.Select-type__dropdown-indicator svg {
+    fill: #1c1c1c; /* Arrow SVG color */
+}
+
+.Select-type__menu {
+    background-color: #ffffff; /* Background color of the dropdown menu */
+    border: 1px solid #ccc; /* Border color of the dropdown menu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow of the dropdown menu */
+}
+
+.Select-type__option {
+    padding: 8px 12px; /* Option padding */
+    font-size: 16px; /* Option font size */
+    color: #1c1c1c; /* Option text color */
+}
+
+.Select-type__option:active,
+.Select-type__option--is-selected {
+    background-color: #f0f0f0; /* Background color on hover/selected */
 }
 
 .form-container button {
@@ -85,10 +108,6 @@ select:focus {
     transition: background-color 0.2s ease-in-out;
 }
 
-::placeholder{
-    color: black;
-}
-
 .form-container button:hover {
     background-color: #1c1c1c;
 }
@@ -99,4 +118,8 @@ select:focus {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+}
+
+::placeholder {
+    color: black;
 }

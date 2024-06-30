@@ -295,7 +295,7 @@ function Enquiry() {
         </div>
         <div className="form-group">
         <Select
-            className='select-type'
+            className='Select-type'
             options={countryCodes} // Pass options to react-select
             value={{ value: formData.telCode, label: formData.telCode }} // Set initial value
             onChange={handleCountryCodeChange} // Handle change
