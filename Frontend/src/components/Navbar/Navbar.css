@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .main {
-    position: relative;
-    font-family: "Work Sans Light", sans-serif;
+    position: relative; 
     padding-top: 60px; /* Adjust this to the height of your fixed navbar */
 }
 
-.contacts .contact-text {
-    font-size: 24px;
+
+
+
+.contacts svg {
+    margin-left: 8px;
+}
+.contacts-button{
+    transition: all ease-in 0.3s;
 }
 
-/* Set initial display for icons */
-.contacts .wp img,
-.contacts .tg img {
-    display: none;
-}
-
-/* Show icons and hide text when hovering over .contact-text */
-.contact-text span {
-    display: block;
+.contacts-button:hover, svg{
+    transform: scale(1.2);
 }
 
 a {
@@ -27,11 +25,21 @@ a {
 }
 
 .navbar .contacts button:hover {
-    transform: scale(1.5);
+   
 }
 
 .navbar .contacts button {
-    transition: all ease-in 0.5s;
+    
+    padding: 14px 16px;
+    background-color: #ECECEC;
+    color: black;
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    border-radius: 28px;
+    cursor: pointer;
+    border: none;
+    font-weight: 350;
 }
 
 .navbar {
@@ -54,14 +62,14 @@ a {
     background-color: transparent; /* Initial transparent background */
     z-index: 10; /* Ensure it stays on top */
     transition: background-color 0.3s; /* Smooth transition for background color change */
-
+    font-family: "Work Sans", sans-serif;
 }
 
 .navbar-top.fixed {
     position: fixed; /* Fix the navbar to the top when scrolling */
     background-color: #1C1C1C; /* Black background when fixed */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
-    height: 80px;
+    /* height: 80px; */
 }
 
 .right {
@@ -90,6 +98,8 @@ a {
     padding: 16px; /* Adjust padding to fit the new height */
     margin-right: 40px;
     color: #ececec;
+    display: flex;
+    font-size: 32px;
 }
 
 .navbar .left .navbar-menu {
@@ -117,14 +127,6 @@ a {
     align-items: center;
 }
 
-.contact-text:hover svg {
-    display: inline;
-}
-
-.navbar .contacts .contact-tg-img {
-    width: 4.5%;
-    cursor: pointer;
-}
 
 .navbar .left .navbar-menu li {
     cursor: pointer;
