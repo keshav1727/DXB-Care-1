@@ -28,8 +28,7 @@ export default function Aboutus() {
             <div className="middle-left">
             <div className="middle-left-top">
                 <div className="heading">
-                    <p>Our Mission Elevating Lives Trrough</p>
-                    <p>Exceptional Service</p>
+                    <h5>Our Mission Elevating Lives Through Exceptional Service</h5>
                 </div>
                 <div className="text">
                     <p>Our mission at DXB Care is simple: empower you with unparalleled concierge services. We turn routine tasks into extraordinary moments, helping you reach your professional goals quickly and confidently. We believe luxury and convenience should be accessible to everyone.</p>
@@ -37,8 +36,7 @@ export default function Aboutus() {
                </div>
                 <div className="middle-left-bottom">
                 <div className="heading">
-                    <p>Our Vision:</p>
-                    <p>Redefining Convenience & Exclisivity</p>
+                    <h5>Our Vision: Redefining Convenience & Exclisivity</h5>
                 </div>
                 <div className="text">
                     <p>We envision a world where everyone can afford the luxury of time. DXB Care aims to lead in concierge services, setting the bar for excellence and innovation. We integrate seamlessly into your life, transforming ordinary moments into extraordinary experiences.</p>
@@ -46,7 +44,7 @@ export default function Aboutus() {
                 </div>
             </div>
             <div className="middle-right">
-                <div className="rig-image">
+                <div className="right-image">
             
                 </div>
             </div>
@@ -54,15 +52,62 @@ export default function Aboutus() {
 
 <div className="bottom-top">
     <div className="header">
-        <p>Our Unique Value Proposition Trust, Personalization and Wellness</p>
+        <h2>Why choose DXB</h2>
     </div>
     <div className="bottom-top-inside">
-        <div className="left">
-            <p>Inclusive Service Offerings: Our flexible, affordable concierge services cater to a wide audience. We prioritize client well-being with customized fitness programs, mental health support, and holistic health consultations, fostering a balanced lifestyle.</p>
+        <div className="grid">
+           <div className="grid-left">
+            <img src="" alt="" />
+           </div>
+           <div className="grid-right">
+           <div className="heading">
+                    <h5>Time Efficiency</h5>
+                </div>
+                <div className="text">
+                    <p></p>
+                </div>
+           </div>
         </div>
-        <div className="right">
-<p>Personalization and Customization: We build deep, personalized relationships with our clients, anticipating their needs and offering tailored services that enhance their lives. From daily errands to bespoke wellness programs, we maximize time efficiency and promote well-being.</p>
+        <div className="grid">
+        <div className="grid-left">
+            <img src="" alt="" />
+           </div>
+           <div className="grid-right">
+           <div className="heading">
+                    <h5>Well Being</h5>
+                </div>
+                <div className="text">
+                   <p></p>
+                </div>
+           </div>
         </div>
+        <div className="grid">
+        <div className="grid-left">
+            <img src="" alt="" />
+           </div>
+           <div className="grid-right">
+           <div className="heading">
+                    <h5>Client Centric</h5>
+                </div>
+                <div className="text">
+                    <p></p>
+                </div>
+           </div>
+        </div>
+        <div className="grid">
+        <div className="grid-left">
+            <img src="" alt="" />
+           </div>
+           <div className="grid-right">
+           <div className="heading">
+                    <h5>Broad Service Accessibilty</h5>
+                </div>
+                <div className="text">
+                    <p></p>
+                </div>
+           </div>
+        </div>
+        
     </div>
 </div>
 
