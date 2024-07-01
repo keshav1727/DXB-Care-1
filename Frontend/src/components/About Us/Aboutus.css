@@ -14,6 +14,7 @@
     justify-content: center;
     font-family: "Silk Serif Light";
     font-size: 32px;
+    margin-top: 24px;
   }
   
   .about-below .reclaim-time .header {
@@ -49,11 +50,11 @@
   }
   
   .bottom-top .header {
-    margin-bottom: 20px;
+    margin-bottom: 62px;
   }
   
   .bottom-top-inside {
-    margin-top: 20px;
+    margin-top: 32px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
