@@ -270,7 +270,6 @@ function Enquiry() {
     <div className="form-container">
       <h1>How We Can Help You</h1>
       <form onSubmit={handleSubmit}>
-        <div className="head">
         <div className="form-group">
           <input
             type="text"
@@ -314,29 +313,6 @@ function Enquiry() {
             required
           />
         </div>
-        <div className="form-group">
-  <input
-    type="date"
-    id="enquiryDate"
-    name="enquiryDate"
-    value={formData.enquiryDate}
-    onChange={handleInputChange}
-    placeholder="Enquiry Date"
-    required
-  />
-</div>
-<div className="form-group">
-  <input
-    type="time"
-    id="enquiryTime"
-    name="enquiryTime"
-    value={formData.enquiryTime}
-    onChange={handleInputChange}
-    placeholder="Enquiry Time"
-    required
-/>
-</div>
-</div>
 
         <div className="form-group">
           <input
