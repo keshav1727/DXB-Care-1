@@ -36,9 +36,10 @@ function App() {
  <Visitors/>
     */}
 <Router>
+  <Navbarrender/>
   <Routes>
-    <Route path='' element={<><Navbar/> <Quote/><Experience/>
-    <Membership/><Content/> <Enquiry/> <Footer/><Navbarrender></Navbarrender> </>}></Route>
+    <Route path='/' element={<><Navbar/><Quote/><Experience/>
+    <Membership/><Content/> <Enquiry/> <Footer/> </>}></Route>
     <Route path='/discover' element={<Discover/>}></Route>
     <Route path='/personal' element={<Personal/>}></Route>
     <Route path='/visitors' element={<Visitors/>}></Route>

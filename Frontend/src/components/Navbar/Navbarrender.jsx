@@ -2,11 +2,17 @@ import React from 'react'
 import logo from './png-logo-white-1@2x.png'
 import './abc.css'
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbartop() {
     const [menu, setMenu] = useState("Home");
     const [isScrolled, setIsScrolled] = useState(false);
 
+    const navigate = useNavigate()
+
+    const handlehome = () => {
+        navigate('');
+    }
     
 
     useEffect(() => {
@@ -31,10 +37,10 @@ export default function Navbartop() {
         <div className="right">
                 <ul className='navbar-menu'>
                     <li onClick={() => setMenu("Home")} className={menu === "Home" ? "active" : ""}>
-                    Home
+                    <a  onClick={handlehome}>Home</a>
                     </li>
                     <li onClick={() => setMenu("About Us")} className={menu === "About Us" ? "active" : ""}>
-                    About Us
+                   <a href="#aboutus"> About Us </a>
                     </li>
                     <li onClick={() => setMenu("Services")} className={menu === "Services" ? "active" : ""}>
                         <a href="#experience">Experiences</a>

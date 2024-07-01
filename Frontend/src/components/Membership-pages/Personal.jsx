@@ -28,7 +28,7 @@ export default function Personal(props) {
 };
   return (
     <div className='page1'>
-      <Navbarrender/>
+      {/* <Navbarrender/> */}
 
 
       <div className='img-corporate'>

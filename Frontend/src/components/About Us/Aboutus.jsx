@@ -14,7 +14,7 @@ import Navbarrender from '../Navbar/Navbarrender'
 
 export default function Aboutus() {
   return (
-    <div className='aboutus'>
+    <div className='aboutus' id='aboutus'>
       <Navbarrender/>
       <div className="img-corporate">
         <div className="image">

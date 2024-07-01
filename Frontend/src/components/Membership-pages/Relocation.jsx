@@ -24,7 +24,7 @@ export default function Relocation() {
 };
   return (
     <div className='relocation'>
-       <Navbarrender/>
+       {/* <Navbarrender/> */}
        <div className='img-corporate'>
   <div className="image">
     <img src={cc} className="adjusted-image" alt="Relocating can be exciting yet challenging, but with DXB Care, it doesn’t have to be.We handle everything with a single text to ensure a smooth transition to your new life in Dubai."></img>

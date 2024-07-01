@@ -28,7 +28,7 @@ export default function Corporate() {
     };
 return (
     <div className='corporate-page'>
-        <Navbarrender/>
+        {/* <Navbarrender/> */}
       <div className='img-corporate'>
  <div className="image">
   <img src={cc} className="adjusted-image" alt="Elevating the corporate experience through exceptional service and unparalleled attention to detail, we transform everyday tasks into extraordinary moments of efficiency and sophistication."></img>
