@@ -57,15 +57,16 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
-    column-gap: 40px;
+    column-gap: 108px;
     margin: auto;
-    width: 62rem;
+    width: 80rem;
   }
   
   .flex {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    
   }
   
   .flex .icon {
@@ -77,14 +78,21 @@
   .flex .text-content {
     display: flex;
     flex-direction: column;
+    border-left: 2px solid #3b3c44;
+    padding-left: 16px;
   }
   
   .flex .heading {
-    font-size: 24px;
+    font-size: 32px;
     font-family: "Silk Serif Light";
     margin-bottom: 8px;
   }
   
+  .flex .text{
+    font-family: "Work Sans Light", sans-serif;
+    font-size: 20px;
+  }
+
   .bottom-about {
     display: flex;
     margin-top: 32px;
