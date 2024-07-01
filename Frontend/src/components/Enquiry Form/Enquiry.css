@@ -27,6 +27,14 @@ form {
     row-gap: 40px;
     column-gap: 40px;
     margin: auto;
+    background-color: transparent;
+    box-shadow: none; /* Remove box-shadow */
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    transition: border-color 0.2s ease-in-out;
+    width: 100%; /* Ensure the width matches the input fields */
+    border-radius: 12px;
+
 }
 
 .form-container h1 {
@@ -35,79 +43,6 @@ form {
     font-family: "Silk Serif Light", sans-serif; /* Added sans-serif as a fallback */
 }
 
-.form-group {
-    margin-bottom: 40px;
-}
-
-
-
-input[type='text'],
-input[type='tel'],
-input[type='email'],
-input[type='date'],
-input[type='time'],
-textarea,
-.Select-input {
-    width: 100%;
-    padding: 8px 4px;
-    font-size: 16px;
-    border: none;
-    border: 1px solid #ccc; /* Only one underline */
-    outline: none;
-    transition: border-color 0.2s ease-in-out;
-    font-family: "Work Sans", sans-serif;
-}
-
-input[type='text']:focus,
-input[type='tel']:focus,
-input[type='email']:focus,
-input[type='date']:focus,
-input[type='time']:focus,
-textarea:focus,
-.Select-input:focus {
-    border-bottom: 1px solid #1c1c1c; /* Change underline color on focus */
-}
-
-.Select-type__control {
-    background-color: transparent;
-    border: none; /* Remove border */
-    border-bottom: 1px solid #ccc; /* Only one underline */
-    outline: none;
-    transition: border-color 0.2s ease-in-out;
-    font-family: "Work Sans", sans-serif;
-    font-size: 16px;
-}
-
-.Select-type__control:hover,
-.Select-type__control:focus {
-    border-bottom: 1px solid #1c1c1c; /* Change underline color on hover/focus */
-    box-shadow: none; /* Remove box-shadow on focus */
-}
-
-.Select-type__dropdown-indicator {
-    color: #1c1c1c; /* Dropdown arrow color */
-}
-
-.Select-type__dropdown-indicator svg {
-    fill: #1c1c1c; /* Arrow SVG color */
-}
-
-.Select-type__menu {
-    background-color: #ffffff; /* Background color of the dropdown menu */
-    border: 1px solid #ccc; /* Border color of the dropdown menu */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow of the dropdown menu */
-}
-
-.Select-type__option {
-    padding: 8px 12px; /* Option padding */
-    font-size: 16px; /* Option font size */
-    color: #1c1c1c; /* Option text color */
-}
-
-.Select-type__option:active,
-.Select-type__option--is-selected {
-    background-color: #f0f0f0; /* Background color on hover/selected */
-}
 
 .form-container button {
     background-color: #1c1c1c;
@@ -139,4 +74,82 @@ textarea:focus,
 }
 
 
+
+.Select-type__control {
+    
+
+}
+
+.Select-type__control--is-focused {
+    border-color: #1c1c1c; 
+    box-shadow: none; 
+}
+
+.Select-type__value-container {
+    padding: 0; /* Remove padding from value container to match input fields */
+}
+
+.Select-type__indicator-separator {
+    display: none; /* Remove the separator line between indicators */
+}
+
+.Select-type__indicators {
+    padding: 0; /* Match padding with input fields */
+}
+
+.Select-type__dropdown-indicator {
+    color: #1c1c1c; /* Dropdown arrow color */
+}
+
+.Select-type__dropdown-indicator svg {
+    fill: #1c1c1c; /* Arrow SVG color */
+}
+
+.Select-type__menu {
+    background-color: #ffffff; /* Background color of the dropdown menu */
+    border: 1px solid #ccc; /* Border color of the dropdown menu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow of the dropdown menu */
+}
+
+.Select-type__option {
+    padding: 8px 12px; /* Option padding */
+    font-size: 16px; /* Option font size */
+    color: #1c1c1c; /* Option text color */
+}
+
+.Select-type__option:active,
+.Select-type__option--is-selected {
+    background-color: #f0f0f0; /* Background color on hover/selected */
+}
+
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='date'],
+input[type='time'],
+textarea {
+    width: 100%;
+    padding: 8px 4px;
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 4px;
+}
+
+input[type='text']:focus,
+input[type='tel']:focus,
+input[type='email']:focus,
+input[type='date']:focus,
+input[type='time']:focus,
+textarea:focus {
+    border-color: #1c1c1c; 
+}
+
+
+.form-group {
+    margin-bottom: 40px;
+}
 

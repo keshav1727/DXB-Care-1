@@ -296,14 +296,13 @@ function Enquiry() {
         </div>
         <div className="form-group">
         <Select
-            className='Select-type'
-            options={countryCodes} // Pass options to react-select
-            value={{ value: formData.telCode, label: formData.telCode }} // Set initial value
-            onChange={handleCountryCodeChange} // Handle change
-            placeholder="Select Country Code"
-            required
-          />
-           
+    classNamePrefix="Select-type"
+    options={countryCodes} // Pass options to react-select
+    value={{ value: formData.telCode, label: formData.telCode }} // Set initial value
+    onChange={handleCountryCodeChange} // Handle change
+    placeholder="Select Country Code"
+    required
+/>         
         </div>
         <div className="form-group">
           <input
