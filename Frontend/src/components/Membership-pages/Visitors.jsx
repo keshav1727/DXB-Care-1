@@ -16,6 +16,7 @@ import dubai from './6 (1).jpg'
 import money from './18.jpg'
 import './Visitors.css'
 import elite from './elite.jpg'
+import Navbarrender from '../Navbar/Navbarrender';
 
 
 
@@ -28,8 +29,7 @@ export default function Visitors() {
 };
   return (
     <div className='visitors-page'>
-        <Member_navbar type="Visiotrs">
-        </Member_navbar>   
+        <Navbarrender/>
         <div className='img-corporate'>
 <div className="image">
   <img src={elite} alt='Embark on a journey where every moment is imbued with the essence of luxury, transforming travel into an opulent experience.'/>

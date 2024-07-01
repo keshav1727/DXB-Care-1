@@ -13,6 +13,7 @@ import realestate from './princehonasa_luxury_real_house_in_dubai_a9d25b54-fec1-
 import travel from './princehonasa_A_photo_of_a_dubai_travel_outdoors_vibrant_bright__fb205463-c4ed-4481-8869-1b419da06366.png'
 import Render from '../Dicover_More/Render';
 import moving from './3 (1).jpg'
+import Navbarrender from '../Navbar/Navbarrender';
 
 export default function Relocation() {
   const settings = {
@@ -23,7 +24,7 @@ export default function Relocation() {
 };
   return (
     <div className='relocation'>
-       <Member_navbar type="Personal"></Member_navbar>
+       <Navbarrender/>
        <div className='img-corporate'>
   <div className="image">
     <img src={cc} className="adjusted-image" alt="Relocating can be exciting yet challenging, but with DXB Care, it doesn’t have to be.We handle everything with a single text to ensure a smooth transition to your new life in Dubai."></img>

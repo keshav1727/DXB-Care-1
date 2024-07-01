@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .navbar-fixed-want{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px 20px; /* Reduce the padding to decrease height */
+    position: relative; /* Default position to be on top of the video */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: transparent; /* Initial transparent background */
+    z-index: 10; /* Ensure it stays on top */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+    font-family: "Work Sans", sans-serif;
 }
+
 
 .navbar-fixed-want .left{
     width: 50%;
+    display: flex;
+    margin-left: 16px;
+    padding: 4px;
 }
 
 .navbar-fixed-want .left img{
@@ -22,5 +37,19 @@
 
 .navbar-fixed-want .right .navbar-menu{
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px; /* Adjust gap if needed */
+    font-size: 1.25rem; /* Reduce font size if needed */
+
+}
+
+.navbar-fixed-want.fixed{
+    position: fixed; /* Fix the navbar to the top when scrolling */
+    background-color: #1C1C1C; /* Black background when fixed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
+    transition: none;
+
+    /* height: 18%; */
 }

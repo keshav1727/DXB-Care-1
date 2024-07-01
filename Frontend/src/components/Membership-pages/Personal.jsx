@@ -17,6 +17,7 @@ import exclusive from './princehonasa_Real_images_with_real_people_for_VIP_parti
 import '../Dicover_More/Discover.css'
 import Render from '../Dicover_More/Render';
 import request from './19.jpg'
+import Navbarrender from '../Navbar/Navbarrender';
 
 export default function Personal(props) {
   const settings = {
@@ -27,7 +28,7 @@ export default function Personal(props) {
 };
   return (
     <div className='page1'>
-      <Member_navbar type="Personal"></Member_navbar>
+      <Navbarrender/>
 
 
       <div className='img-corporate'>

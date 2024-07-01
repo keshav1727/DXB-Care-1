@@ -6,6 +6,7 @@ import tg from './tglogo.png'
 import vd from './Copy of Copy of Videomain.mp4'
 
   import Navbartop from './Navbartop'
+import Navbarrender from './Navbarrender'
 
 
 export default function Navbar() {
@@ -26,7 +27,7 @@ export default function Navbar() {
     <video src={vd} autoPlay loop muted></video>
     </div>
     <div className='navbar'>
-      <Navbartop></Navbartop>
+      <Navbarrender></Navbarrender>
       <div className="contacts">
     <button className='contacts-button'>Contact Us
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">

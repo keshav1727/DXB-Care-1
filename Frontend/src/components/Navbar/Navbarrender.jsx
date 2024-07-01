@@ -3,9 +3,9 @@ import logo from './png-logo-white-1@2x.png'
 import './abc.css'
 import { useEffect, useState } from 'react';
 
-export default function Navbarrender() {
+export default function Navbartop() {
     const [menu, setMenu] = useState("Home");
-    // const [isScrolled, setIsScrolled] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
 
     
 
@@ -22,7 +22,9 @@ export default function Navbarrender() {
         };
     }, []);
   return (
-    <div className='navbar-fixed-want'>
+
+<div className={`navbar-fixed-want ${isScrolled ? 'fixed' : ''}`}>
+
         <div className="left">
             <img src={logo} alt="" />
         </div>

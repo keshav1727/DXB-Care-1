@@ -16,6 +16,7 @@ import legal from './princehonasa_Finacial_and_legal_advisory_services_image_for
 import office from './princehonasa_business_setup__legal_advisory_image_a9663ddf-bbde-4e1c-b0c9-15a231fedd63.png'
 import Render from '../Dicover_More/Render';
 import corp from './Corporate image.jpg'
+import Navbarrender from '../Navbar/Navbarrender';
 
 
 export default function Corporate() {
@@ -27,7 +28,7 @@ export default function Corporate() {
     };
 return (
     <div className='corporate-page'>
-      <Member_navbar type="Corporate"/>
+        <Navbarrender/>
       <div className='img-corporate'>
  <div className="image">
   <img src={cc} className="adjusted-image" alt="Elevating the corporate experience through exceptional service and unparalleled attention to detail, we transform everyday tasks into extraordinary moments of efficiency and sophistication."></img>

@@ -159,3 +159,15 @@
     margin-bottom: 20px;
   }
   
+  .middle-right img{
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
+    margin-left: 200px;
+  }
+  .bottom-about img{
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+    margin-left: 100px;
+  }

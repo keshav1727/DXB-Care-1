@@ -6,13 +6,20 @@ import well from './Why dXbArtboard 6 copy 2.svg';
 import board from './Why dXbArtboard 6 copy 3 (1).svg';
 import time from './Why dXbArtboard 6 copy.svg';
 import client from './Why dXbArtboard 6.svg';
+import main from './about us main image.jpg';
+import sec from './about us image 1.jpg';
+import thr from './about us image 2.jpg';
+import Navbarrender from '../Navbar/Navbarrender'
+
 
 export default function Aboutus() {
   return (
     <div className='aboutus'>
-      <Member_navbar />
-      <div className="about-image">
-        {/* Any additional content for this section */}
+      <Navbarrender/>
+      <div className="img-corporate">
+        <div className="image">
+        <img src={main} alt="" />
+        </div>
       </div>
       <div className="about-below">
         <div className="header">
@@ -49,7 +56,7 @@ export default function Aboutus() {
           </div>
           <div className="middle-right">
             <div className="right-image">
-              {/* Any additional content for this section */}
+              <img src={sec}></img>
             </div>
           </div>
         </div>
@@ -106,7 +113,7 @@ export default function Aboutus() {
         </div>
         <div className="bottom-about">
           <div className="left">
-            {/* Any additional content for this section */}
+            <img src={thr}></img>
           </div>
           <div className="right">
             <div className="heading">
