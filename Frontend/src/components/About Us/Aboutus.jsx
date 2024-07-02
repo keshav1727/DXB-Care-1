@@ -7,8 +7,8 @@ import board from './Why dXbArtboard 6 copy 3 (1).svg';
 import time from './Why dXbArtboard 6 copy.svg';
 import client from './Why dXbArtboard 6.svg';
 import main from './about us main image.jpg';
-import sec from './about us image 1.jpg';
-import thr from './about us image 2.jpg';
+import sec from './2024.jpg';
+import thr from './23.jpg';
 import Navbarrender from '../Navbar/Navbarrender'
 
 
