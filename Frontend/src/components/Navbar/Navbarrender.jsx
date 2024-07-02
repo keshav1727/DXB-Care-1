@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import logo from './png-logo-white-1@2x.png';
 import './abc.css';
-import { useLocation, Link } from 'react-router-dom';
+import Scrollspy from 'react-scrollspy';
 
 export default function Navbartop() {
-    const [menu, setMenu] = useState("Home");
+    const [menu, setMenu] = useState("home");
     const [isScrolled, setIsScrolled] = useState(false);
-    const location = useLocation();
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 0); // Set `true` if scrolled more than 0px
+            setIsScrolled(window.scrollY > 0); 
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -23,32 +22,38 @@ export default function Navbartop() {
 
     const handleClick = (section) => {
         setMenu(section); // Update the active menu state
-        const element = document.getElementById(section.toLowerCase());
+        const element = document.getElementById(section);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to the section
+            element.scrollIntoView({ behavior: 'smooth' }); 
         }
     };
 
     return (
-        <div className={`navbar-fixed-want ${isScrolled ? 'fixed' : ''}`}>
+        <div className={`navbar-fixed-want ${isScrolled ? 'fixed' : ''}`} >
             <div className="left">
-                <img src={logo} alt="" />
+                <img src={logo} alt="Logo" />
             </div>
+            
             <div className="right">
-                <ul className='navbar-menu'>
-                    <li className={menu === "Home" ? "active" : ""}>
-                        <Link to="/" onClick={() => handleClick("Home")}>Home</Link>
+                <Scrollspy
+                    items={['home', 'aboutus', 'experience', 'membership']}
+                    currentClassName="active"
+                    offset={-50}
+                    className="navbar-menu"
+                >
+                    <li>
+                        <a onClick={() => handleClick('home')} className={menu === 'home' ? 'active' : ''}>Home</a>
                     </li>
-                    <li className={menu === "About Us" ? "active" : ""}>
-                        <Link to="/#aboutus" onClick={() => handleClick("About Us")}>About Us</Link>
+                    <li>
+                        <a onClick={() => handleClick('aboutus')} className={menu === 'aboutus' ? 'active' : ''}>About Us</a>
                     </li>
-                    <li className={menu === "Services" ? "active" : ""}>
-                        <Link to="/#experience" onClick={() => handleClick("Services")}>Experiences</Link>
+                    <li>
+                        <a onClick={() => handleClick('experience')} className={menu === 'experience' ? 'active' : ''}>Experiences</a>
                     </li>
-                    <li className={menu === "Membership" ? "active" : ""}>
-                        <Link to="/#membership" onClick={() => handleClick("Membership")}>Membership</Link>
+                    <li>
+                        <a onClick={() => handleClick('membership')} className={menu === 'membership' ? 'active' : ''}>Membership</a>
                     </li>
-                </ul>
+                </Scrollspy>
             </div>
         </div>
     );
