@@ -42,7 +42,7 @@ export default function Discover() {
     
   return (
     <>
-<Navbarrender/>
+{/* <Navbarrender/> */}
 
     <div className='experience-container'>
     
