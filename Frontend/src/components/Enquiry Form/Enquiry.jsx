@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Enquiry.css';
 import Select from 'react-select'
-import image from './personal main.jpg'
+import image from './ab thik hia na.jpg'
 
 function Enquiry() {
   const [formData, setFormData] = useState({
