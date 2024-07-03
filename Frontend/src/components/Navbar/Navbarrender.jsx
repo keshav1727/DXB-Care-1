@@ -10,6 +10,21 @@ export default function Navbartop() {
     useEffect(() => {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 0);
+
+            // Check which section is in view
+            const sections = ['home', 'aboutus', 'experience', 'membership'];
+            for (let i = sections.length - 1; i >= 0; i--) {
+                const element = document.getElementById(sections[i]);
+                if (element) {
+                    const rect = element.getBoundingClientRect();
+                    if (rect.top <= 50 && rect.bottom >= 50) {
+                        setMenu(sections[i]);
+                        return;
+                    }
+                }
+            }
+            // If no section is in view, clear the active state
+            setMenu("");
         };
 
         window.addEventListener('scroll', handleScroll);
