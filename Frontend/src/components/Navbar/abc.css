@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 20px;
-    position: relative;
+    position: absolute; /* Changed to absolute */
     top: 0;
     left: 0;
     width: 100%;
@@ -13,7 +13,6 @@
     z-index: 10;
     transition: background-color 0.3s;
     font-family: 'Work Sans', sans-serif;
-    height: 160px;
 }
 
 .navbar-fixed-want .left {
@@ -56,4 +55,3 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transition: none;
 }
-

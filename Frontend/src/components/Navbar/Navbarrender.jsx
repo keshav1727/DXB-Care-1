@@ -4,12 +4,12 @@ import './abc.css';
 import Scrollspy from 'react-scrollspy';
 
 export default function Navbartop() {
-    const [menu, setMenu] = useState("home");
+    const [menu, setMenu] = useState("");
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 0); 
+            setIsScrolled(window.scrollY > 0);
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -24,16 +24,16 @@ export default function Navbartop() {
         setMenu(section); // Update the active menu state
         const element = document.getElementById(section);
         if (element) {
-            element.scrollIntoView({ behavior: 'smooth' }); 
+            element.scrollIntoView({ behavior: 'smooth' });
         }
     };
 
     return (
-        <div className={`navbar-fixed-want ${isScrolled ? 'fixed' : ''}`} >
+        <div className={`navbar-fixed-want ${isScrolled ? 'fixed' : ''}`}>
             <div className="left">
                 <img src={logo} alt="Logo" />
             </div>
-            
+
             <div className="right">
                 <Scrollspy
                     items={['home', 'aboutus', 'experience', 'membership']}
