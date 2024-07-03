@@ -23,23 +23,11 @@ function App() {
   
   return (
     <>
-  {/* <Navbar/>    
-  <Content type="Some Quote"/>
-  <Experience/>
-  <Content type="Why DXB.care"/>
-  <Membership/>
-  <Enquiry/>
-  <Discover/> 
-  <Footer/>
-  <Personal/>
- <Corporate/>
- <Visitors/>
-    */}
 <Router>
   <Navbarrender/>
   <Routes>
     <Route path='/' element={<><Navbar/><Quote/><Experience/>
-    <Membership/><Content/> <Enquiry/> <Footer/> </>}></Route>
+    <Membership/> <Enquiry/> <Footer/> </>}></Route>
     <Route path='/discover' element={<Discover/>}></Route>
     <Route path='/personal' element={<Personal/>}></Route>
     <Route path='/visitors' element={<Visitors/>}></Route>

@@ -65,7 +65,7 @@ export default function Visitors() {
                 ))}
             </Slider>
         </div>
-        <Experience></Experience>
+        {/* <Experience></Experience> */}
 
 <div className="visitor-contactus-content">
   <p></p>

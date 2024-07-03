@@ -5,11 +5,11 @@ export default function Quote() {
     <div className='middle-content-company-quote'>
         <div className="header">
         <h2 className='heading'>
-        You Lead, We Execute
+        Reclaim Your Time with DXB Care
         </h2>
         </div>
         <div className="quote">
-          <p>For high achievers who value their time and seek personalized efficiency, we offer tailored concierge solutions designed to streamline your life and maximize your potential. From managing daily tasks to facilitating extraordinary experiences, our bespoke services redefine convenience and luxury. Embrace a reinvented approach to living, where your needs are anticipated and every detail is carefully handled. Welcome to a new standard of excellence..</p>
+          <p>In our fast-paced world, time is the ultimate luxury. At DXB Care, we're here to help you make the most of every moment. Founded to transform how you manage your time, we offer exceptional concierge services that let you focus on what matters most—creating memories, achieving goals, and enjoying life.</p>
           </div>
         </div>
 

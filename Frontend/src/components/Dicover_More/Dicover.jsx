@@ -1,5 +1,6 @@
 import React from 'react'
 import './Discover.css'
+import  { useRef, useEffect } from 'react';
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -29,7 +30,7 @@ import health from './12.jpg'
 import shoot from './Shooting 1.jpg'
 import medi from './princehonasa_yoga_pictures_of_a_real_individual_81e68c37-673c-4fe8-87e0-0fefa3b09d4f (1).png'
 import sunset from './sunset.jpg'
-import Navbarrender from '../Navbar/Navbarrender'
+
 
 export default function Discover() {
     const settings = {
@@ -39,10 +40,23 @@ export default function Discover() {
         slidesToShow: 4,
         slidesToScroll: 1
     };
+    const topRef = useRef(null);
+
+    const scrollToTop = () => {
+        if (topRef.current) {
+            topRef.current.scrollIntoView();
+        }
+    };
+
+    // This useEffect will trigger every time the component re-renders
+    useEffect(() => {
+        scrollToTop();
+    }, []);
     
   return (
     <>
 {/* <Navbarrender/> */}
+<div ref={topRef}></div> 
 
     <div className='experience-container'>
     
