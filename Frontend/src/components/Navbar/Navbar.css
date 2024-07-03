@@ -71,16 +71,7 @@ a {
     /* height: 18%; */
 }
 
-.right {
-    display: flex;
-    margin-left: 16px;
-    width: 20rem;
-    padding: 4px;
-}
 
-.right img {
-    width: 100%; /* Adjust if needed */
-}
 
 .video-section {
     position: absolute;
@@ -138,7 +129,7 @@ a {
 
 .main {
     width: 100%;
-    height: 100vh;
+    height: 72vh;
     background-color: #1C1C1C;
 }
 

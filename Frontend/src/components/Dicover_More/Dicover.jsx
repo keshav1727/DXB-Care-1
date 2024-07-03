@@ -62,9 +62,6 @@ export default function Discover() {
     
     
         <div className="luxe">
-        <div className="head">
-            <h1>Experiences</h1>
-            </div>
          <div className="header-cont">
             <h1>Luxe Experience</h1>
          </div>

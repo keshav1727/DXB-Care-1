@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 20px;
-    position: absolute; /* Changed to absolute */
+    position: relative; /* Changed to absolute */
     top: 0;
     left: 0;
     width: 100%;
@@ -49,9 +49,9 @@
     border-bottom: 2px solid #ececec;
 }
 
-.navbar-fixed-want.fixed {
+/* .navbar-fixed-want.fixed {
     position: fixed;
     background-color: #1C1C1C;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transition: none;
-}
+} */
