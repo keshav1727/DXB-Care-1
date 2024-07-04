@@ -64,7 +64,8 @@ makes your priorities our priority."></img>
 
         
         <div className="coporate-content">
-            <p>At DXB Care, whether you're planning a luxurious vacation, need everyday assistance, or want help with event planning, health and wellness, financial and legal services, luxury gifting, hassle-free travel, or even a private chef – we’ve got you covered. We handle everything from simple requests to intricate plans with a single text. Our dedicated team ensures every need is met with precision and care. Experience the best in personal concierge services. No matter the detail, DXB Care makes your priorities our priority, allowing you to focus on what truly matters. With us, exceptional service is just a text away.</p>
+            <p>You prefer a tailor-made suit because it fits you and you alone. At DXB Care, our concierge services are just as personalized. Whether it's planning a getaway, managing daily tasks, or arranging for health, legal, or luxury needs, we're here to cater to your preferences. Just a text away, let us simplify your life with DXB Care.</p>
+            <p className='content-highlight'>We’ll always remember your name and which pillow, floor, or view you prefer.</p>
         </div>
 
         <div className='luxe-render'>
@@ -112,15 +113,15 @@ const data = [
       image: health
   },
   {
-    name: 'Financial and Legal Services',
+    name: 'Financial & Legal Services',
     image: finance
   },
   {
-    name: 'Exclusive Reservations:  Restaurants and Clubs',
+    name: 'Exclusive Reservations',
     image: exclusive
   },
   {
-    name: 'Gifting and sourcing luxury items',
+    name: 'Gifting & sourcing luxury items',
     image: gift
   },
   {
@@ -132,7 +133,7 @@ const data = [
     image: chef
   },
   {
-    name: '24*7 Personalized Concierge Assistance in Emergencies',
+    name: '24*7 Emergencies Assistance',
     image: pers
   },
   

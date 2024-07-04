@@ -67,7 +67,7 @@ export default function Membership() {
             <div className="member-image">
             <img src={visitor} alt="Exclusive Visitors" className="item-image" />
             </div>
-            <div className='item-name'><h1 className='item-heading'>Exclusive Visitors</h1></div>
+            <div className='item-name'><h1 className='item-heading'>Elite Explorer</h1></div>
             <div className='item-content'><p>Receive personalized travel itineraries to make the most of your visit.</p></div>
             <div className="button"><button onClick={Visitorhandle}>Explore
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-right" viewBox="0 0 16 16">

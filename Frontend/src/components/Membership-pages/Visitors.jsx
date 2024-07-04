@@ -108,15 +108,15 @@ const data = [
   },
   
   {
-      name: 'Tailored itinerary planning and booking',
+      name: 'Tailored itinerary planning',
       image: plan
   },
   {
-      name: 'Currency exchange and arrangement',
+      name: 'Currency exchange & arrangement',
       image: money
   },
   {
-    name: 'Luxury cars for rental (chauffeur driven/ self driven)',
+    name: 'Luxury cars for rental',
     image: car
   },
   {
@@ -128,7 +128,7 @@ const data = [
     image: vip
   },
   {
-    name: 'Aerial & Personal Photography Services',
+    name: 'Personal Photography Services',
     image: photographer
 
   },

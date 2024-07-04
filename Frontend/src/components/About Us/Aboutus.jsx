@@ -7,8 +7,8 @@ import board from './Why dXbArtboard 6 copy 3 (1).svg';
 import time from './Why dXbArtboard 6 copy.svg';
 import client from './Why dXbArtboard 6.svg';
 import main from './about us main image.jpg';
-import sec from './2024.jpg';
-import thr from './23.jpg';
+import sec from './`123.jpg';
+import thr from './abc.jpg';
 import Navbartop from './Navbar';
 import { useRef, useEffect } from 'react';
 
@@ -86,10 +86,12 @@ export default function Aboutus() {
               <img src={well} alt="Well Being Icon" className="icon" />
               <div className="text-content">
                 <div className="heading">
-                  <h5>Well Being</h5>
+                  <h5>Tailored Experiences
+                  </h5>
                 </div>
                 <div className="text">
-                  <p>We prioritize your well-being by taking care of routine tasks so you can focus on yourself.</p>
+                  <p>We create personalized experiences that fit your unique lifestyle, anticipating your needs and offering services that enhance your daily life.
+                  </p>
                 </div>
               </div>
             </div>
@@ -100,7 +102,8 @@ export default function Aboutus() {
                   <h5>Client Centric</h5>
                 </div>
                 <div className="text">
-                  <p>Our services are tailored to meet your unique needs and preferences, ensuring complete satisfaction.</p>
+                  <p>With us as your partner, pursue your dreams with unwavering support. We anticipate your needs proactively, cultivating deep, client-centric relationships.
+                  </p>
                 </div>
               </div>
             </div>
@@ -108,10 +111,12 @@ export default function Aboutus() {
               <img src={board} alt="Broad Service Accessibility Icon" className="icon" />
               <div className="text-content">
                 <div className="heading">
-                  <h5>Broad Service Accessibility</h5>
+                  <h5>Comprehensive Support
+                  </h5>
                 </div>
                 <div className="text">
-                  <p>We offer a wide range of services to cater to all your needs, making convenience accessible to everyone.</p>
+                  <p>From exclusive restaurant reservations to event planning and everything in between, our broad range of services ensures all your needs are met with ease and efficiency.
+                  </p>
                 </div>
               </div>
             </div>

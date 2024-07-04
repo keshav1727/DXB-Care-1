@@ -80,7 +80,8 @@ const handleClick = () => {
             </Slider>
         </div>
 <div className="relocation-contactus-content">
-<p>LET'S TURN YOUR MOVE TO DUBAI INTO AN EXCITING ADVENTURE! LET'S START PLANNING YOUR JOURNEY TODAY.</p>
+<p>Let's turn your move to Dubai into an exciting adventure! Let's start planning your journey today.</p>
+
 </div>
         <div className="contact-us">
 <button onClick={handleClick}>Contact Us</button>

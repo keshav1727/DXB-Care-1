@@ -4,10 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
-import cc from './Corporate main image bg.jpg'
+import cc from './crmi (corporate main).jpg'
 import './Corporate.css'
 import employ from './14.jpg'
-import founder from './16.jpg'
+import founder from './Founder new.jpg'
 import assistance from './4.jpg'
 import event from './event.jpg'
 import travel from './Travel.jpg'
@@ -15,7 +15,7 @@ import dubai from './princehonasa_Dubai_residency_real_high_resolution_image_813
 import legal from './princehonasa_Finacial_and_legal_advisory_services_image_for_web_5994f41f-eb2b-4f5d-8ab6-30b1987520f4 (1).png'
 import office from './princehonasa_business_setup__legal_advisory_image_a9663ddf-bbde-4e1c-b0c9-15a231fedd63.png'
 import Render from '../Dicover_More/Render';
-import corp from './Corporate image.jpg'
+import corp from './makhjfvy.jpg'
 import { useRef, useEffect } from 'react';
 import Navbarrender from '../Navbar/Navbarrender';
 import { useNavigate } from 'react-router-dom';
@@ -91,13 +91,8 @@ return (
 
             </div>
             <div className="middle-right-cor">
-                <h2>Corporate Membership</h2>
-               <p>Experience the ultimate in corporate concierge services with DXB Care. Our extensive
-network caters to all your business needs, including office support, Dubai residency,
-business setup, legal advisory, event management, and tailored travel solutions. Our
-commitment to excellence ensures seamless operations for your business. With just a
-single text, we handle it all, ensuring you stay focused on what matters most. Simplify
-your business journey with us and thrive effortlessly.</p>
+                <h2>Company Membership</h2>
+               <p>With DXB Care's Company Membership, we handle the details that keep your business running smoothly and efficiently. Our team is dedicated to managing your office space needs, organizing impactful events, and fostering a balanced work-life environment for your employees. We enhance your client interactions with top-notch hospitality, strengthen your brand with expert management, and provide insightful market research to help you stay ahead of the curve. Just give us the green light, and we'll take care of the rest.</p>
 
             </div>
             </div>
@@ -126,11 +121,7 @@ as dynamic as your ambitions.</p>
 </div>
 <div className="middle-right-cor">
 <h2>Employee Membership</h2>
-<p>Introducing DXB Care's Employee Membership: where we optimize your team's
-productivity and efficiency! Our service is tailored to streamline tasks and enhance
-work-life balance. From simplifying daily operations to providing essential perks, we're
-dedicated to helping you attract and retain top talent. Join us and elevate your team's
-performance!</p>
+<p>Join the Exclusive Employees Membership: where we optimize your team's productivity and efficiency! Our service is tailored to streamline tasks and enhance work-life balance. From simplifying daily operations to providing essential perks, we're dedicated to helping you attract and retain top talent. By managing employees' personal lives and enhancing their well-being, we ensure your employees can focus solely on increasing productivity and achieving aligned goals.</p>
 </div>
 </div>
         </div>
@@ -163,7 +154,7 @@ const data = [
       image: dubai
   },
   {
-      name: 'Business Setup and legal advisory ',
+      name: 'Business Setup & legal advisory ',
       image: legal
   },
   
@@ -172,7 +163,7 @@ const data = [
       image: assistance
   },
   {
-      name: 'Event and Hospitality Management',
+      name: 'Event & Hospitality Management',
       image: event
   },
   {
@@ -180,7 +171,7 @@ const data = [
     image: travel
   },
   {
-    name: 'Office and Administrative Support',
+    name: 'Office & Administrative Support',
     image: office
   },
   

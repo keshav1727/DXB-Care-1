@@ -48,7 +48,7 @@
     object-fit: cover;
     border-radius: 40px;
   }
-  .coporate-content{
+  .coporate-content p{
     margin-top: 20px;
     padding-left: 62px;
     padding-right: 62px;
@@ -85,4 +85,13 @@
     color: #1C1C1C;
     margin: 0 10px;
     
+}
+
+.content-highlight{
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 28px;
+  
+
 }
