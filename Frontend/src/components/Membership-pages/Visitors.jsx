@@ -30,6 +30,7 @@ export default function Visitors() {
   return (
     <div className='visitors-page'>
         {/* <Navbarrender/> */}
+        <Member_navbar></Member_navbar>
         <div className='img-corporate'>
 <div className="image">
   <img src={elite} alt='Embark on a journey where every moment is imbued with the essence of luxury, transforming travel into an opulent experience.'/>

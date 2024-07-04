@@ -29,7 +29,7 @@ export default function Personal(props) {
   return (
     <div className='page1'>
       {/* <Navbarrender/> */}
-
+      <Member_navbar></Member_navbar>
 
       <div className='img-corporate'>
   <div className="image">
