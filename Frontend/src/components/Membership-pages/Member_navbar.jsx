@@ -2,14 +2,20 @@ import React, { useEffect, useState } from 'react';
 import logo from './png-logo-white-1@2x.png';
 import './Member_navbar.css'
 import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 export default function Navbartop() {
     const [menu, setMenu] = useState("membership");
+    const navigate = useNavigate()
+
+    const handleClick = () =>{
+        navigate('/')
+    }
 
     return (
         <div className="navbar-top">
             <div className="left">
-                <img src={logo} alt="Logo" />
+                <img src={logo} alt="Logo" onClick={handleClick} />
             </div>
             <div className="right">
                 <ul className="navbar-menu">

@@ -128,12 +128,6 @@ export default function Aboutus() {
           Join us and let DXB Care simplify your daily routine, giving you the time to focus on what truly matters. Together, we can make every moment count.
 </p>
 </div>
-<div className="text">
-<p>
-Discover the DXB Care difference. Experience the gift of time, personalized service, and top-notch support. Whether you're streamlining your daily routine or reaching new professional heights, DXB Care is here to support you every step of the way.
-
-          </p>
-          </div>
         </div>
       </div>
       <Footer />

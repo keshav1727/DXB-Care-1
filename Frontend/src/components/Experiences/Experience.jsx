@@ -19,7 +19,7 @@ export default function Experience() {
                 <h1 className='heading'>Experiences</h1>
             </div>
             <div className='grid-section'>
-                <div className="items" onClick={handleClick}>
+                <div className="items">
                     <img src={bb} alt="Luxury Cars" />
                     <div className="layer">
                         <div className="heading">Sports Car</div>
@@ -27,14 +27,14 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
-                <div className="items" onClick={handleClick}>
+                <div className="items">
                     <img src={aa} alt="Private Jet" />
                     <div className="layer">
                         <div className="heading">Private Jet</div>
                         <div className="description">Unlock the freedom to fly on your terms. With the private jets, you’re not just traveling; you’re making a statement of refined taste and discerning choice, all while saving valuable time.</div>
                     </div>
                 </div>
-                <div className="items" onClick={handleClick}>
+                <div className="items">
                     <img src={cc} alt="Yacht" />
                     <div className="layer">
                         <div className="heading">Yacht</div>
@@ -42,7 +42,7 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
-                <div className="items" onClick={handleClick}>
+                <div className="items">
                     <img src={dd} alt="Sky Dive" />
                     <div className="layer">
                         <div className="heading">Sky Dive</div>

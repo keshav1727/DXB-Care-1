@@ -20,9 +20,7 @@
     margin-right:44px;
     margin-left:32px;
 }
-.form-container h1{
-    margin-bottom: 20px;
-}
+
 .enquiry-left-div{
     width: 30%;
     margin-right:32px;
@@ -63,7 +61,7 @@ form{
 .form-container h1 {
     margin: 20px;
     margin-bottom: 40px;
-    font-family: "Silk Serif Light", sans-serif; /* Added sans-serif as a fallback */
+    font-family: "Silk Serif"; /* Added sans-serif as a fallback */
 }
 
 .form-group {
