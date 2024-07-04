@@ -59,12 +59,12 @@ form{
 
 
 .form-container h1 {
-    margin: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 400px;
     font-family: "Silk Serif"; /* Added sans-serif as a fallback */
 }
 
 .form-group {
+    margin-top: 8px;
     margin-bottom: 40px;   
 }
 
@@ -159,7 +159,6 @@ textarea:focus,
 }
 
 .enquiry-middle{
-    margin-top: 40px;
     display: flex;
 }
 
@@ -210,7 +209,7 @@ textarea:focus,
 .enquiry-left-div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 100px;
 }
 
 .form-group-button {

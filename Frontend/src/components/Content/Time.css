@@ -1,6 +1,6 @@
 .time-quote .header{
     font-family: "Silk Serif";
-    text-align: center;
+text-align: center;
 }
 
 
@@ -11,4 +11,9 @@
 
 .time-quote .header p{
     margin-top: 4px;
+    margin-left: 240px;
+}
+
+.time-quote .header span{
+    font-size: 44px;
 }
