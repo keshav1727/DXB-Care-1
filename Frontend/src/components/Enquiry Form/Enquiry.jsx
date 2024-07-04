@@ -52,8 +52,11 @@ function Enquiry() {
     }
   };
 
+
   const countryCodes = [
+    {value:'971',label:"(+971) United Arab Emirates "},
     {value : '1876',label:'(+1876) Jamaica'}, 
+   
 {value:'81',label:"(+81) Japan"},
 {value:'962',label:"(+962) Jordan"},
 {value:'7',label:"(+7) Kazakhstan"},
@@ -247,7 +250,7 @@ function Enquiry() {
 {value:'688',label:"(+688) Tuvalu"},
 {value:'256',label:"(+256) Uganda"},
 {value:'380',label:"(+380) Ukraine "},
-{value:'971',label:"(+971) United Arab Emirates  "},
+
 {value:'598',label:"(+598) Uruguay "},
 {value:'998',label:"(+998) Uzbekistan "},
 {value:'678',label:"(+678) Vanuatu "},
