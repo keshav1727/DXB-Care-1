@@ -2,7 +2,7 @@ import React from 'react'
 import './Quote.css'
 export default function Quote() {
   return (
-    <div className='middle-content-company-quote'>
+    <div className='middle-content-company-quote' id='middle-content'>
         <div className="header">
         <h2 className='heading'>
         Reclaim Your Time with DXB Care

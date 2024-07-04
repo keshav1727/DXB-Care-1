@@ -24,38 +24,35 @@ export default function Aboutus() {
         <div className="header">
           <h2>About Us</h2>
         </div>
-        <div className="reclaim-time">
-          <div className="header">
-            <h3>Reclaim Your Time with DXB Care</h3>
-          </div>
-          <div className="text">
-            <p>
-              In our fast-paced world, time is the ultimate luxury. At DXB Care, we're here to help you make the most of every moment. Founded to transform how you manage your time, we offer exceptional concierge services that let you focus on what matters most—creating memories, achieving goals, and enjoying life. Our dedicated team ensures every detail is handled with precision, giving you peace of mind. Whether it's personal errands or professional tasks, we make your life easier and more fulfilling.
-            </p>
-          </div>
-        </div>
         <div className="about-middle">
           <div className="middle-left">
             <div className="middle-left-top">
-              <div className="heading">
-                <h5>Our Mission Elevating Lives Through Exceptional Service</h5>
-              </div>
+              
               <div className="text">
-                <p>Our mission at DXB Care is simple: empower you with unparalleled concierge services. We turn routine tasks into extraordinary moments, helping you reach your professional goals quickly and confidently. We believe luxury and convenience should be accessible to everyone.</p>
+                <p>We’re dedicated to helping you maximize your time. Our unparalleled concierge services make routine tasks simple and stress-free, allowing you to reach your professional and personal goals effortlessly. We believe convenience should be accessible to those who truly value it. 
+</p>
               </div>
             </div>
             <div className="middle-left-bottom">
-              <div className="heading">
-                <h5>Our Vision: Redefining Convenience & Exclusivity</h5>
-              </div>
+              
               <div className="text">
-                <p>We envision a world where everyone can afford the luxury of time. DXB Care aims to lead in concierge services, setting the bar for excellence and innovation. We integrate seamlessly into your life, transforming ordinary moments into extraordinary experiences.</p>
+                <p>Our commitment to making everything achievable means we provide unparalleled availability and a tailored lifestyle that extends well into the future. From arriving in Dubai until the day you bid farewell, we ensure every detail is managed with care and precision</p>
               </div>
             </div>
           </div>
           <div className="middle-right">
             <div className="right-image">
               <img src={sec}></img>
+            </div>
+          </div>
+        </div>
+        <div className="bottom-about">
+          <div className="left">
+            <img src={thr}></img>
+          </div>
+          <div className="right">
+            <div className="text">
+              <p>With DXB Care, you gain access to a dedicated network of consultants and specialists in Dubai who can fulfill all your desires, requests, and necessities. Whether it's car rentals, yacht rentals, exclusive restaurant reservations, private shopping, fun activities, or event planning, DXB Care has you covered.</p>
             </div>
           </div>
         </div>
@@ -110,17 +107,17 @@ export default function Aboutus() {
             </div>
           </div>
         </div>
-        <div className="bottom-about">
-          <div className="left">
-            <img src={thr}></img>
-          </div>
-          <div className="right">
-            <div className="heading">
-              <h5>Empowering Lives</h5>
-            </div>
-            <div className="text">
-              <p>At DXB Care, we strive for excellence. We aim to be the global leader in concierge services, making time a luxury everyone can afford. By setting the standard for quality, we empower you to achieve your goals and live a more fulfilling life. Join us. Let DXB Care turn your everyday moments into extraordinary experiences, giving you the luxury of time to focus on what truly matters. Together, we can make every moment count.</p>
-            </div>
+        <div className="footer-top">
+          <div className="text">
+          <p>
+          Join us and let DXB Care simplify your daily routine, giving you the time to focus on what truly matters. Together, we can make every moment count.
+</p>
+</div>
+<div className="text">
+<p>
+Discover the DXB Care difference. Experience the gift of time, personalized service, and top-notch support. Whether you're streamlining your daily routine or reaching new professional heights, DXB Care is here to support you every step of the way.
+
+          </p>
           </div>
         </div>
       </div>

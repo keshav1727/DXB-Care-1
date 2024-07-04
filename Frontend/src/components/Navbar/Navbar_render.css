@@ -1,5 +1,6 @@
 .navbar-top{
     padding: 20px 0px;
+    position:relative;
     display: flex;
     justify-content: space-between;
     align-items: center;

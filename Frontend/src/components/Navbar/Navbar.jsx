@@ -7,16 +7,7 @@ import vd from './Copy of Copy of Videomain.mp4'
 import Navbarrender from './Navbarrender'
 
 
-export default function Navbar() {
-
-
-  const handleWhatsApp = () =>{
-    window.open('https://wa.me/919837290556? text=Hello How are you?', '_blank' )
-  }
-
-  const handleTelegramApp = () =>{
-    window.open('https://telegram.me/KeshavBajaj04? text=Hello How are you?', '_blank' )
-  }
+export default function Navbar() {  
   return (
     
 
