@@ -14,6 +14,7 @@ import travel from './princehonasa_A_photo_of_a_dubai_travel_outdoors_vibrant_br
 import Render from '../Dicover_More/Render';
 import moving from './3 (1).jpg'
 import { useRef, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Navbarrender from '../Navbar/Navbarrender';
 
 export default function Relocation() {
@@ -32,6 +33,12 @@ useEffect(() => {
         topRef.current.scrollIntoView();
     }
 }, []); // Empty dependency array ensures this effect runs only once after the initial render
+
+const navigate = useNavigate();
+
+const handleClick = () => {
+    navigate('/contact-us');
+};
 
   return (
     <div className='relocation' ref={topRef}>
@@ -76,7 +83,7 @@ useEffect(() => {
 <p>LET'S TURN YOUR MOVE TO DUBAI INTO AN EXCITING ADVENTURE! LET'S START PLANNING YOUR JOURNEY TODAY.</p>
 </div>
         <div className="contact-us">
-<button>Contact Us</button>
+<button onClick={handleClick}>Contact Us</button>
         </div>
       <Footer></Footer>
     </div>

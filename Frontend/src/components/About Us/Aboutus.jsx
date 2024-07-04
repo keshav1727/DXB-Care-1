@@ -10,11 +10,20 @@ import main from './about us main image.jpg';
 import sec from './2024.jpg';
 import thr from './23.jpg';
 import Navbartop from './Navbar';
+import { useRef, useEffect } from 'react';
 
 
 export default function Aboutus() {
+  const topRef = useRef(null); // Create a ref
+
+  useEffect(() => {
+      // Scroll to the top when the component mounts
+      if (topRef.current) {
+          topRef.current.scrollIntoView();
+      }
+  }, []);
   return (
-    <div className='aboutus' id='aboutus'>
+    <div className='aboutus' id='aboutus' ref={topRef}>
       <Navbartop/>
       <div className="img-corporate">
         <div className="image">

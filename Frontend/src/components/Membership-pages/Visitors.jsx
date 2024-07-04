@@ -18,7 +18,7 @@ import './Visitors.css'
 import elite from './elite.jpg'
 import { useRef, useEffect } from 'react';
 import Navbarrender from '../Navbar/Navbarrender';
-
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Visitors() {
@@ -38,6 +38,11 @@ useEffect(() => {
     }
 }, []); // Empty dependency array ensures this effect runs only once after the initial render
 
+const navigate = useNavigate();
+
+const handleClick = () => {
+    navigate('/contact-us');
+};
 
   return (
     <div className='visitors-page' ref={topRef}>
@@ -85,7 +90,7 @@ useEffect(() => {
 </div>
 
         <div className="contact-us">
-<button>Contact Us</button>
+<button onClick={handleClick}>Contact Us</button>
         </div>
       <Footer></Footer>
     </div>

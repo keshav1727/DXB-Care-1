@@ -18,7 +18,7 @@ import Render from '../Dicover_More/Render';
 import corp from './Corporate image.jpg'
 import { useRef, useEffect } from 'react';
 import Navbarrender from '../Navbar/Navbarrender';
-
+import { useNavigate } from 'react-router-dom';
 
 export default function Corporate() {
     const settings = {
@@ -35,7 +35,14 @@ export default function Corporate() {
         if (topRef.current) {
             topRef.current.scrollIntoView();
         }
-    }, []); // Empty dependency array ensures this effect runs only once after the initial render
+    }, []);
+     // Empty dependency array ensures this effect runs only once after the initial render
+
+     const navigate = useNavigate();
+
+const handleClick = () => {
+    navigate('/contact-us');
+};
 
 return (
     <div className='corporate-page' ref={topRef}>
@@ -143,7 +150,7 @@ your focus on what truly matters.
 
 
       <div className="contact-us">
-<button>Contact Us</button>
+<button onClick={handleClick}>Contact Us</button>
         </div>
       <Footer></Footer>
     </div>

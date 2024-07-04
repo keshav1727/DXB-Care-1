@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import logo from './png-logo-white-1@2x.png'
+import { useNavigate } from 'react-router-dom';
 
 export default function Footer() {
   
@@ -27,6 +28,12 @@ export default function Footer() {
     window.open('https://www.linkedin.com/company/dxb-care/', '_blank' )
   }
 
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+      navigate('/about-us');
+  };
+    
   return (
     <div className="last">
     <div className='footer'>
@@ -57,7 +64,7 @@ export default function Footer() {
         <div className="right">
 <div className="account">
     <h1>Company</h1>
-    <p>About Us</p>
+    <p className='contacts-footer'  onClick={handleClick}>About Us</p>
     {/* <p>Brouchers</p> */}
     <p>Disclaimers</p>
 </div>

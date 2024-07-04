@@ -31,7 +31,7 @@ import shoot from './Shooting 1.jpg'
 import medi from './princehonasa_yoga_pictures_of_a_real_individual_81e68c37-673c-4fe8-87e0-0fefa3b09d4f (1).png'
 import sunset from './sunset.jpg'
 import Navbartop from './navdis';
-
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -53,7 +53,11 @@ export default function Discover() {
         }
     }, []); // Empty dependency array ensures this effect runs only once after the initial render
 
-    
+    const navigate = useNavigate();
+
+const handleClick = () => {
+    navigate('/contact-us');
+};
   return (
     < div ref={topRef}>
 {/* <Navbarrender/> */}
@@ -190,6 +194,10 @@ export default function Discover() {
         </div>
         
     </div>
+
+    <div className="contact-us">
+<button onClick={handleClick}>Contact Us</button>
+        </div>
     <Footer></Footer>
     </div>
   )

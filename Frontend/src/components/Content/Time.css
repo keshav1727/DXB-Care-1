@@ -1,0 +1,14 @@
+.time-quote .header{
+    font-family: "Silk Serif";
+    text-align: center;
+}
+
+
+.time-quote .header h2{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.time-quote .header p{
+    margin-top: 4px;
+}

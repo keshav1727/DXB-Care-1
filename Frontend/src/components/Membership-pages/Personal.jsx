@@ -17,7 +17,8 @@ import exclusive from './princehonasa_Real_images_with_real_people_for_VIP_parti
 import '../Dicover_More/Discover.css'
 import Render from '../Dicover_More/Render';
 import request from './19.jpg'
-import { useRef, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useRef, useEffect} from 'react';
 import Navbarrender from '../Navbar/Navbarrender';
 
 export default function Personal(props) {
@@ -28,6 +29,8 @@ export default function Personal(props) {
     slidesToScroll: 1
 };
 
+
+
 const topRef = useRef(null); // Create a ref
 
 useEffect(() => {
@@ -37,6 +40,11 @@ useEffect(() => {
     }
 }, []); // Empty dependency array ensures this effect runs only once after the initial render
 
+const navigate = useNavigate();
+
+const handleClick = () => {
+    navigate('/contact-us');
+};
 
   return (
     <div className='page1' ref={topRef}>
@@ -82,7 +90,7 @@ makes your priorities our priority."></img>
         </div>
 
         <div className="contact-us">
-<button>Contact Us</button>
+<button onClick={handleClick}>Contact Us</button>
         </div>
       <Footer></Footer>
       </div>
