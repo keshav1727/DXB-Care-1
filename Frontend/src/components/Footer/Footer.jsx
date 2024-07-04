@@ -83,6 +83,7 @@ export default function Footer() {
         </div>
     </div>
     <div className="copyright">
+      <span>hello@dxb.care</span>
       <h1>All copyrights reserve to DXB.Care</h1>
     </div>
     </div>

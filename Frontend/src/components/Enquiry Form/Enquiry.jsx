@@ -320,7 +320,7 @@ function Enquiry() {
       </div>
 
     <div className="form-container">
-      <h1>How We Can Help You</h1>
+      <h1>How Can We Help You</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <input
