@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-import aa from './jjj.jpg';
+import aa from './1.jpg';
 import bb from './2.jpg';
 import cc from './4.jpg';
 import dd from './3.jpg';

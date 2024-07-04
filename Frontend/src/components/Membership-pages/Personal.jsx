@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Member_navbar from './Member_navbar'
 import Footer from '../Footer/Footer'
 import './Personal.css'
-import aa from './personal main (1).jpg'
+import aa from './per.jpg'
 import pers from './7 (1).jpg'
 import finance from './princehonasa_Finacial_and_legal_advisory_services_image_for_web_5994f41f-eb2b-4f5d-8ab6-30b1987520f4 (1).png'
 import travel from './6 (1).jpg'
