@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
     padding: 20px; /* Add some padding for smaller screens */
 }
 
 .luxe {
     width: 100%;
-    padding: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .luxe .header-cont {
@@ -17,7 +18,7 @@
     align-items: center;
     /* font-family: silk-serif; */
     font-size: 2rem; /* Adjust font size for responsiveness */
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .luxe-render{

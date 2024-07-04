@@ -28,6 +28,8 @@ function App() {
   <Routes>
     <Route path='/' element={<><Navbar/><Quote/><Experience/>
     <Membership/> <Enquiry/> <Footer/> </>}></Route>
+    <Route path='/experience' element={<Experience/>}></Route>
+    <Route path='/membership' element={<Membership/>}></Route>
     <Route path='/discover' element={<Discover/>}></Route>
     <Route path='/personal' element={<Personal/>}></Route>
     <Route path='/visitors' element={<Visitors/>}></Route>

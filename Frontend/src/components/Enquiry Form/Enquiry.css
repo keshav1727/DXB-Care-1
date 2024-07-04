@@ -16,7 +16,7 @@
     justify-content: center;
     /* margin-right: 80px; */
     width: 72%; 
-
+    
     margin-right:44px;
     margin-left:32px;
 }
@@ -160,7 +160,10 @@ textarea:focus,
     transition: background-color 0.2s ease-in-out;
 }
 
-
+.enquiry-middle{
+    margin-top: 40px;
+    display: flex;
+}
 
 .enquiry-div {
     display: flex;
@@ -168,8 +171,9 @@ textarea:focus,
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    /* height: 100vh; */
-    filter: grayscale(100%);   
+    height: 100vh;
+    filter: grayscale(100%); 
+    margin-top: 40px;  
 }
 
 
@@ -200,16 +204,15 @@ textarea:focus,
 }
 
 
-/* .enquiry-left-div .header{
+.enquiry-left-div .header{
  text-align: center;
-} */
+} 
 
-/* 
 .enquiry-left-div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-left:32px;
-} */
+}
 
 .form-group-button {
     margin-top: 40px;

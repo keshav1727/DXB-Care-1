@@ -280,7 +280,8 @@ function Enquiry() {
   }
  
   return (
-    <div className="enquiry-div">
+    <div className="enquiry-div" id='enquiry-div'>
+      <div className="enquiry-middle" >
       <div className="enquiry-left-div">
         <div className="header">
           <h1>Contact us</h1>
@@ -378,6 +379,7 @@ function Enquiry() {
           <button type="submit">Submit</button>
         </div>
       </form>
+    </div>
     </div>
     </div>
   );

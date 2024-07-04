@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import logo from './png-logo-white-1@2x.png';
-import './navdis.css';
+import './Navbar.css';
 import { Link } from 'react-router-dom';
 
 export default function Navbartop() {
-    const [menu, setMenu] = useState("experience");
+    const [menu, setMenu] = useState("aboutus");
 
     return (
         <div className="navbar-top">

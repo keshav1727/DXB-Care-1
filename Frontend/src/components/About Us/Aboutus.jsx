@@ -9,12 +9,13 @@ import client from './Why dXbArtboard 6.svg';
 import main from './about us main image.jpg';
 import sec from './2024.jpg';
 import thr from './23.jpg';
-import Navbarrender from '../Navbar/Navbarrender'
+import Navbartop from './Navbar';
 
 
 export default function Aboutus() {
   return (
     <div className='aboutus' id='aboutus'>
+      <Navbartop/>
       <div className="img-corporate">
         <div className="image">
         <img src={main} alt="" />
