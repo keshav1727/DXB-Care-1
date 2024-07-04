@@ -50,6 +50,26 @@ a {
     top: 0;
 }
 
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px; /* Reduce the padding to decrease height */
+    position: relative; /* Default position to be on top of the video */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: transparent; /* Initial transparent background */
+    z-index: 10; /* Ensure it stays on top */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+    font-family: "Work Sans", sans-serif;
+}
+
+.navbar-top.fixed {
+    position: fixed; /* Fix the navbar to the top when scrolling */
+    background-color: #1C1C1C; /* Black background when fixed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
+    /* height: 18%; */
+}
 
 
 
@@ -64,7 +84,22 @@ a {
     width: 100%;
 }
 
+.navbar .left {
+    padding: 16px; /* Adjust padding to fit the new height */
+    margin-right: 40px;
+    color: #ececec;
+    display: flex;
+    font-size: 32px;
+}
 
+.navbar .left .navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px; /* Adjust gap if needed */
+    font-size: 1.25rem; /* Reduce font size if needed */
+}
 
 .navbar .contacts {
     display: flex;
@@ -72,7 +107,7 @@ a {
     align-items: center;
     justify-content: center;
     height: 100%;
-    margin-top: 480px;
+    margin-top: 400px;
 }
 
 .contact-text {
