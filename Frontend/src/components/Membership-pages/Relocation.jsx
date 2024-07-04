@@ -13,6 +13,7 @@ import realestate from './princehonasa_luxury_real_house_in_dubai_a9d25b54-fec1-
 import travel from './princehonasa_A_photo_of_a_dubai_travel_outdoors_vibrant_bright__fb205463-c4ed-4481-8869-1b419da06366.png'
 import Render from '../Dicover_More/Render';
 import moving from './3 (1).jpg'
+import { useRef, useEffect } from 'react';
 import Navbarrender from '../Navbar/Navbarrender';
 
 export default function Relocation() {
@@ -22,8 +23,18 @@ export default function Relocation() {
     slidesToShow: 4,
     slidesToScroll: 1
 };
+
+const topRef = useRef(null); // Create a ref
+
+useEffect(() => {
+    // Scroll to the top when the component mounts
+    if (topRef.current) {
+        topRef.current.scrollIntoView();
+    }
+}, []); // Empty dependency array ensures this effect runs only once after the initial render
+
   return (
-    <div className='relocation'>
+    <div className='relocation' ref={topRef}>
        {/* <Navbarrender/> */}
        <Member_navbar></Member_navbar>
        <div className='img-corporate'>

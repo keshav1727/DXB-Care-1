@@ -17,6 +17,7 @@ import exclusive from './princehonasa_Real_images_with_real_people_for_VIP_parti
 import '../Dicover_More/Discover.css'
 import Render from '../Dicover_More/Render';
 import request from './19.jpg'
+import { useRef, useEffect } from 'react';
 import Navbarrender from '../Navbar/Navbarrender';
 
 export default function Personal(props) {
@@ -26,8 +27,19 @@ export default function Personal(props) {
     slidesToShow: 4,
     slidesToScroll: 1
 };
+
+const topRef = useRef(null); // Create a ref
+
+useEffect(() => {
+    // Scroll to the top when the component mounts
+    if (topRef.current) {
+        topRef.current.scrollIntoView();
+    }
+}, []); // Empty dependency array ensures this effect runs only once after the initial render
+
+
   return (
-    <div className='page1'>
+    <div className='page1' ref={topRef}>
       {/* <Navbarrender/> */}
       <Member_navbar></Member_navbar>
 

@@ -16,6 +16,7 @@ import legal from './princehonasa_Finacial_and_legal_advisory_services_image_for
 import office from './princehonasa_business_setup__legal_advisory_image_a9663ddf-bbde-4e1c-b0c9-15a231fedd63.png'
 import Render from '../Dicover_More/Render';
 import corp from './Corporate image.jpg'
+import { useRef, useEffect } from 'react';
 import Navbarrender from '../Navbar/Navbarrender';
 
 
@@ -26,8 +27,18 @@ export default function Corporate() {
         slidesToShow: 4,
         slidesToScroll: 1
     };
+
+    const topRef = useRef(null); // Create a ref
+
+    useEffect(() => {
+        // Scroll to the top when the component mounts
+        if (topRef.current) {
+            topRef.current.scrollIntoView();
+        }
+    }, []); // Empty dependency array ensures this effect runs only once after the initial render
+
 return (
-    <div className='corporate-page'>
+    <div className='corporate-page' ref={topRef}>
         <Member_navbar></Member_navbar>
         {/* <Navbarrender/> */}
       <div className='img-corporate'>

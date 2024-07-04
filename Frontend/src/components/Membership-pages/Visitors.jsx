@@ -16,6 +16,7 @@ import dubai from './6 (1).jpg'
 import money from './18.jpg'
 import './Visitors.css'
 import elite from './elite.jpg'
+import { useRef, useEffect } from 'react';
 import Navbarrender from '../Navbar/Navbarrender';
 
 
@@ -27,8 +28,19 @@ export default function Visitors() {
     slidesToShow: 4,
     slidesToScroll: 1
 };
+
+const topRef = useRef(null); // Create a ref
+
+useEffect(() => {
+    // Scroll to the top when the component mounts
+    if (topRef.current) {
+        topRef.current.scrollIntoView();
+    }
+}, []); // Empty dependency array ensures this effect runs only once after the initial render
+
+
   return (
-    <div className='visitors-page'>
+    <div className='visitors-page' ref={topRef}>
         {/* <Navbarrender/> */}
         <Member_navbar></Member_navbar>
         <div className='img-corporate'>

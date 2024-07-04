@@ -43,18 +43,24 @@ export default function Discover() {
         slidesToShow: 4,
         slidesToScroll: 1
     };
-    const topRef = useRef(null);
     
+    const topRef = useRef(null); // Create a ref
+
+    useEffect(() => {
+        // Scroll to the top when the component mounts
+        if (topRef.current) {
+            topRef.current.scrollIntoView();
+        }
+    }, []); // Empty dependency array ensures this effect runs only once after the initial render
 
     
-    
   return (
-    <>
+    < div ref={topRef}>
 {/* <Navbarrender/> */}
 
 <Navbartop></Navbartop>
 
-    <div className='experience-container' >
+    <div className='experience-container'  >
     
 
 
@@ -185,7 +191,7 @@ export default function Discover() {
         
     </div>
     <Footer></Footer>
-    </>
+    </div>
   )
 }
 
