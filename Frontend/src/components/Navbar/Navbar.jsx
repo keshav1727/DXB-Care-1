@@ -5,13 +5,15 @@ import wp from './wplogo.webp'
 import tg from './tglogo.png'
 import vd from './Copy of Copy of Videomain.mp4'
 import Navbarrender from './Navbarrender'
+import Navbartop from './Navbarrender'
 
 
 export default function Navbar() {  
   return (
-    
-
+    <>
+    <Navbartop></Navbartop>
   <div className="main" id="home">
+    
     <div className="video-section">
     <video src={vd} autoPlay loop muted></video>
     </div>
@@ -25,6 +27,7 @@ export default function Navbar() {
 </div>     
     </div>
   </div>
+  </>
   )
 }
 

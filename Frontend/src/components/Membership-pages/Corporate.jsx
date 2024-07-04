@@ -28,6 +28,7 @@ export default function Corporate() {
     };
 return (
     <div className='corporate-page'>
+        <Member_navbar></Member_navbar>
         {/* <Navbarrender/> */}
       <div className='img-corporate'>
  <div className="image">

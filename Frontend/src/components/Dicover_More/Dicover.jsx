@@ -4,7 +4,7 @@ import  { useRef, useEffect } from 'react';
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Member_navbar from '../Membership-pages/Member_navbar';
+
 import Footer from '../Footer/Footer'
 import carImage from './car.png'
 import heli from './princehonasa_Helicopter_tour_in_dubai_it_should_be_real_image_w_f4e690eb-89f7-42e8-a7ee-13e34758f7fe.png'
@@ -30,6 +30,9 @@ import health from './12.jpg'
 import shoot from './Shooting 1.jpg'
 import medi from './princehonasa_yoga_pictures_of_a_real_individual_81e68c37-673c-4fe8-87e0-0fefa3b09d4f (1).png'
 import sunset from './sunset.jpg'
+import Navbartop from './navdis';
+
+
 
 
 export default function Discover() {
@@ -41,26 +44,20 @@ export default function Discover() {
         slidesToScroll: 1
     };
     const topRef = useRef(null);
+    
 
-    const scrollToTop = () => {
-        if (topRef.current) {
-            topRef.current.scrollIntoView();
-        }
-    };
-
-    // This useEffect will trigger every time the component re-renders
-    useEffect(() => {
-        scrollToTop();
-    }, []);
+    
     
   return (
     <>
 {/* <Navbarrender/> */}
-<div ref={topRef}></div> 
 
-    <div className='experience-container'>
+<Navbartop></Navbartop>
+
+    <div className='experience-container' >
     
-    
+
+
         <div className="luxe">
          <div className="header-cont">
             <h1>Luxe Experience</h1>

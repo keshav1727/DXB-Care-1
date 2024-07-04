@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import logo from './png-logo-white-1@2x.png';
-import './Member_navbar.css'
+import './navdis.css'
 import Scrollspy from 'react-scrollspy';
 
 
 export default function Navbartop() {
-    const [menu, setMenu] = useState("membership");
+    const [menu, setMenu] = useState("experience");
 
     useEffect(() => {
         const handleScroll = () => {
