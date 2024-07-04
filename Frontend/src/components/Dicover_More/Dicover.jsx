@@ -150,7 +150,7 @@ const handleClick = () => {
 </Slider>
 
             <div className="header-cont">
-            <h1>Health & Welness</h1>
+            <h1>Health & Wellness</h1>
          </div>
          <Slider {...settings}>
     {dataaaa.map((d) => (
@@ -277,7 +277,7 @@ const dataaa = [
     },
     
     {
-        name: 'Play School Pet Care',
+        name: 'Pet Care',
         image: pet
     },
     {
